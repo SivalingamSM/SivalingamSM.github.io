@@ -1,0 +1,40 @@
+---
+title: "Teaching"
+description-meta: "Teaching activities of Sivalingam S M"
+title-block-banner: True
+toc: true
+toc-depth: 2
+---
+<!--subtitle: "Teaching, Mentoring and Student Supervision"-->
+<!--# Teaching Philosophy
+
+I believe that mathematics is best learned through a combination of rigorous theory, computational experimentation, and real-world applications. My teaching integrates mathematical foundations with modern computational tools, enabling students to connect abstract concepts with scientific and engineering problems.
+
+I encourage active learning through discussions, programming assignments, mathematical modelling, and research-oriented projects.
+
+--- -->
+
+# Courses Taught
+
+<!--## National Institute of Technology Warangal-->
+
+| Course | Year | Class |
+|:-------|:---------|:---------|
+| Probability and Statistics (MA1001) | 2022-2023 | B.Tech ECE, National Institute of Technology Puducherry |
+|Probability and Random Processes (MA222)| 2023-2024 | B.Tech ECE, National Institute of Technology Puducherry |
+
+# Teaching Interests
+
+I am interested in developing courses on
+
+- Scientific Machine Learning
+- Dynamical Systems
+- Neural Differential Equations
+- Numerical Methods
+- Probability and Statistics
+- Stochastic Processes
+- Regression analysis and GLM
+- Mathematical Modelling
+- Control Theory
+
+---

@@ -1,7 +1,50 @@
 ---
-title: "SivalingamSM"
+title: "Sivalingam S M"
+description-meta: "Assistant Professor, Department of Mathematics, National Institute of Technology Warangal"
+image: "images/profile.jpg"
+
+page-navigation: false
+toc: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image: images/profile.jpg
+  image-width: 65%
+
+  links:
+
+    - icon: envelope
+      text: Email
+      href: mailto:sivalingam@nitw.ac.in
+
+    - icon: github
+      text: GitHub
+      href: https://github.com/SivalingamSM
+      target: _blank
+
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=ezCkT1QAAAAJ&hl=en
+      target: _blank
+
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0003-0818-9007
+      target: _blank
+
+    - text: "{{< ai researchgate >}} ResearchGate"
+      href: https://www.researchgate.net/profile/Sivalingam-S-M
+      target: _blank
+
+listing:
+  - id: recent-posts
+    contents:
+      - posts
+      - posts/post-links.yml
+    type: grid
+    page-size: 3
+    max-items: 3
+    fields: [image, title, subtitle, date]
+    sort:
+      - "date desc"
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

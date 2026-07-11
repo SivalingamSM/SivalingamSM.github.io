@@ -1,0 +1,108 @@
+---
+title: "Projects"
+
+description-meta: "Research projects, grants and collaborations of Sivalingam S M"
+
+page-layout: full
+
+
+<!-- listing:
+
+  - id: projects
+
+    contents:
+      - projects.yml
+
+    type: table
+
+    sort: "started desc"
+
+    page-size: 20
+
+    fields:
+      - image
+      - title
+      - subtitle
+      - description
+      - funding
+      - started
+      - ended
+
+    field-display-names:
+
+      title: "Project"
+
+      subtitle: "Sponsor / Collaboration"
+
+      funding: "Funding"
+
+      started: "Start"
+
+      ended: "End"
+
+    grid-item-align: left
+
+    image-height: 60px -->
+
+---
+
+<!-- subtitle: "Research Projects, Grants and International Collaborations" -->
+
+<!--# Research Projects -->
+
+<!-- My research focuses on the development of mathematically rigorous methods in
+
+- Scientific Machine Learning
+- Neural Differential Equations
+- Physics-Informed Neural Networks
+- Fractional Calculus
+- Model Predictive Control
+- Scientific Computing
+- Dynamical Systems
+- Numerical Analysis-->
+
+<!-- # Current Projects
+
+:::{#projects}
+:::
+
+---  -->
+
+<!-- # Future Research Directions -->
+
+My current long-term research directions include
+
+- Scientific Machine Learning for Engineering Systems
+- Neural Operators for Partial Differential Equations
+- Learning-Based Robust Model Predictive Control
+- AI for Scientific Computing
+- Fractional Dynamical Systems
+- Digital Twins for Structural Health Monitoring
+- Mathematical Foundations of Neural Differential Equations
+- Safe and Explainable Scientific Artificial Intelligence
+
+---
+
+# Research Funding
+
+I am interested in collaborating on national and international research proposals under programs such as
+
+- ANRF
+- SERB
+- CEFIPRA
+- BRICS
+- Indo-French Research Programs
+- Indo-Taiwan Research Programs
+- Horizon Europe
+- Indo-UK Collaborative Research
+- Indo-Japan Collaborative Research
+
+---
+
+# Collaboration
+
+Researchers interested in collaboration in any of the above areas are welcome to contact me.
+
+---
+
+{{< include /files/includes/_socialshare.qmd >}}

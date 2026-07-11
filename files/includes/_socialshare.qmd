@@ -1,0 +1,6 @@
+
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_button_linkedin" href="www.linkedin.com/in/sivalingam-s-m-52078a200"></a>
+<a class="a2a_button_email" href="siva915544@gmail.com"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>

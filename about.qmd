@@ -1,5 +1,150 @@
 ---
 title: "About"
+subtitle: "Assistant Professor | Department of Mathematics | National Institute of Technology Warangal"
+description-meta: "Biography, research interests, education, appointments, awards and professional activities of Sivalingam S M."
+title-block-banner: True
+toc: true
+toc-depth: 2
 ---
 
-About this site
+# Biography
+
+I am an **Assistant Professor** in the **Department of Mathematics** at the **National Institute of Technology Warangal (NIT Warangal), India**.
+
+My research lies at the intersection of **Scientific Machine Learning**, **Applied Mathematics**, and **Control Theory**, where I develop mathematically rigorous learning algorithms for scientific and engineering applications.
+
+My research combines mathematical analysis, numerical methods, optimization, and machine learning to solve challenging problems arising in differential equations, dynamical systems, scientific computing, and control engineering. A central theme of my work is integrating modern artificial intelligence with classical mathematical theory to develop reliable, interpretable, and theoretically guaranteed computational methods.
+
+Prior to joining NIT Warangal, I worked as a **Postdoctoral Fellow** at the **Laboratoire de Mécanique Paris-Saclay**, **École Normale Supérieure Paris-Saclay**, **Université Paris-Saclay, France**, under the supervision of **Prof. Ludovic Chamoin**, where my research focused on **Learning-Based Model Predictive Control**, **Neural Networks**, and **Scientific Machine Learning**.
+
+---
+
+# Research Interests
+
+My current research interests include
+
+- Scientific Machine Learning
+- Physics-Informed Neural Networks (PINNs)
+- Neural Differential Equations
+- Fractional Calculus
+- Fractional Differential Equations
+- Model Predictive Control
+- Dynamical Systems
+- Stochastic Differential Equations
+- Numerical Analysis
+- Scientific Computing
+- Mathematical Optimization
+- Operator Learning
+
+---
+
+# Academic Appointments
+
+| Period | Position |
+|:-------|:---------|
+| 2026–Present | **Assistant Professor**, Department of Mathematics, National Institute of Technology Warangal, India |
+| 2025–2026 | **Postdoctoral Fellow**, Laboratoire de Mécanique Paris-Saclay, École Normale Supérieure Paris-Saclay, Université Paris-Saclay, France|
+
+---
+
+# Education
+
+## Ph.D. in Mathematics
+
+**National Institute of Technology Puducherry**
+
+2022–2025
+
+**Advisor:** Dr. V. Govindaraj
+
+**Dissertation:** *A Bidirectional Study of Scientific Machine Learning and Dynamical Systems under Uncertainty.*
+
+---
+
+## M.Sc. Statistics and Applied Mathematics
+
+**Central University of Tamil Nadu**
+
+2020–2022
+
+CGPA: **9.50**
+
+**Advisor:** Dr. Narasimhulu Dunna
+
+**Dissertation:** *Study of Decay Parameter of Blast Waves of Nuclear Explosion using Lie Group Similarity Transformation and Machine Learning Techniques*
+
+---
+
+## B.Sc. Mathematics
+
+**Sadakathullah Appa College**
+
+2017–2020
+
+CGPA: **9.60**
+
+**Advisor:** Prof. Rasitha Begum
+
+**Dissertation:** *Application of Mathematics in Rocket and Space Technology*
+
+---
+
+# Research Overview
+
+My research aims to build mathematical foundations for modern machine learning algorithms used in scientific computing.
+
+Current topics include
+
+- Mathematical theory of neural differential equations
+- Neural operators for differential equations
+- Physics-informed learning
+- Scientific machine learning
+- Fractional-order dynamical systems
+- Learning-based control
+- Robust Model Predictive Control
+- Scientific computing under uncertainty
+- Numerical methods for ordinary and partial differential equations
+
+---
+
+# Selected Achievements
+
+- TWAS Research and Training Fellowship (2025)
+- UGC-NFOBC Senior Research Fellowship (2024)
+- UGC-NFOBC Junior Research Fellowship (2021)
+- CSIR-NET Qualified
+- IIT-JAM Qualified
+
+---
+
+# Editorial and Professional Activities
+
+- Guest Editor, *Fractals* (Special Issue on Fractional-Order Dynamical Systems)
+- Scientific Committee Member, Annual International Congress on Computer Science
+- Reviewer for leading international journals in
+
+  - Nonlinear Dynamics
+  - Physica Scripta
+  - New Journal of Physics
+  - Soft Computing
+  - Mathematics
+  - European Physical Journal Plus
+  - International Journal of Dynamics and Control
+  - Contemporary Mathematics
+  - Journal of Mathematics and Computer Science
+
+---
+
+<!-- # Student Supervision
+
+I actively supervise undergraduate and postgraduate students in
+
+- Scientific Machine Learning
+- Control Theory
+- Numerical Methods
+- Differential Equations
+- Mathematical Modelling
+
+I welcome motivated students interested in pursuing research in these areas.
+
+---   -->

@@ -1,0 +1,72 @@
+---
+title: "Oppurtunity"
+description-meta: "Research of Sivalingam S M"
+title-block-banner: True
+toc: true
+toc-depth: 2
+---
+
+# Prospective Students
+
+Students interested in undergraduate projects, master's dissertations, internships, or future Ph.D. opportunities are encouraged to contact me by email with
+
+- Curriculum Vitae
+- Academic Transcript
+- Research Interests
+- Programming Experience (if any)
+
+I am always happy to discuss research ideas with motivated students.
+
+---
+
+# Areas Available for Student Projects
+
+I welcome motivated students interested in research projects in
+
+- Scientific Machine Learning
+- Physics-Informed Neural Networks
+- Neural Differential Equations
+- Fractional Calculus
+- Dynamical Systems
+- Control Theory
+- Numerical Analysis
+- Scientific Computing
+- Applied Mathematics
+
+---
+
+# Research Supervision
+
+---
+
+## M.Sc. Students (while at NIT Puducherry)
+
+| Students | Year | Institution |
+|:-------|:---------|:---------|
+| **Twinkle Sanjay Desai** | 2023-2024 |   - M.Sc. Mathematics - National Institute of Technology Puducherry - Research Area: Fractional Dynamical Systems |
+| **Rashmi Ranjan Prusty** | 2024-2025 |   - M.Sc. Mathematics - National Institute of Technology Puducherry - Research Area: Fractional Dynamical Systems |
+
+## Project Interns (while at NIT Puducherry)
+
+| Students | Year | Institution |
+|:-------|:---------|:---------|
+| **Sriram** | 2023-2024 |   - M.Sc. Mathematics - SRM University - Research Area: Control Theory |
+| **Meera Ramesh** | 2023-2024 |   - M.Sc. Mathematics - Christ University - Research Area: Control Theory |
+| **Rahma** | 2024-2025 |   - M.Sc. Mathematics - Central University of Tamil Nadu - Research Area: Mathematical Modelling |
+
+
+<!-- # Programming and Software
+
+Students working with me typically gain experience in
+
+- Python
+- MATLAB
+- Mathematica
+- R Programming
+- LaTeX
+- Scientific Computing Libraries
+
+--- -->
+
+
+

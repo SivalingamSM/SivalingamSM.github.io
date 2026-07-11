@@ -1,0 +1,114 @@
+---
+title: "Contact"
+subtitle: "Get in touch"
+description-meta: "Contact information for Sivalingam S M"
+title-block-banner: false
+toc: false
+page-layout: article
+---
+
+
+Thank you for visiting my website.
+
+I welcome inquiries regarding **research collaborations**, **student supervision**, **academic visits**, **seminars**, **conference organization**, **research funding proposals**, and **consultancy** in my areas of expertise.
+
+Please feel free to contact me using the information below.
+
+---
+
+## Office
+
+**Dr. Sivalingam S M**
+
+Assistant Professor
+
+Department of Mathematics
+
+National Institute of Technology Warangal
+
+Warangal – 506004
+
+Telangana, India
+
+---
+
+## Email
+
+| **Official** | **Personal** |
+|---------|------|
+| 📧 sivalingam@nitw.ac.in | 📧 siva915544@gmail.com |
+
+
+## Research Areas
+
+I am interested in collaborations involving
+
+- Scientific Machine Learning
+- Physics-Informed Neural Networks
+- Neural Differential Equations
+- Fractional Calculus
+- Fractional Differential Equations
+- Control Theory
+- Model Predictive Control
+- Dynamical Systems
+- Numerical Analysis
+- Scientific Computing
+- Stochastic Differential Equations
+
+---
+
+## Academic Profiles
+
+| Profile | Link |
+|---------|------|
+| Google Scholar | https://scholar.google.com/citations?user=ezCkT1QAAAAJ&hl=en |
+| ORCID | https://orcid.org/0000-0003-0818-9007 |
+| ResearchGate | https://www.researchgate.net/profile/Sivalingam-S-M |
+| GitHub | https://github.com/SivalingamSM |
+
+---
+
+## Prospective Students
+
+I welcome enthusiastic students interested in pursuing research in
+
+- Scientific Machine Learning
+- Control Theory
+- Applied Mathematics
+- Fractional Calculus
+- Numerical Analysis
+- Scientific Computing
+
+Prospective students are encouraged to send an email containing
+
+- Curriculum Vitae (CV)
+- Academic transcripts
+- Brief statement of research interests
+- Programming experience (if any)
+
+---
+
+## Collaborations
+
+I am open to academic collaborations with researchers from universities, research institutes, and industry.
+
+Potential collaboration topics include
+
+- AI for Science
+- Learning-based Control
+- Neural Differential Equations
+- Physics-Informed Machine Learning
+- Scientific Computing
+- Mathematical Modelling
+- High-Performance Computing
+- Applied Mathematics
+
+---
+
+## Office Hours
+
+Please contact me by email to schedule an appointment.
+
+---
+
+> **I typically respond to emails within 2–3 working days.**
