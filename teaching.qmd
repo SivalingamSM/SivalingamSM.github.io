@@ -1,40 +1,142 @@
 ---
 title: "Teaching"
 description-meta: "Teaching activities of Sivalingam S M"
-title-block-banner: True
-toc: true
-toc-depth: 2
+title-block-banner: false
+toc: false
+page-layout: full
 ---
-<!--subtitle: "Teaching, Mentoring and Student Supervision"-->
-<!--# Teaching Philosophy
 
-I believe that mathematics is best learned through a combination of rigorous theory, computational experimentation, and real-world applications. My teaching integrates mathematical foundations with modern computational tools, enabling students to connect abstract concepts with scientific and engineering problems.
+::: {.academic-teaching}
 
-I encourage active learning through discussions, programming assignments, mathematical modelling, and research-oriented projects.
+::: {.teaching-header}
 
---- -->
+<div class="teaching-label"> </div>
 
-# Courses Taught
+# Courses & Teaching
 
-<!--## National Institute of Technology Warangal-->
+<p class="teaching-summary">
+Teaching activities and areas of interest in mathematics,
+statistics, scientific computing, and dynamical systems.
+</p>
 
-| Course | Year | Class |
-|:-------|:---------|:---------|
-| Probability and Statistics (MA1001) | 2022-2023 | B.Tech ECE, National Institute of Technology Puducherry |
-|Probability and Random Processes (MA222)| 2023-2024 | B.Tech ECE, National Institute of Technology Puducherry |
+:::
 
-# Teaching Interests
 
-I am interested in developing courses on
+::: {.teaching-section}
 
-- Scientific Machine Learning
-- Dynamical Systems
-- Neural Differential Equations
-- Numerical Methods
-- Probability and Statistics
-- Stochastic Processes
-- Regression analysis and GLM
-- Mathematical Modelling
-- Control Theory
+<div class="teaching-label"> </div>
 
----
+## Teaching Experience
+
+::: {.course-list}
+
+<div class="course-item">
+
+<div class="course-code">
+MA1001
+</div>
+
+<div class="course-content">
+
+<h3>Probability and Statistics</h3>
+
+<div class="course-meta">
+<span>2022–2023</span>
+<span>B.Tech ECE</span>
+</div>
+
+<p>
+National Institute of Technology Puducherry
+</p>
+
+</div>
+
+</div>
+
+
+<div class="course-item">
+
+<div class="course-code">
+MA222
+</div>
+
+<div class="course-content">
+
+<h3>Probability and Random Processes</h3>
+
+<div class="course-meta">
+<span>2023–2024</span>
+<span>B.Tech ECE</span>
+</div>
+
+<p>
+National Institute of Technology Puducherry
+</p>
+
+</div>
+
+</div>
+
+:::
+
+<!-- :::
+
+
+::: {.teaching-section}
+
+<div class="teaching-label"> </div>
+
+## Courses of Interest
+
+::: {.teaching-interest-grid}
+
+<div class="teaching-interest">
+<span>01</span>
+<strong>Scientific Machine Learning</strong>
+</div>
+
+<div class="teaching-interest">
+<span>02</span>
+<strong>Dynamical Systems</strong>
+</div>
+
+<div class="teaching-interest">
+<span>03</span>
+<strong>Neural Differential Equations</strong>
+</div>
+
+<div class="teaching-interest">
+<span>04</span>
+<strong>Numerical Methods</strong>
+</div>
+
+<div class="teaching-interest">
+<span>05</span>
+<strong>Probability and Statistics</strong>
+</div>
+
+<div class="teaching-interest">
+<span>06</span>
+<strong>Stochastic Processes</strong>
+</div>
+
+<div class="teaching-interest">
+<span>07</span>
+<strong>Regression Analysis and GLM</strong>
+</div>
+
+<div class="teaching-interest">
+<span>08</span>
+<strong>Mathematical Modelling</strong>
+</div>
+
+<div class="teaching-interest">
+<span>09</span>
+<strong>Control Theory</strong>
+</div>
+
+:::
+
+:::
+
+:::  -->

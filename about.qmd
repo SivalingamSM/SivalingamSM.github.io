@@ -1,150 +1,211 @@
 ---
 title: "About"
-subtitle: "Assistant Professor | Department of Mathematics | National Institute of Technology Warangal"
 description-meta: "Biography, research interests, education, appointments, awards and professional activities of Sivalingam S M."
-title-block-banner: True
-toc: true
-toc-depth: 2
+page-layout: full
+title-block-banner: false
+toc: false
 ---
 
-# Biography
+::: {.academic-about}
 
-I am an **Assistant Professor** in the **Department of Mathematics** at the **National Institute of Technology Warangal (NIT Warangal), India**.
+::: {.about-header}
 
-My research lies at the intersection of **Scientific Machine Learning**, **Applied Mathematics**, and **Control Theory**, where I develop mathematically rigorous learning algorithms for scientific and engineering applications.
+<div class="about-label"> </div>
 
-My research combines mathematical analysis, numerical methods, optimization, and machine learning to solve challenging problems arising in differential equations, dynamical systems, scientific computing, and control engineering. A central theme of my work is integrating modern artificial intelligence with classical mathematical theory to develop reliable, interpretable, and theoretically guaranteed computational methods.
+<p class="about-summary">
+I am an <strong>Assistant Professor of Mathematics</strong> at the
+<strong>National Institute of Technology Warangal</strong>. My research
+lies at the intersection of <strong>Scientific Machine Learning</strong>,
+<strong>Dynamical Systems</strong>, and <strong>Control Theory</strong>.
 
-Prior to joining NIT Warangal, I worked as a **Postdoctoral Fellow** at the **Laboratoire de Mécanique Paris-Saclay**, **École Normale Supérieure Paris-Saclay**, **Université Paris-Saclay, France**, under the supervision of **Prof. Ludovic Chamoin**, where my research focused on **Learning-Based Model Predictive Control**, **Neural Networks**, and **Scientific Machine Learning**.
+I develop mathematically rigorous learning and computational methods for problems arising in **differential equations, dynamical systems, scientific computing, and control**.
 
----
+My research combines **mathematical analysis, numerical methods, optimization, and machine learning**. A central theme of my work is the integration of modern artificial intelligence with classical mathematical theory to develop reliable, interpretable, and theoretically grounded computational methods.
 
-# Research Interests
+Prior to joining NIT Warangal, I was a **Postdoctoral Fellow** at the **Laboratoire de Mécanique Paris-Saclay, École Normale Supérieure Paris-Saclay, Université Paris-Saclay, France**, where I worked under the supervision of **Prof. Ludovic Chamoin**. My postdoctoral research focused on **learning-based Model Predictive Control, neural networks, and Scientific Machine Learning**.
+</p>
+<!-- :::
+::: {.about-body}
+::: {.about-biography} -->
 
-My current research interests include
+<!-- :::
+::: {.about-section}
 
-- Scientific Machine Learning
-- Physics-Informed Neural Networks (PINNs)
-- Neural Differential Equations
-- Fractional Calculus
-- Fractional Differential Equations
-- Model Predictive Control
-- Dynamical Systems
-- Stochastic Differential Equations
-- Numerical Analysis
-- Scientific Computing
-- Mathematical Optimization
-- Operator Learning
+<div class="about-label"> </div>  -->
 
----
+<!-- 
 
-# Academic Appointments
 
-| Period | Position |
-|:-------|:---------|
-| 2026–Present | **Assistant Professor**, Department of Mathematics, National Institute of Technology Warangal, India |
-| 2025–2026 | **Postdoctoral Fellow**, Laboratoire de Mécanique Paris-Saclay, École Normale Supérieure Paris-Saclay, Université Paris-Saclay, France|
+-->
 
----
 
-# Education
+::: {.about-section}
 
-## Ph.D. in Mathematics
+<div class="about-label"> </div>
+
+## Academic Appointments
+
+::: {.career-list}
+
+::: {.career-row}
+
+<div class="career-period">2026 — Present</div>
+
+<div class="career-details">
+
+### Assistant Professor
+
+**Department of Mathematics**  
+National Institute of Technology Warangal, India
+
+</div>
+
+:::
+
+
+::: {.career-row}
+
+<div class="career-period">2025 — 2026</div>
+
+<div class="career-details">
+
+### Postdoctoral Fellow
+
+**Laboratoire de Mécanique Paris-Saclay**  
+École Normale Supérieure Paris-Saclay, Université Paris-Saclay, France
+
+Supervisor: **Prof. Ludovic Chamoin**
+
+</div>
+
+:::
+
+## Education
+
+::: {.career-list}
+
+::: {.career-row}
+
+<div class="career-period">2022 — 2025</div>
+
+<div class="career-details">
+
+### Ph.D. in Mathematics
 
 **National Institute of Technology Puducherry**
 
-2022–2025
+Advisor: **Dr. V. Govindaraj**
 
-**Advisor:** Dr. V. Govindaraj
+*Dissertation: A Bidirectional Study of Scientific Machine Learning and Dynamical Systems under Uncertainty.*
 
-**Dissertation:** *A Bidirectional Study of Scientific Machine Learning and Dynamical Systems under Uncertainty.*
+</div>
 
----
+:::
 
-## M.Sc. Statistics and Applied Mathematics
+
+::: {.career-row}
+
+<div class="career-period">2020 — 2022</div>
+
+<div class="career-details">
+
+### M.Sc. Statistics and Applied Mathematics
 
 **Central University of Tamil Nadu**
 
-2020–2022
+CGPA: **9.50** · Advisor: **Dr. Narasimhulu Dunna**
 
-CGPA: **9.50**
+*Dissertation: Study of Decay Parameter of Blast Waves of Nuclear Explosion using Lie Group Similarity Transformation and Machine Learning Techniques.*
 
-**Advisor:** Dr. Narasimhulu Dunna
+</div>
 
-**Dissertation:** *Study of Decay Parameter of Blast Waves of Nuclear Explosion using Lie Group Similarity Transformation and Machine Learning Techniques*
+:::
 
----
 
-## B.Sc. Mathematics
+::: {.career-row}
+
+<div class="career-period">2017 — 2020</div>
+
+<div class="career-details">
+
+### B.Sc. Mathematics
 
 **Sadakathullah Appa College**
 
-2017–2020
+CGPA: **9.60** · Advisor: **Prof. Rasitha Begum**
 
-CGPA: **9.60**
+*Dissertation: Application of Mathematics in Rocket and Space Technology.*
 
-**Advisor:** Prof. Rasitha Begum
+</div>
 
-**Dissertation:** *Application of Mathematics in Rocket and Space Technology*
+:::
 
----
+:::
 
-# Research Overview
+:::
 
-My research aims to build mathematical foundations for modern machine learning algorithms used in scientific computing.
 
-Current topics include
+::: {.about-bottom-grid}
 
-- Mathematical theory of neural differential equations
-- Neural operators for differential equations
-- Physics-informed learning
-- Scientific machine learning
-- Fractional-order dynamical systems
-- Learning-based control
-- Robust Model Predictive Control
-- Scientific computing under uncertainty
-- Numerical methods for ordinary and partial differential equations
 
----
+::: {.about-section}
 
-# Selected Achievements
+<div class="about-label"> </div>
 
-- TWAS Research and Training Fellowship (2025)
-- UGC-NFOBC Senior Research Fellowship (2024)
-- UGC-NFOBC Junior Research Fellowship (2021)
-- CSIR-NET Qualified
-- IIT-JAM Qualified
+## Selected Achievements
 
----
+<div class="simple-record">
+<span>2025</span>
+<p><strong>TWAS Research and Training Fellowship</strong></p>
+</div>
 
-# Editorial and Professional Activities
+<div class="simple-record">
+<span>2024</span>
+<p><strong>UGC-NFOBC Senior Research Fellowship</strong></p>
+</div>
 
-- Guest Editor, *Fractals* (Special Issue on Fractional-Order Dynamical Systems)
-- Scientific Committee Member, Annual International Congress on Computer Science
-- Reviewer for leading international journals in
+<div class="simple-record">
+<span>2021</span>
+<p><strong>UGC-NFOBC Junior Research Fellowship</strong></p>
+</div>
 
-  - Nonlinear Dynamics
-  - Physica Scripta
-  - New Journal of Physics
-  - Soft Computing
-  - Mathematics
-  - European Physical Journal Plus
-  - International Journal of Dynamics and Control
-  - Contemporary Mathematics
-  - Journal of Mathematics and Computer Science
+<div class="simple-record">
+<span>2021</span>
+<p><strong>CSIR-NET Qualified</strong></p>
+</div>
 
----
+<div class="simple-record">
+<span>2021</span>
+<p><strong>IIT-JAM Qualified</strong></p>
+</div>
 
-<!-- # Student Supervision
+:::
 
-I actively supervise undergraduate and postgraduate students in
 
-- Scientific Machine Learning
-- Control Theory
-- Numerical Methods
-- Differential Equations
-- Mathematical Modelling
+::: {.about-section}
 
-I welcome motivated students interested in pursuing research in these areas.
+<div class="about-label"> </div>
 
----   -->
+## Professional Activities
+
+### Editorial Activity
+
+Guest Editor, *Fractals*  
+Special Issue on Fractional-Order Dynamical Systems.
+
+### Scientific Committee
+
+Scientific Committee Member, Annual International Congress on Computer Science.
+
+### Peer Review
+
+Reviewer for international journals including *Nonlinear Dynamics*, *Physica Scripta*, *New Journal of Physics*, *Soft Computing*, *Mathematics*, *European Physical Journal Plus*, and *International Journal of Dynamics and Control*.
+
+:::
+
+
+:::
+
+:::
+
+:::

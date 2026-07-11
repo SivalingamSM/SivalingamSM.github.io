@@ -4,111 +4,124 @@ subtitle: "Get in touch"
 description-meta: "Contact information for Sivalingam S M"
 title-block-banner: false
 toc: false
-page-layout: article
+page-layout: full
 ---
 
+::: {.academic-contact}
 
+::: {.contact-header}
+
+## Get in touch
+
+<p class="contact-summary">
 Thank you for visiting my website.
+</p>
 
-I welcome inquiries regarding **research collaborations**, **student supervision**, **academic visits**, **seminars**, **conference organization**, **research funding proposals**, and **consultancy** in my areas of expertise.
+<p class="contact-intro">
+I welcome inquiries regarding <strong>research collaborations</strong>,
+<strong>student supervision</strong>, <strong>academic visits</strong>,
+<strong>seminars</strong>, <strong>conference organization</strong>,
+<strong>research funding proposals</strong>, and <strong>consultancy</strong>
+in my areas of expertise.
+</p>
 
+<p class="contact-intro">
 Please feel free to contact me using the information below.
+</p>
 
----
+:::
+
+
+::: {.contact-information}
+
+
+::: {.contact-section}
 
 ## Office
 
-**Dr. Sivalingam S M**
+<div class="office-name">
+Dr. Sivalingam S M
+</div>
 
+<div class="office-position">
 Assistant Professor
+</div>
 
-Department of Mathematics
-
-National Institute of Technology Warangal
-
-Warangal – 506004
-
+<div class="office-address">
+Department of Mathematics<br>
+National Institute of Technology Warangal<br>
+Warangal – 506004<br>
 Telangana, India
+</div>
 
----
+:::
+
+
+::: {.contact-section}
 
 ## Email
 
-| **Official** | **Personal** |
-|---------|------|
-| 📧 sivalingam@nitw.ac.in | 📧 siva915544@gmail.com |
+::: {.email-list}
+
+<a href="mailto:sivalingam@nitw.ac.in" class="email-row">
+<div>
+<span class="email-type">Official</span>
+<strong>sivalingam@nitw.ac.in</strong>
+</div>
+</a>
+
+<a href="mailto:siva915544@gmail.com" class="email-row">
+<div>
+<span class="email-type">Personal</span>
+<strong>siva915544@gmail.com</strong>
+</div>
+</a>
+
+:::
+
+:::
 
 
-## Research Areas
-
-I am interested in collaborations involving
-
-- Scientific Machine Learning
-- Physics-Informed Neural Networks
-- Neural Differential Equations
-- Fractional Calculus
-- Fractional Differential Equations
-- Control Theory
-- Model Predictive Control
-- Dynamical Systems
-- Numerical Analysis
-- Scientific Computing
-- Stochastic Differential Equations
-
----
+::: {.contact-section .academic-profiles-section}
 
 ## Academic Profiles
 
-| Profile | Link |
-|---------|------|
-| Google Scholar | https://scholar.google.com/citations?user=ezCkT1QAAAAJ&hl=en |
-| ORCID | https://orcid.org/0000-0003-0818-9007 |
-| ResearchGate | https://www.researchgate.net/profile/Sivalingam-S-M |
-| GitHub | https://github.com/SivalingamSM |
+::: {.academic-profile-list}
 
----
+<a href="https://scholar.google.com/citations?user=ezCkT1QAAAAJ&hl=en"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="academic-profile-row">
+<span>Google Scholar</span>
+<span class="contact-arrow">↗</span>
+</a>
 
-## Prospective Students
+<a href="https://orcid.org/0000-0003-0818-9007"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="academic-profile-row">
+<span>ORCID</span>
+<span class="contact-arrow">↗</span>
+</a>
 
-I welcome enthusiastic students interested in pursuing research in
+<a href="https://www.researchgate.net/profile/Sivalingam-S-M"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="academic-profile-row">
+<span>ResearchGate</span>
+<span class="contact-arrow">↗</span>
+</a>
 
-- Scientific Machine Learning
-- Control Theory
-- Applied Mathematics
-- Fractional Calculus
-- Numerical Analysis
-- Scientific Computing
+<!-- <a href="https://github.com/SivalingamSM"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="academic-profile-row">
+<span>GitHub</span>
+<span class="contact-arrow">↗</span>
+</a>  -->
 
-Prospective students are encouraged to send an email containing
+:::
 
-- Curriculum Vitae (CV)
-- Academic transcripts
-- Brief statement of research interests
-- Programming experience (if any)
+I typically respond to emails within <strong>2–3 working days.</strong>
 
----
-
-## Collaborations
-
-I am open to academic collaborations with researchers from universities, research institutes, and industry.
-
-Potential collaboration topics include
-
-- AI for Science
-- Learning-based Control
-- Neural Differential Equations
-- Physics-Informed Machine Learning
-- Scientific Computing
-- Mathematical Modelling
-- High-Performance Computing
-- Applied Mathematics
-
----
-
-## Office Hours
-
-Please contact me by email to schedule an appointment.
-
----
-
-> **I typically respond to emails within 2–3 working days.**
+:::

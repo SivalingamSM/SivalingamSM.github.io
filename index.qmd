@@ -1,50 +1,84 @@
 ---
 title: "Sivalingam S M"
-description-meta: "Assistant Professor, Department of Mathematics, National Institute of Technology Warangal"
-image: "images/profile.jpg"
-
+description-meta: "Sivalingam S M | Assistant Professor of Mathematics | Scientific Machine Learning | Dynamical Systems | Control Theory"
 page-navigation: false
 toc: false
 page-layout: full
-
-about:
-  id: hero-heading
-  template: trestles
-  image: images/profile.jpg
-  image-width: 65%
-
-  links:
-
-    - icon: envelope
-      text: Email
-      href: mailto:sivalingam@nitw.ac.in
-
-    - icon: github
-      text: GitHub
-      href: https://github.com/SivalingamSM
-      target: _blank
-
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com/citations?user=ezCkT1QAAAAJ&hl=en
-      target: _blank
-
-    - text: "{{< ai orcid >}} ORCID"
-      href: https://orcid.org/0000-0003-0818-9007
-      target: _blank
-
-    - text: "{{< ai researchgate >}} ResearchGate"
-      href: https://www.researchgate.net/profile/Sivalingam-S-M
-      target: _blank
-
-listing:
-  - id: recent-posts
-    contents:
-      - posts
-      - posts/post-links.yml
-    type: grid
-    page-size: 3
-    max-items: 3
-    fields: [image, title, subtitle, date]
-    sort:
-      - "date desc"
+title-block-banner: false
 ---
+
+::: {.home-page}
+
+::: {.home-grid}
+
+::: {.home-profile-card}
+
+![](images/profile.jpg){.home-photo}
+
+# Sivalingam S M
+
+<div class="home-position">
+Assistant Professor
+</div>
+
+**Department of Mathematics**
+
+National Institute of Technology Warangal
+
+<div class="home-location">
+Warangal, Telangana, India
+</div>
+
+---
+
+<div class="home-research-areas">
+Scientific Machine Learning · Dynamical Systems · Control Theory
+</div>
+
+<div class="home-buttons">
+
+[Email](mailto:siva915544@gmail.com){.home-button}
+
+[GitHub](https://github.com/SivalingamSM){.home-button target="_blank"}
+
+[Google Scholar](https://scholar.google.com/citations?user=ezCkT1QAAAAJ&hl=en){.home-button target="_blank"}
+
+[ORCID](https://orcid.org/0000-0003-0818-9007){.home-button target="_blank"}
+
+[ResearchGate](https://www.researchgate.net/profile/Sivalingam-S-M){.home-button target="_blank"}
+
+</div>
+
+:::
+
+::: {.home-main-content}
+
+<div class="home-eyebrow">
+MATHEMATICS · SCIENTIFIC MACHINE LEARNING
+</div>
+
+## Mathematics for learning, dynamics, and control
+
+My research lies at the intersection of **Scientific Machine Learning** and **Dynamical Systems**, with particular emphasis on the mathematical analysis and computational development of learning-based methods for differential equations and control.
+
+My work spans **neural differential equations**, **physics-informed learning**, **control theory**, **fractional-order systems**, and **data-driven numerical methods**. I am particularly interested in theory-informed learning frameworks for complex dynamical systems.
+
+<div class="home-research-heading">
+
+<div>
+<span class="home-small-label"> </span>
+
+### Latest Research
+</div>
+
+[View all publications →](publications.html){.home-view-all}
+
+</div>
+
+{{< include home-updates.qmd >}}
+
+:::
+
+:::
+
+:::

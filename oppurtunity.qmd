@@ -1,72 +1,186 @@
 ---
-title: "Oppurtunity"
-description-meta: "Research of Sivalingam S M"
-title-block-banner: True
-toc: true
-toc-depth: 2
+title: "Opportunity"
+description-meta: "Student research opportunities and research supervision by Sivalingam S M."
+title-block-banner: false
+toc: false
+page-layout: full
 ---
+
+::: {.academic-opportunity}
+
+::: {.opportunity-header}
+
+<!-- <div class="opportunity-label"> </div> -->
 
 # Prospective Students
 
-Students interested in undergraduate projects, master's dissertations, internships, or future Ph.D. opportunities are encouraged to contact me by email with
+<!-- <p class="opportunity-summary"> -->
+Students interested in <strong>undergraduate projects</strong>,
+<strong>master's dissertations</strong>, <strong>internships</strong>,
+or <strong>future Ph.D. opportunities</strong> are encouraged to contact me by email.
+<!-- </p> -->
 
-- Curriculum Vitae
-- Academic Transcript
-- Research Interests
-- Programming Experience (if any)
+:::
 
+
+::: {.opportunity-section}
+
+<!--  <div class="opportunity-label"> </div> -->
+
+### Email to contain
+
+::: {.application-list}
+
+<div>
+<span>01 Curriculum Vitae </span>
+
+<span>02 Academic Transcript </span>
+
+<span>03 Research Interests</span>
+
+<span>04 Programming Experience </span>
+</div>
+
+:::
+
+<p class="opportunity-note">
 I am always happy to discuss research ideas with motivated students.
+</p>
 
----
-
-# Areas Available for Student Projects
-
-I welcome motivated students interested in research projects in
-
-- Scientific Machine Learning
-- Physics-Informed Neural Networks
-- Neural Differential Equations
-- Fractional Calculus
-- Dynamical Systems
-- Control Theory
-- Numerical Analysis
-- Scientific Computing
-- Applied Mathematics
-
----
-
-# Research Supervision
-
----
-
-## M.Sc. Students (while at NIT Puducherry)
-
-| Students | Year | Institution |
-|:-------|:---------|:---------|
-| **Twinkle Sanjay Desai** | 2023-2024 |   - M.Sc. Mathematics - National Institute of Technology Puducherry - Research Area: Fractional Dynamical Systems |
-| **Rashmi Ranjan Prusty** | 2024-2025 |   - M.Sc. Mathematics - National Institute of Technology Puducherry - Research Area: Fractional Dynamical Systems |
-
-## Project Interns (while at NIT Puducherry)
-
-| Students | Year | Institution |
-|:-------|:---------|:---------|
-| **Sriram** | 2023-2024 |   - M.Sc. Mathematics - SRM University - Research Area: Control Theory |
-| **Meera Ramesh** | 2023-2024 |   - M.Sc. Mathematics - Christ University - Research Area: Control Theory |
-| **Rahma** | 2024-2025 |   - M.Sc. Mathematics - Central University of Tamil Nadu - Research Area: Mathematical Modelling |
+:::
 
 
-<!-- # Programming and Software
+::: {.opportunity-section}
 
-Students working with me typically gain experience in
+<div class="opportunity-label"> </div>
 
-- Python
-- MATLAB
-- Mathematica
-- R Programming
-- LaTeX
-- Scientific Computing Libraries
+## Areas Available for Student Projects
 
---- -->
+::: {.student-area-grid}
+
+<div class="student-area">Scientific Machine Learning</div>
+
+<div class="student-area">Physics-Informed Neural Networks</div>
+
+<div class="student-area">Neural Differential Equations</div>
+
+<div class="student-area">Fractional Calculus</div>
+
+<div class="student-area">Dynamical Systems</div>
+
+<div class="student-area">Control Theory</div>
+
+<div class="student-area">Numerical Analysis</div>
+
+<div class="student-area">Scientific Computing</div>
+
+<div class="student-area">Applied Mathematics</div>
+
+:::
+
+:::
 
 
+::: {.opportunity-section}
 
+<div class="opportunity-label"> </div>
+
+## Research Supervision
+
+::: {.supervision-group}
+
+### M.Sc. Students
+
+<div class="supervision-context">
+While at NIT Puducherry
+</div>
+
+::: {.student-record}
+
+<div class="student-record-main">
+<strong>Twinkle Sanjay Desai</strong>
+<span>M.Sc. Mathematics · National Institute of Technology Puducherry</span>
+</div>
+
+<div class="student-record-meta">
+<span>2023–2024</span>
+<strong>Fractional Dynamical Systems</strong>
+</div>
+
+:::
+
+
+::: {.student-record}
+
+<div class="student-record-main">
+<strong>Rashmi Ranjan Prusty</strong>
+<span>M.Sc. Mathematics · National Institute of Technology Puducherry</span>
+</div>
+
+<div class="student-record-meta">
+<span>2024–2025</span>
+<strong>Fractional Dynamical Systems</strong>
+</div>
+
+:::
+
+:::
+
+
+::: {.supervision-group}
+
+### Project Interns
+
+<div class="supervision-context">
+While at NIT Puducherry
+</div>
+
+::: {.student-record}
+
+<div class="student-record-main">
+<strong>Sriram</strong>
+<span>M.Sc. Mathematics · SRM University</span>
+</div>
+
+<div class="student-record-meta">
+<span>2023–2024</span>
+<strong>Control Theory</strong>
+</div>
+
+:::
+
+
+::: {.student-record}
+
+<div class="student-record-main">
+<strong>Meera Ramesh</strong>
+<span>M.Sc. Mathematics · Christ University</span>
+</div>
+
+<div class="student-record-meta">
+<span>2023–2024</span>
+<strong>Control Theory</strong>
+</div>
+
+:::
+
+
+::: {.student-record}
+
+<div class="student-record-main">
+<strong>Rahma</strong>
+<span>M.Sc. Mathematics · Central University of Tamil Nadu</span>
+</div>
+
+<div class="student-record-meta">
+<span>2024–2025</span>
+<strong>Mathematical Modelling</strong>
+</div>
+
+:::
+
+:::
+
+:::
+
+:::

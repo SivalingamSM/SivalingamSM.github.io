@@ -1,108 +1,231 @@
 ---
 title: "Projects"
-
 description-meta: "Research projects, grants and collaborations of Sivalingam S M"
-
 page-layout: full
-
-
-<!-- listing:
-
-  - id: projects
-
-    contents:
-      - projects.yml
-
-    type: table
-
-    sort: "started desc"
-
-    page-size: 20
-
-    fields:
-      - image
-      - title
-      - subtitle
-      - description
-      - funding
-      - started
-      - ended
-
-    field-display-names:
-
-      title: "Project"
-
-      subtitle: "Sponsor / Collaboration"
-
-      funding: "Funding"
-
-      started: "Start"
-
-      ended: "End"
-
-    grid-item-align: left
-
-    image-height: 60px -->
-
+title-block-banner: false
+toc: false
 ---
 
-<!-- subtitle: "Research Projects, Grants and International Collaborations" -->
+::: {.academic-projects}
 
-<!--# Research Projects -->
+::: {.projects-header}
 
-<!-- My research focuses on the development of mathematically rigorous methods in
+<div class="projects-label"> </div>
 
-- Scientific Machine Learning
-- Neural Differential Equations
-- Physics-Informed Neural Networks
-- Fractional Calculus
-- Model Predictive Control
-- Scientific Computing
-- Dynamical Systems
-- Numerical Analysis-->
+# Research Directions
 
-<!-- # Current Projects
+<!-- <p class="projects-summary"> -->
+My research spans mathematical foundations, scientific machine learning,
+dynamical systems, and learning-based control.
+<!-- </p> -->
 
-:::{#projects}
 :::
 
----  -->
 
-<!-- # Future Research Directions -->
+::: {.projects-section}
 
-My current long-term research directions include
+<div class="projects-label"> </div>
 
-- Scientific Machine Learning for Engineering Systems
-- Neural Operators for Partial Differential Equations
-- Learning-Based Robust Model Predictive Control
-- AI for Scientific Computing
-- Fractional Dynamical Systems
-- Digital Twins for Structural Health Monitoring
-- Mathematical Foundations of Neural Differential Equations
-- Safe and Explainable Scientific Artificial Intelligence
+## Core Research Areas
 
----
+::: {.research-interest-list}
 
-# Research Funding
+<div class="research-interest-item">
+<div class="research-interest-number">01</div>
+<div class="research-interest-content">
+<h3>Scientific Machine Learning</h3>
+<p>Mathematical foundations and computational methods combining scientific models with machine learning.</p>
+</div>
+</div>
 
+<div class="research-interest-item">
+<div class="research-interest-number">02</div>
+<div class="research-interest-content">
+<h3>Neural Differential Equations</h3>
+<p>Continuous-depth neural networks, neural ODEs, and learning-based dynamical systems.</p>
+</div>
+</div>
+
+<div class="research-interest-item">
+<div class="research-interest-number">03</div>
+<div class="research-interest-content">
+<h3>Physics-Informed Learning</h3>
+<p>Physics-informed and theory-informed learning methods for differential equations.</p>
+</div>
+</div>
+
+<div class="research-interest-item">
+<div class="research-interest-number">04</div>
+<div class="research-interest-content">
+<h3>Control and Dynamical Systems</h3>
+<p>Learning-based control, nonlinear systems, stability, and systems under uncertainty.</p>
+</div>
+</div>
+
+<div class="research-interest-item">
+<div class="research-interest-number">05</div>
+<div class="research-interest-content">
+<h3>Model Predictive Control</h3>
+<p>Robust MPC, Tube MPC, and learning-based control policies.</p>
+</div>
+</div>
+
+<div class="research-interest-item">
+<div class="research-interest-number">06</div>
+<div class="research-interest-content">
+<h3>Fractional-Order Systems</h3>
+<p>Fractional calculus, fractional differential equations, and fractional dynamics.</p>
+</div>
+</div>
+
+<div class="research-interest-item">
+<div class="research-interest-number">07</div>
+<div class="research-interest-content">
+<h3>Operator Learning</h3>
+<p>Neural operators and learning mappings between infinite-dimensional function spaces.</p>
+</div>
+</div>
+
+<div class="research-interest-item">
+<div class="research-interest-number">08</div>
+<div class="research-interest-content">
+<h3>Scientific Computing</h3>
+<p>Numerical analysis, stochastic differential equations, optimization, and computational mathematics.</p>
+</div>
+</div>
+
+:::
+
+
+<!-- ::: {.projects-section}
+
+<div class="projects-label"> </div>
+
+## Long-Term Research Directions
+
+::: {.research-direction-grid}
+
+<div class="research-direction">
+<span>01</span>
+<strong>Scientific Machine Learning for Engineering Systems</strong>
+</div>
+
+<div class="research-direction">
+<span>02</span>
+<strong>Neural Operators for Partial Differential Equations</strong>
+</div>
+
+<div class="research-direction">
+<span>03</span>
+<strong>Learning-Based Robust Model Predictive Control</strong>
+</div>
+
+<div class="research-direction">
+<span>04</span>
+<strong>AI for Scientific Computing</strong>
+</div>
+
+<div class="research-direction">
+<span>05</span>
+<strong>Fractional Dynamical Systems</strong>
+</div>
+
+<div class="research-direction">
+<span>06</span>
+<strong>Digital Twins for Structural Health Monitoring</strong>
+</div>
+
+<div class="research-direction">
+<span>07</span>
+<strong>Mathematical Foundations of Neural Differential Equations</strong>
+</div>
+
+<div class="research-direction">
+<span>08</span>
+<strong>Safe and Explainable Scientific Artificial Intelligence</strong>
+</div>
+
+:::
+
+::: -->
+
+
+<!-- ::: {.projects-section}
+
+<div class="projects-label"> </div>
+
+## Research Funding
+
+<p class="projects-section-intro">
 I am interested in collaborating on national and international research proposals under programs such as
+</p>
 
-- ANRF
-- SERB
-- CEFIPRA
-- BRICS
-- Indo-French Research Programs
-- Indo-Taiwan Research Programs
-- Horizon Europe
-- Indo-UK Collaborative Research
-- Indo-Japan Collaborative Research
+::: {.funding-programmes}
 
----
+<div class="funding-programme">
+<span>INDIA</span>
+<strong>ANRF</strong>
+</div>
 
-# Collaboration
+<div class="funding-programme">
+<span>INDIA</span>
+<strong>SERB</strong>
+</div>
 
+<div class="funding-programme">
+<span>INDIA · FRANCE</span>
+<strong>CEFIPRA</strong>
+</div>
+
+<div class="funding-programme">
+<span>INTERNATIONAL</span>
+<strong>BRICS</strong>
+</div>
+
+<div class="funding-programme">
+<span>BILATERAL</span>
+<strong>Indo-French Research Programs</strong>
+</div>
+
+<div class="funding-programme">
+<span>BILATERAL</span>
+<strong>Indo-Taiwan Research Programs</strong>
+</div>
+
+<div class="funding-programme">
+<span>EUROPE</span>
+<strong>Horizon Europe</strong>
+</div>
+
+<div class="funding-programme">
+<span>BILATERAL</span>
+<strong>Indo-UK Collaborative Research</strong>
+</div>
+
+<div class="funding-programme">
+<span>BILATERAL</span>
+<strong>Indo-Japan Collaborative Research</strong>
+</div>
+
+:::
+
+::: -->
+
+
+::: {.projects-section .collaboration-section}
+
+<div class="projects-label"> </div>
+
+## Research Collaboration
+
+<p>
 Researchers interested in collaboration in any of the above areas are welcome to contact me.
+</p>
 
----
+<a href="contact.html" class="collaboration-link">
+Contact me <span>→</span>
+</a>
 
-{{< include /files/includes/_socialshare.qmd >}}
+:::
+
+:::

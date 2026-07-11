@@ -1,32 +1,78 @@
+
 project:
   type: website
   output-dir: docs
-  # pre-render:
-  #   - python xlsx_to_yml.py
 
-description-meta: "Assistant Professor, Department of Mathematics, National Institute of Technology Warangal. Research in Scientific Machine Learning, Control Theory, Neural Differential Equations, Fractional Calculus and Dynamical Systems."
+
+# ============================================================
+# SITE METADATA
+# ============================================================
+
+description-meta: >
+  Sivalingam S M is an Assistant Professor of Mathematics at
+  the National Institute of Technology Warangal. His research
+  focuses on Scientific Machine Learning, Dynamical Systems,
+  Control Theory, Neural Differential Equations, Fractional
+  Calculus, and Scientific Computing.
+
 author-meta: "Sivalingam S M"
 
+
+# ============================================================
+# WEBSITE
+# ============================================================
+
 website:
+
   title: "Sivalingam S M"
+
+  description: >
+    Assistant Professor of Mathematics at the National Institute
+    of Technology Warangal. Research in Scientific Machine Learning,
+    Dynamical Systems, Control Theory, and Neural Differential Equations.
+
   image: "images/profile.jpg"
-  description: "Assistant Professor, Department of Mathematics, National Institute of Technology Warangal"
+
+  favicon: "images/profile.jpg"
 
   site-url: "https://sivalingamsm.github.io"
+
   repo-url: "https://github.com/SivalingamSM/SivalingamSM.github.io"
 
+
+  # ----------------------------------------------------------
+  # SOCIAL METADATA
+  # ----------------------------------------------------------
+
   open-graph: true
+
   twitter-card: true
+
+
+  # ----------------------------------------------------------
+  # SEARCH
+  # ----------------------------------------------------------
 
   search:
     location: navbar
     type: textbox
 
+
+  # ----------------------------------------------------------
+  # WEBSITE BEHAVIOUR
+  # ----------------------------------------------------------
+
   page-navigation: true
-  reader-mode: true
+
   draft-mode: unlinked
 
+
+  # ----------------------------------------------------------
+  # NAVIGATION
+  # ----------------------------------------------------------
+
   navbar:
+
     background: dark
 
     left:
@@ -37,13 +83,10 @@ website:
       - text: About
         href: about.qmd
 
-      - text: Projects
+      - text: Research
         href: projects.qmd
 
-      # - text: Talks
-      #   href: talks.qmd
-
-      - text: Oppurtunity
+      - text: Opportunities
         href: oppurtunity.qmd
 
       - text: Publications
@@ -52,22 +95,14 @@ website:
       - text: Teaching
         href: teaching.qmd
 
-      # - text: Students
-      #   href: students.qmd
-
-      # - text: News
-      #   href: posts.qmd
-
       - text: Contact
         href: contact.qmd
+
 
     right:
 
       - text: CV
         href: files/Sivalingam_CV.pdf
-
-      - icon: github
-        href: https://github.com/SivalingamSM
         target: _blank
 
       - text: Scholar
@@ -81,6 +116,11 @@ website:
       - text: RG
         href: https://www.researchgate.net/profile/Sivalingam-S-M
         target: _blank
+
+
+  # ----------------------------------------------------------
+  # FOOTER
+  # ----------------------------------------------------------
 
   page-footer:
 
@@ -97,27 +137,167 @@ website:
 
       - icon: github
         href: https://github.com/SivalingamSM
+        target: _blank
 
-      - icon: rss
-        href: posts.xml
+
+# ============================================================
+# BIBLIOGRAPHY
+# ============================================================
 
 bibliography: references.bib
 
+
+# ============================================================
+# HTML FORMAT
+# ============================================================
+
 format:
+
   html:
+
     theme: cosmo
+
     css: styles.css
-    toc: true
-    toc-depth: 3
-    code-copy: true
-    code-link: true
-    code-overflow: wrap
+
+    toc: false
+
+    smooth-scroll: true
+
     fig-align: center
+
     footnotes-hover: true
+
     email-obfuscation: javascript
+
     link-external-icon: true
+
     link-external-newwindow: true
+
     include-in-header: files/includes/_academic.qmd
+
+
+
+
+# project:
+#   type: website
+#   output-dir: docs
+#   # pre-render:
+#   #   - python xlsx_to_yml.py
+
+# description-meta: "Assistant Professor, Department of Mathematics, National Institute of Technology Warangal. Research in Scientific Machine Learning, Control Theory, Neural Differential Equations, Fractional Calculus and Dynamical Systems."
+# author-meta: "Sivalingam S M"
+
+# website:
+#   title: "Sivalingam S M"
+#   image: "images/profile.jpg"
+#   description: "Assistant Professor, Department of Mathematics, National Institute of Technology Warangal"
+
+#   site-url: "https://sivalingamsm.github.io"
+#   repo-url: "https://github.com/SivalingamSM/SivalingamSM.github.io"
+
+#   open-graph: true
+#   twitter-card: true
+
+#   search:
+#     location: navbar
+#     type: textbox
+
+#   page-navigation: true
+#   reader-mode: true
+#   draft-mode: unlinked
+
+#   navbar:
+#     background: dark
+
+#     left:
+
+#       - text: Home
+#         href: index.qmd
+
+#       - text: About
+#         href: about.qmd
+
+#       - text: Research Interests
+#         href: projects.qmd
+
+#       # - text: Talks
+#       #   href: talks.qmd
+
+#       - text: Opportunities
+#         href: oppurtunity.qmd
+
+#       - text: Publications
+#         href: publications.qmd
+
+#       - text: Teaching
+#         href: teaching.qmd
+
+#       # - text: Students
+#       #   href: students.qmd
+
+#       # - text: News
+#       #   href: posts.qmd
+
+#       - text: Contact
+#         href: contact.qmd
+
+#     right:
+
+#       # - text: CV
+#       #   href: files/Sivalingam_CV.pdf
+
+#       # - icon: github
+#       #   href: https://github.com/SivalingamSM
+#       #   target: _blank
+
+#       - text: Scholar
+#         href: https://scholar.google.com/citations?user=ezCkT1QAAAAJ&hl=en
+#         target: _blank
+
+#       - text: ORCID
+#         href: https://orcid.org/0000-0003-0818-9007
+#         target: _blank
+
+#       - text: RG
+#         href: https://www.researchgate.net/profile/Sivalingam-S-M
+#         target: _blank
+
+#   page-footer:
+
+#     left: |
+#       **Sivalingam S M**  
+#       Assistant Professor  
+#       Department of Mathematics  
+#       National Institute of Technology Warangal
+
+#     center: |
+#       © <script>document.write(new Date().getFullYear())</script> Sivalingam S M
+
+#     right:
+
+#       - icon: github
+#         href: https://github.com/SivalingamSM
+
+#       # - icon: rss
+#       #   href: posts.xml
+
+# bibliography: references.bib
+
+# format:
+#   html:
+#     theme: cosmo
+#     css: styles.css
+#     toc: true
+#     toc-depth: 3
+#     code-copy: true
+#     code-link: true
+#     code-overflow: wrap
+#     fig-align: center
+#     footnotes-hover: true
+#     email-obfuscation: javascript
+#     link-external-icon: true
+#     link-external-newwindow: true
+#     include-in-header: files/includes/_academic.qmd
 
 
 # project:
