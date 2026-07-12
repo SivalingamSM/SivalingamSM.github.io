@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">425</div>
+    <div class="metric-number">435</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -254,7 +254,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00366-023-01830-x" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 57</span>
+      <span class="citation-button citation-disabled">Cited by 59</span>
     </div>
   </div>
 </div>
@@ -292,7 +292,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.camwa.2024.04.005" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 31</span>
+      <span class="citation-button citation-disabled">Cited by 35</span>
     </div>
   </div>
 </div>
@@ -330,7 +330,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s40435-023-01344-w" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 20</span>
+      <span class="citation-button citation-disabled">Cited by 21</span>
     </div>
   </div>
 </div>
@@ -541,7 +541,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2023.06.012" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 47</span>
+      <span class="citation-button citation-disabled">Cited by 50</span>
     </div>
   </div>
 </div>
