@@ -89,10 +89,49 @@ I am always happy to discuss research ideas with motivated students.
 
 ::: {.supervision-group}
 
+### Visiting Scholars
+
+<div class="supervision-context">
+While at NIT Warangal as Assistant Professor
+</div>
+
+::: {.student-record}
+
+<div class="student-record-main">
+<strong>Indira Priyadharshini</strong>
+<span>Ph.D · National Institute of Technology Puducherry</span>
+</div>
+
+<div class="student-record-meta">
+<span>2025–2026</span>
+<strong>Mathematical analysis of optimisation techniques for neural networks</strong>
+</div>
+
+:::
+
+
+::: {.student-record}
+
+<div class="student-record-main">
+<strong>Thorati Nagadevi</strong>
+<span>Ph.D · National Institute of Technology Puducherry</span>
+</div>
+
+<div class="student-record-meta">
+<span>2025–2026</span>
+<strong>Audio Classification</strong>
+</div>
+
+:::
+
+:::
+
+::: {.supervision-group}
+
 ### M.Sc. Students
 
 <div class="supervision-context">
-While at NIT Puducherry
+While at NIT Puducherry as a Ph.D scholar
 </div>
 
 ::: {.student-record}
@@ -132,7 +171,7 @@ While at NIT Puducherry
 ### Project Interns
 
 <div class="supervision-context">
-While at NIT Puducherry
+While at NIT Puducherry as a Ph.D scholar
 </div>
 
 ::: {.student-record}
