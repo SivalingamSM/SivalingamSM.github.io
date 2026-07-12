@@ -14,19 +14,19 @@ page-layout: full
 
 # Courses & Teaching
 
-<p class="teaching-summary">
+<!-- <p class="teaching-summary">
 Teaching activities and areas of interest in mathematics,
 statistics, scientific computing, and dynamical systems.
-</p>
+</p> -->
 
-:::
+<!-- ::: -->
 
 
 ::: {.teaching-section}
 
 <div class="teaching-label"> </div>
 
-## Teaching Experience
+<!-- ## Teaching Experience -->
 
 ::: {.course-list}
 

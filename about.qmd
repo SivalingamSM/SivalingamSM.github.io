@@ -20,7 +20,7 @@ lies at the intersection of <strong>Scientific Machine Learning</strong>,
 
 I develop mathematically rigorous learning and computational methods for problems arising in **differential equations, dynamical systems, scientific computing, and control**.
 
-My research combines **mathematical analysis, numerical methods, optimization, and machine learning**. A central theme of my work is the integration of modern artificial intelligence with classical mathematical theory to develop reliable, interpretable, and theoretically grounded computational methods.
+<!--  My research combines **mathematical analysis, numerical methods, optimization, and machine learning**. A central theme of my work is the integration of modern artificial intelligence with classical mathematical theory to develop reliable, interpretable, and theoretically grounded computational methods. -->
 
 Prior to joining NIT Warangal, I was a **Postdoctoral Fellow** at the **Laboratoire de Mécanique Paris-Saclay, École Normale Supérieure Paris-Saclay, Université Paris-Saclay, France**, where I worked under the supervision of **Prof. Ludovic Chamoin**. My postdoctoral research focused on **learning-based Model Predictive Control, neural networks, and Scientific Machine Learning**.
 </p>
@@ -165,7 +165,7 @@ CGPA: **9.60** · Advisor: **Prof. Rasitha Begum**
 </div>
 
 <div class="simple-record">
-<span>2021</span>
+<span>2022</span>
 <p><strong>UGC-NFOBC Junior Research Fellowship</strong></p>
 </div>
 

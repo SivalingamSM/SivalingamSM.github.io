@@ -20,14 +20,89 @@ Students interested in <strong>undergraduate projects</strong>,
 or <strong>future Ph.D. opportunities</strong> are encouraged to contact me by email.
 <!-- </p> -->
 
+
+## Current Openings
+
+::: {.opening-card}
+
+<div class="opening-status">OPEN · M.TECH INTERNSHIP</div>
+
+## Physics-Informed Machine Learning Internship
+
+<!-- <div class="opening-organisation">
+ABB Corporate Research Center · Bengaluru
+</div> -->
+
+<p class="opening-summary">
+Research internship in <strong>physics-informed machine learning for industrial applications</strong>, with a focus on process evolution modelling and soft sensor development using sparse industrial time-series data.
+</p>
+
+::: {.opening-details}
+
+<div class="opening-detail">
+<span>Duration</span>
+<strong>6 months</strong>
+<p>Possibility of extension up to one year</p>
+</div>
+
+<div class="opening-detail">
+<span>Stipend</span>
+<strong>₹40,000 / month</strong>
+<p>Industry research internship</p>
+</div>
+
+<div class="opening-detail">
+<span>Location</span>
+<strong>Bengaluru</strong>
+<!-- <p>ABB Corporate Research Center</p> -->
+</div>
+
+<div class="opening-detail">
+<span>Eligibility</span>
+<strong>M.Tech students</strong>
+<p>Students from any discipline may apply</p>
+</div>
+
 :::
 
+### Research Focus
+
+<div class="opening-tags">
+<span>Physics-Informed Neural Networks</span>
+<span>Neural Operators</span>
+<span>Machine Learning</span>
+<span>Deep Learning</span>
+<span>Industrial Time-Series</span>
+<span>Soft Sensors</span>
+</div>
+
+### Who should contact me?
+
+Students with knowledge of <strong>differential equations</strong> and
+<strong>machine learning</strong>, particularly those interested in
+<strong>physics-informed machine learning</strong>.
+
+<!-- <div class="opening-note">
+The project focuses on process evolution modelling using sparse industrial data, with applications in the cement industry.
+</div> -->
+
+<div class="opening-contact">
+
+<strong>Interested</strong>
+
+Send me your <strong>CV</strong> and a short note describing your background in differential equations and machine learning.
+
+<a href="mailto:sivalingam@nitw.ac.in?subject=Interest%20in%20ABB%20Physics-Informed%20ML%20Internship" class="opening-email-button">
+Email me about this opportunity →
+</a>
+
+</div>
+
+:::
 
 ::: {.opportunity-section}
-
 <!--  <div class="opportunity-label"> </div> -->
-
-### Email to contain
+<!-- ### Email to contain
 
 ::: {.application-list}
 
@@ -47,9 +122,7 @@ or <strong>future Ph.D. opportunities</strong> are encouraged to contact me by e
 I am always happy to discuss research ideas with motivated students.
 </p>
 
-:::
-
-
+::: -->
 ::: {.opportunity-section}
 
 <div class="opportunity-label"> </div>
@@ -218,8 +291,3 @@ While at NIT Puducherry as a Ph.D scholar
 
 :::
 
-:::
-
-:::
-
-:::

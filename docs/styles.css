@@ -2385,3 +2385,174 @@ body:has(.academic-teaching) .page-columns {
 
 }
 
+/* =========================================================
+   CURRENT RESEARCH OPENINGS
+   ========================================================= */
+
+.opening-card {
+  margin: 1.5rem 0 3rem 0;
+  padding: 2.2rem 2.4rem;
+  background: #ffffff;
+  border: 1px solid #dfe5ec;
+  border-left: 5px solid #16324f;
+  border-radius: 14px;
+  box-shadow: 0 12px 32px rgba(20, 42, 66, 0.08);
+}
+
+.opening-status {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.38rem 0.8rem;
+  background: #eaf7ef;
+  color: #176b3a;
+  border: 1px solid #bfe3cc;
+  border-radius: 999px;
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.opening-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  color: #172b4d;
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+.opening-organisation {
+  margin-bottom: 1.2rem;
+  color: #53657a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.opening-summary {
+  max-width: 900px;
+  margin-bottom: 1.7rem;
+  color: #3d4c5e;
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.opening-details {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1.4rem 0 2rem 0;
+}
+
+.opening-detail {
+  padding: 1rem 1.1rem;
+  background: #f7f9fc;
+  border: 1px solid #e4e9ef;
+  border-radius: 10px;
+}
+
+.opening-detail span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #718096;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.opening-detail strong {
+  display: block;
+  color: #172b4d;
+  font-size: 1.05rem;
+}
+
+.opening-detail p {
+  margin: 0.3rem 0 0 0;
+  color: #65758b;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.opening-card h3 {
+  margin-top: 1.7rem;
+  color: #172b4d;
+  font-size: 1.08rem;
+}
+
+.opening-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0.8rem 0 1.5rem 0;
+}
+
+.opening-tags span {
+  padding: 0.42rem 0.75rem;
+  background: #eef3f8;
+  color: #294762;
+  border-radius: 6px;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.opening-note {
+  margin: 1.2rem 0;
+  padding: 1rem 1.2rem;
+  background: #f7f9fc;
+  border-left: 3px solid #6b8299;
+  color: #435469;
+  line-height: 1.65;
+}
+
+.opening-contact {
+  margin-top: 1.8rem;
+  padding: 1.5rem;
+  background: #172b4d;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.opening-contact strong {
+  color: #ffffff;
+}
+
+.opening-contact p {
+  color: #e5ebf2;
+}
+
+.opening-email-button {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0.72rem 1.1rem;
+  background: #ffffff;
+  color: #172b4d !important;
+  border-radius: 6px;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.opening-email-button:hover {
+  background: #eef3f8;
+  color: #0f2238 !important;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .opening-details {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .opening-card {
+    padding: 1.4rem 1.2rem;
+  }
+
+  .opening-details {
+    grid-template-columns: 1fr;
+  }
+
+  .opening-email-button {
+    display: block;
+    text-align: center;
+  }
+}

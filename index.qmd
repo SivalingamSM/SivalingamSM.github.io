@@ -61,7 +61,7 @@ MATHEMATICS · SCIENTIFIC MACHINE LEARNING
 
 My research lies at the intersection of **Scientific Machine Learning** and **Dynamical Systems**, with particular emphasis on the mathematical analysis and computational development of learning-based methods for differential equations and control.
 
-My work spans **neural differential equations**, **physics-informed learning**, **control theory**, **fractional-order systems**, and **data-driven numerical methods**. I am particularly interested in theory-informed learning frameworks for complex dynamical systems.
+My work spans **neural differential equations**, **physics-informed learning**, **control theory**, **fractional-order systems**, and **data-driven numerical methods**.
 
 <div class="home-research-heading">
 
