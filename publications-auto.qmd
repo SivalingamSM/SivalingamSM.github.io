@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">435</div>
+    <div class="metric-number">438</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -254,7 +254,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00366-023-01830-x" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 59</span>
+      <span class="citation-button citation-disabled">Cited by 60</span>
     </div>
   </div>
 </div>
@@ -330,7 +330,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s40435-023-01344-w" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 21</span>
+      <span class="citation-button citation-disabled">Cited by 23</span>
     </div>
   </div>
 </div>
