@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">438</div>
+    <div class="metric-number">444</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -48,27 +48,8 @@
 ```
 
 ```{=html}
-<div class="publication-card" data-search="controllability of time-varying stochastic fractional dynamical systems with distributed delays in control twinkle sanjay desai s m sivalingam v govindaraj communications on applied mathematics and computation 2026">
-  <div class="publication-index">30</div>
-
-  <div class="publication-content">
-    <div class="publication-title">Controllability of Time-Varying Stochastic Fractional Dynamical Systems with Distributed Delays in Control</div>
-
-    <div class="publication-authors">Twinkle Sanjay Desai, <strong class="my-name">S M Sivalingam</strong>, and V Govindaraj</div>
-
-    <div class="publication-journal"><em>Communications on Applied Mathematics and Computation</em> (2026)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.1007/s42967-025-00548-5" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 0</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
 <div class="publication-card" data-search="constrained physics informed deep implicit neural network for ordinary and partial differential equations s m sivalingam v. govindaraj shruti dubey mathematics and computers in simulation 2026">
-  <div class="publication-index">29</div>
+  <div class="publication-index">30</div>
 
   <div class="publication-content">
     <div class="publication-title">Constrained physics informed deep implicit neural network for ordinary and partial differential equations</div>
@@ -79,6 +60,25 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2025.08.006" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 1</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="controllability of time-varying stochastic fractional dynamical systems with distributed delays in control twinkle sanjay desai s m sivalingam v govindaraj communications on applied mathematics and computation 2026">
+  <div class="publication-index">29</div>
+
+  <div class="publication-content">
+    <div class="publication-title">Controllability of Time-Varying Stochastic Fractional Dynamical Systems with Distributed Delays in Control</div>
+
+    <div class="publication-authors">Twinkle Sanjay Desai, <strong class="my-name">S M Sivalingam</strong>, and V Govindaraj</div>
+
+    <div class="publication-journal"><em>Communications on Applied Mathematics and Computation</em> (2026)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.1007/s42967-025-00548-5" target="_blank" rel="noopener noreferrer">DOI</a>
       <span class="citation-button citation-disabled">Cited by 0</span>
     </div>
   </div>
@@ -292,7 +292,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.camwa.2024.04.005" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 35</span>
+      <span class="citation-button citation-disabled">Cited by 36</span>
     </div>
   </div>
 </div>
@@ -330,7 +330,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s40435-023-01344-w" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 23</span>
+      <span class="citation-button citation-disabled">Cited by 24</span>
     </div>
   </div>
 </div>
@@ -349,7 +349,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1088/1402-4896/ad6695" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 18</span>
+      <span class="citation-button citation-disabled">Cited by 19</span>
     </div>
   </div>
 </div>
@@ -541,7 +541,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2023.06.012" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 50</span>
+      <span class="citation-button citation-disabled">Cited by 51</span>
     </div>
   </div>
 </div>
@@ -560,7 +560,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2023.06.016" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 40</span>
+      <span class="citation-button citation-disabled">Cited by 41</span>
     </div>
   </div>
 </div>
