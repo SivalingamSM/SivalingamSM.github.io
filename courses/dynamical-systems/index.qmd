@@ -1,0 +1,35 @@
+---
+title: "Dynamical Systems"
+description-meta: "Dynamical Systems - Course Materials"
+---
+
+**Course Code:** MA17029, MA1514
+
+**Academic Year:** 2026–2027
+
+**Department:** Mathematics
+
+**Institution:** National Institute of Technology Warangal
+
+---
+
+## Course Materials
+
+### Lecture Notes
+
+| Material | Link |
+|---|---|
+| Lecture Notes | [📄 View Notes PDF](course_notes.pdf){target="_blank"} |
+
+## Assignments
+
+### Assignment I — Dynamical System Analysis
+
+Each student has been assigned a unique two-dimensional dynamical
+system. The assignment requires a complete qualitative analysis of
+the assigned system.
+
+| Material | Link |
+|---|---|
+| Assignment | [📄 View Assignment PDF](assignments/assignment-1.pdf){target="_blank"} |
+| Submission | [📝 Submit Assignment](https://docs.google.com/forms/d/e/1FAIpQLSf2kjxNfp4cf9kXjWI4fDj7A23aOOoy7O6uhMtUReyS_kxAlw/viewform?usp=publish-editor){target="_blank"} |

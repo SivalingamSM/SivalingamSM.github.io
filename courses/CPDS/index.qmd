@@ -1,0 +1,22 @@
+---
+title: "CPDS with Python"
+description-meta: "CPDS with Python - Course Materials"
+---
+
+**Course Code:** MA26003 & MA26005
+
+**Academic Year:** 2026–2027
+
+**Department:** Mathematics
+
+**Institution:** National Institute of Technology Warangal
+
+---
+
+### Lecture Notes
+
+available soon
+
+## Assignments
+
+available soon

@@ -33,6 +33,60 @@ statistics, scientific computing, and dynamical systems.
 <div class="course-item">
 
 <div class="course-code">
+MA26003 & MA26005
+</div>
+
+<div class="course-content">
+
+<h3>
+<a href="courses/CPDS/" class="course-title-link">
+CPDS with Python
+</a>
+</h3>
+
+<div class="course-meta">
+<span>2026–2027</span>
+<span>M.Sc. Scientific Computing</span>
+</div>
+
+<p>
+National Institute of Technology Warangal
+</p>
+
+</div>
+
+</div>
+
+<div class="course-item">
+
+<div class="course-code">
+MA17029 & MA1514
+</div>
+
+<div class="course-content">
+
+<h3>
+<a href="courses/dynamical-systems/" class="course-title-link">
+Dynamical Systems
+</a>
+</h3>
+
+<div class="course-meta">
+<span>2026–2027</span>
+<span>M.Sc. Applied Mathematics and Integrated Mathematics</span>
+</div>
+
+<p>
+National Institute of Technology Warangal
+</p>
+
+</div>
+
+</div>
+
+<div class="course-item">
+
+<div class="course-code">
 MA1001
 </div>
 
