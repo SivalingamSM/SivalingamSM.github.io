@@ -15,7 +15,9 @@ description-meta: "CPDS with Python - Course Materials"
 
 ### Lecture Notes
 
-available soon
+| Material | Link |
+|---|---|
+| Lecture Notes | [📄 View Notes PDF](course_notes.pdf){target="_blank"} |
 
 ## Assignments
 
