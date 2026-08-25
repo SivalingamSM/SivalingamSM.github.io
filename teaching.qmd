@@ -33,6 +33,34 @@ statistics, scientific computing, and dynamical systems.
 <div class="course-item">
 
 <div class="course-code">
+MA1161
+</div>
+
+<div class="course-content">
+
+<h3>
+<a href="courses/Linear-algebra-Calculus-ODE/" class="course-title-link">
+Linear-algebra-Calculus-DE
+</a>
+</h3>
+
+<div class="course-meta">
+<span>2026–2027</span>
+<span>B.Tech ME (1st year)</span>
+</div>
+
+<p>
+National Institute of Technology Warangal
+</p>
+
+</div>
+
+</div>
+
+
+<div class="course-item">
+
+<div class="course-code">
 MA26003 & MA26005
 </div>
 
