@@ -112,39 +112,18 @@
     "text": "Assignments\n\nAssignment I — Dynamical System Analysis\nEach student has been assigned a unique two-dimensional dynamical system. The assignment requires a complete qualitative analysis of the assigned system.\n\n\n\nMaterial\nLink\n\n\n\n\nAssignment\n📄 View Assignment PDF\n\n\nSubmission\n📝 Submit Assignment"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "courses/CPDS/class_codes/class 3.html",
+    "href": "courses/CPDS/class_codes/class 3.html",
+    "title": "Sivalingam S M",
     "section": "",
-    "text": "Thank you for visiting my website.\n\n\nI welcome inquiries regarding research collaborations, student supervision, academic visits, seminars, conference organization, research funding proposals, and consultancy in my areas of expertise.\n\n\nPlease feel free to contact me using the information below.\n\n\n\n\n\n\nDr. Sivalingam S M\n\n\nAssistant Professor\n\n\nDepartment of Mathematics National Institute of Technology Warangal Warangal – 506004 Telangana, India\n\n\n\n\n\n\n\nOfficial sivalingam@nitw.ac.in\n\n\n\n\nPersonal siva915544@gmail.com\n\n\n\n\n\n\n\n Google Scholar ↗ \n ORCID ↗ \n ResearchGate ↗ \n\n\nI typically respond to emails within 2–3 working days."
+    "text": "5/3\n\n1.6666666666666667\n\n\n\n5//3\n\n1\n\n\n\n5%3\n\n2\n\n\n\n5**3\n\n125\n\n\nAssignment operator\n\nx = 0\n\n\nx +=10\n\n\nx\n\n10\n\n\n\nx *=10\n\n\nx\n\n100\n\n\n\nx/=10\n\n\nx\n\n10.0\n\n\n\nx-=10\n\n\nx\n\n0.0\n\n\n\nx +10\n\n10.0\n\n\n\nx\n\n0.0\n\n\n\nx +=10\n\n\nx**=10\n\n\nx\n\n10000000000.0\n\n\n\nx //=10\n\n\nx\n\n1000000000.0\n\n\ncomparison operator\n\nx = 10\ny = 11\n\n\nx == y\n\nFalse\n\n\n\nx != y\n\nTrue\n\n\n\nx&lt;y\n\nTrue\n\n\n\nx &lt;=y\n\nTrue\n\n\nmembership operator\n\ndummy_list = [\"siva\", \"ganesh\", \"madan\"]\n\n\nprint(\"siva\" in dummy_list)\n\nTrue\n\n\n\nprint(\"sva\" in dummy_list)\n\nFalse\n\n\n\nprint(\"sva\" not in dummy_list)\n\nTrue\n\n\n\nx = 10\ny = 10\n\nprint(x is y)\n\nTrue\n\n\n\nbool([0.0])\n\nTrue\n\n\n\nbool((0.1))\n\nTrue\n\n\n\nx = [0.1, 0.2]\n\ny = [0.1, 0.2]\n\n\nprint(x is y)\n\nFalse\n\n\n\nprint(x is not y)\n\nTrue\n\n\n\nx = [0.1,0.2]\n\n\ny = x\n\n\nprint(x is y)\n\nTrue\n\n\n\ny = x.copy()\n\n\nprint(x is y)\n\nFalse\n\n\nand, or , not\n\nx = 10\ny = 5\n\n\nprint(x&gt;5 and y&lt;10)\n\nTrue\n\n\n\nprint(x&lt;5 and y&gt;10)\n\nFalse\n\n\n\nprint(x&lt;5 or y&lt;10)\n\nTrue\n\n\ndef functionname(inputs):\n\\(~~\\)body, outputs\n\ndef summation(n):\n  return n and n + summation(n-1)\n\n\nsummation(10)\n\n55\n\n\n\ndef countdown(n):\n  print(n)\n  n and countdown(n-1)\n\n\ncountdown(10)\n\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n\n\n\nfrom IPython.display import clear_output\nimport time\n\ndef ball(n):\n  clear_output(wait=True)\n  print(\" \"*n, \"o\")\n  time.sleep(1)\n  n and ball(n-1)\n\n\nball(40)\n\n o"
   },
   {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact",
+    "objectID": "courses/CPDS/class_codes/class 1.html",
+    "href": "courses/CPDS/class_codes/class 1.html",
+    "title": "Sivalingam S M",
     "section": "",
-    "text": "Thank you for visiting my website.\n\n\nI welcome inquiries regarding research collaborations, student supervision, academic visits, seminars, conference organization, research funding proposals, and consultancy in my areas of expertise.\n\n\nPlease feel free to contact me using the information below."
-  },
-  {
-    "objectID": "contact.html#office",
-    "href": "contact.html#office",
-    "title": "Contact",
-    "section": "",
-    "text": "Dr. Sivalingam S M\n\n\nAssistant Professor\n\n\nDepartment of Mathematics National Institute of Technology Warangal Warangal – 506004 Telangana, India"
-  },
-  {
-    "objectID": "contact.html#email",
-    "href": "contact.html#email",
-    "title": "Contact",
-    "section": "",
-    "text": "Official sivalingam@nitw.ac.in\n\n\n\n\nPersonal siva915544@gmail.com"
-  },
-  {
-    "objectID": "contact.html#academic-profiles",
-    "href": "contact.html#academic-profiles",
-    "title": "Contact",
-    "section": "",
-    "text": "Google Scholar ↗ \n ORCID ↗ \n ResearchGate ↗ \n\n\nI typically respond to emails within 2–3 working days."
+    "text": "Pycharm, spyder, vsiausl studio code, colab, Jupyter notebook\n\n5+5\n\n10\n\n\n\n5*6\n\n30\n\n\n\n5/6\n\n0.8333333333333334\n\n\n\nx = 0.00005\n\n\ntype(x)\n\nfloat\n\n\n\nx = \"5\"\n\n\ntype(x)\n\nstr\n\n\n\nx = 5+6*j\n\n\n5 ==6\n\nFalse\n\n\n\nimport keyword\n\n\nkeyword.kwlist\n\n['False',\n 'None',\n 'True',\n 'and',\n 'as',\n 'assert',\n 'async',\n 'await',\n 'break',\n 'class',\n 'continue',\n 'def',\n 'del',\n 'elif',\n 'else',\n 'except',\n 'finally',\n 'for',\n 'from',\n 'global',\n 'if',\n 'import',\n 'in',\n 'is',\n 'lambda',\n 'nonlocal',\n 'not',\n 'or',\n 'pass',\n 'raise',\n 'return',\n 'try',\n 'while',\n 'with',\n 'yield']\n\n\n\nif = 10\n\n\n  File \"/tmp/ipykernel_1243/182722112.py\", line 1\n    if = 10\n       ^\nSyntaxError: invalid syntax\n\n\n\n\n\nprint(\"qHello world \")\n\nqHello world \n\n\nsingle line comments\n\nm =1.0      # mass of a particle\nv = 0.1     # velocity oif the particle\nke =0.5*m*v**2\nprint(ke)\n\n0.005000000000000001\n\n\nmulti line comments\n\n\"\"\"\nprogram for computing kinetic energy\n\nAuthor: MSC SC\nInput:\nm - mass\nv - velocity\nOutput:\nke - kinetic energy\n\"\"\"\nm =1.0      # mass of a particle\nv = 0.1     # velocity oif the particle\nke =0.5*m*v**2\nprint(ke)\n\n\n1_x\n\n\n  File \"/tmp/ipykernel_1243/1738299962.py\", line 1\n    1_x\n     ^\nSyntaxError: invalid decimal literal\n\n\n\n\n\nx_@\n\n\n  File \"/tmp/ipykernel_1243/316374006.py\", line 1\n    x_@\n       ^\nSyntaxError: invalid syntax\n\n\n\n\n\nif= 100\n\n\n  File \"/tmp/ipykernel_1243/3861768938.py\", line 1\n    if= 100\n      ^\nSyntaxError: invalid syntax\n\n\n\n\n\n=1\n\n\n  File \"/tmp/ipykernel_1243/3924221108.py\", line 1\n    =1\n    ^\nSyntaxError: invalid syntax\n\n\n\n\n\nx1 =100\n\n\nX1 = 101\n\n\nx1\n\n100\n\n\n\nx_1=105"
   },
   {
     "objectID": "about.html",
@@ -180,6 +159,48 @@
     "title": "About",
     "section": "",
     "text": "Guest Editor, Fractals\nSpecial Issue on Fractional-Order Dynamical Systems.\n\n\n\nScientific Committee Member, Annual International Congress on Computer Science.\n\n\n\nReviewer for international journals including Nonlinear Dynamics, Physica Scripta, New Journal of Physics, Soft Computing, Mathematics, European Physical Journal Plus, and International Journal of Dynamics and Control."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Thank you for visiting my website.\n\n\nI welcome inquiries regarding research collaborations, student supervision, academic visits, seminars, conference organization, research funding proposals, and consultancy in my areas of expertise.\n\n\nPlease feel free to contact me using the information below.\n\n\n\n\n\n\nDr. Sivalingam S M\n\n\nAssistant Professor\n\n\nDepartment of Mathematics National Institute of Technology Warangal Warangal – 506004 Telangana, India\n\n\n\n\n\n\n\nOfficial sivalingam@nitw.ac.in\n\n\n\n\nPersonal siva915544@gmail.com\n\n\n\n\n\n\n\n Google Scholar ↗ \n ORCID ↗ \n ResearchGate ↗ \n\n\nI typically respond to emails within 2–3 working days."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "Thank you for visiting my website.\n\n\nI welcome inquiries regarding research collaborations, student supervision, academic visits, seminars, conference organization, research funding proposals, and consultancy in my areas of expertise.\n\n\nPlease feel free to contact me using the information below."
+  },
+  {
+    "objectID": "contact.html#office",
+    "href": "contact.html#office",
+    "title": "Contact",
+    "section": "",
+    "text": "Dr. Sivalingam S M\n\n\nAssistant Professor\n\n\nDepartment of Mathematics National Institute of Technology Warangal Warangal – 506004 Telangana, India"
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "Official sivalingam@nitw.ac.in\n\n\n\n\nPersonal siva915544@gmail.com"
+  },
+  {
+    "objectID": "contact.html#academic-profiles",
+    "href": "contact.html#academic-profiles",
+    "title": "Contact",
+    "section": "",
+    "text": "Google Scholar ↗ \n ORCID ↗ \n ResearchGate ↗ \n\n\nI typically respond to emails within 2–3 working days."
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/class 2.html",
+    "href": "courses/CPDS/class_codes/class 2.html",
+    "title": "Sivalingam S M",
+    "section": "",
+    "text": "position = 100\n\n\nposition = 100.00\n\n\ntype(position)\n\nfloat\n\n\n\nx = 0.1+0.1j\n\n\nx.real\n\n0.1\n\n\n\nx.imag\n\n0.1\n\n\n\nx = \"10\"\n\n\ntype(x)\n\nstr\n\n\n\npositon = 100\n\n\nfloat(position)\n\n100.0\n\n\n\nstr(position)\n\n'100.0'\n\n\n\ntype(position)\n\nfloat\n\n\n\nposition =str(position)\n\n\ntype(position)\n\nstr\n\n\ntuple\n\nposition = (0,1,1,2,3)\n\n\nposition[-1]\n\n3\n\n\n\ntype(position)\n\ntuple\n\n\nlist\n\npositioon = [0,1,1,2,3]\n\n\npositioon[-5]\n\n0\n\n\n\nposition[2]\n\n1\n\n\n\ntype(positioon)\n\nlist\n\n\n\ndetails = [1,10.0,\"siva\", True]\n\nDictionary\n\ndetails = {\n    \"position\": 1,\n    \"speed\": 10.0,\n    \"name\": \"siva\",\n    \"Truth\": True\n}\n\n\ndetails[\"Truth\"]\n\nTrue\n\n\nSet\n\nset_1 = {0,0,1}\n\n\nset_1\n\n{0, 1}\n\n\n\nset_2 = [0,0,1]\n\n\nset_2\n\n[0, 0, 1]\n\n\n\nx = None\n\n\ntype(x)\n\nNoneType\n\n\n\nBool_1 = True\n\n\nbool_2 = False\n\n\nbool(10)\n\nTrue\n\n\n\nbool(0)\n\nFalse\n\n\n\nbool([0.1])\n\nTrue\n\n\n\nbool((0.1))\n\nTrue\n\n\n\nbool({})\n\nFalse\n\n\n\nx,y = 0.1,0.2\n\n\nx,y = 0.2,0.1\n\n\nx,y\n\n(0.2, 0.1)\n\n\n\nx,y =y,x\n\n\nx,y\n\n(0.1, 0.2)\n\n\n\nx,y = 0.1,0.2\n\n\ndummy = x\n\n\nx = y\n\n\ny=dummy\n\n\nx,y\n\n(0.2, 0.1)\n\n\n\nx  =0.5\ny = x**2\n\ndynamic typing\n\nprint(\"MSC\")\n\nMSC\n\n\n\nprint(5,6,7,8)\n\n5 6 7 8\n\n\n\nx = 0.1\ny = 0.2\n\n\nprint(x,y)\n\n0.1 0.2\n\n\n\nprint(x,y,sep = \"|\")\n\n0.1|0.2\n\n\n\nprint(\"quadrotor \\n failed\")\n\nquadrotor \n failed\n\n\n\nprint(\"quadrotor failed\")\n\nquadrotor failed\n\n\n\nprint(4,end = \"---\")\n\n4---\n\n\n\ndef fibonnaci(n):\n  return n and (fibonnaci(n-1)+fibonnaci(n-2) or 0)\n\n\nfibonnaci(10)\n\n\n---------------------------------------------------------------------------\nRecursionError                            Traceback (most recent call last)\n/tmp/ipykernel_13191/3106563500.py in &lt;cell line: 0&gt;()\n----&gt; 1 fibonnaci(10)\n\n/tmp/ipykernel_13191/2968301973.py in fibonnaci(n)\n      1 def fibonnaci(n):\n----&gt; 2   return n and (fibonnaci(n-1)+fibonnaci(n-2) or 0)\n\n... last 1 frames repeated, from the frame below ...\n\n/tmp/ipykernel_13191/2968301973.py in fibonnaci(n)\n      1 def fibonnaci(n):\n----&gt; 2   return n and (fibonnaci(n-1)+fibonnaci(n-2) or 0)\n\nRecursionError: maximum recursion depth exceeded\n\n\n\n\ndef summation(n):\n  return n and (n+summation(n-1) or 0)\n\n\nsummation(10)\n\n55\n\n\n\nnum1, num2 = 0,1\n\ndef f(n):\n  return n and f(n-1)+f(n-2) or 0\n\nf(10)\n\n\n---------------------------------------------------------------------------\nRecursionError                            Traceback (most recent call last)\n/tmp/ipykernel_13191/2758726514.py in &lt;cell line: 0&gt;()\n      4   return n and f(n-1)+f(n-2) or 0\n      5 \n----&gt; 6 f(10)\n\n/tmp/ipykernel_13191/2758726514.py in f(n)\n      2 \n      3 def f(n):\n----&gt; 4   return n and f(n-1)+f(n-2) or 0\n      5 \n      6 f(10)\n\n... last 1 frames repeated, from the frame below ...\n\n/tmp/ipykernel_13191/2758726514.py in f(n)\n      2 \n      3 def f(n):\n----&gt; 4   return n and f(n-1)+f(n-2) or 0\n      5 \n      6 f(10)\n\nRecursionError: maximum recursion depth exceeded"
   },
   {
     "objectID": "courses/CPDS/index.html",

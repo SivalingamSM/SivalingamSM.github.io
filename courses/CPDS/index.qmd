@@ -19,6 +19,14 @@ description-meta: "CPDS with Python - Course Materials"
 |---|---|
 | Lecture Notes | [📄 View Notes PDF](course_notes.pdf){target="_blank"} |
 
+### Python codes created during class
+
+| Class | Material | Download |
+|---|---|---|
+| Class 1 | [View Class 1 Notebook](class_codes/class 1.ipynb) | [⬇️ Download](class_codes/class 1.ipynb) |
+| Class 2 | [View Class 2 Notebook](class_codes/class 2.ipynb) | [⬇️ Download](class_codes/class 2.ipynb) |
+| Class 3 | [View Class 3 Notebook](class_codes/class 3.ipynb) | [⬇️ Download](class_codes/class 3.ipynb) |
+
 ## Assignments
 
 available soon
