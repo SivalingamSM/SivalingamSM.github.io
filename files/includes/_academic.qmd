@@ -18,3 +18,46 @@ https://badge.dimensions.ai/
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+<!-- ========================================================= -->
+<!-- SEO: Sivalingam S M -->
+<!-- ========================================================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sivalingam S M",
+  "url": "https://sivalingamsm.github.io/",
+  "image": "https://sivalingamsm.github.io/images/profile.jpg",
+  "jobTitle": "Assistant Professor",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "National Institute of Technology Warangal",
+    "alternateName": "NIT Warangal",
+    "url": "https://www.nitw.ac.in/"
+  },
+  "worksFor": {
+    "@type": "CollegeOrUniversity",
+    "name": "National Institute of Technology Warangal",
+    "alternateName": "NIT Warangal",
+    "url": "https://www.nitw.ac.in/"
+  },
+  "sameAs": [
+    "https://github.com/SivalingamSM",
+    "https://scholar.google.com/citations?user=ezCkT1QAAAAJ",
+    "https://orcid.org/0000-0003-0818-9007",
+    "https://www.researchgate.net/profile/Sivalingam-S-M",
+    "https://linkedin.com/in/sivalingam-s-m-52078a200",
+    "https://erp.nitw.ac.in/ext/profile/ma-sivalingamsm"
+  ],
+  "knowsAbout": [
+    "Scientific Machine Learning",
+    "Dynamical Systems",
+    "Control Theory",
+    "Neural Differential Equations",
+    "Fractional Differential Equations",
+    "Scientific Computing"
+  ]
+}
+</script>

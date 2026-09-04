@@ -1,6 +1,6 @@
 ---
-title: "Sivalingam S M"
-description-meta: "Sivalingam S M | Assistant Professor of Mathematics | Scientific Machine Learning | Dynamical Systems | Control Theory"
+title: "Sivalingam S M | Assistant Professor, NIT Warangal"
+description-meta: "Sivalingam S M is an Assistant Professor in the Department of Mathematics at the National Institute of Technology Warangal (NIT Warangal), India. Research interests include Scientific Machine Learning, Dynamical Systems, Control Theory, Neural Differential Equations, Fractional Differential Equations, and Scientific Computing."
 page-navigation: false
 toc: false
 page-layout: full
@@ -63,7 +63,7 @@ MATHEMATICS · SCIENTIFIC MACHINE LEARNING
 
 ## Mathematics for learning, dynamics, and control
 
-My research lies at the intersection of **Scientific Machine Learning** and **Dynamical Systems**, with particular emphasis on the mathematical analysis and computational development of learning-based methods for differential equations and control.
+I am **Sivalingam S M**, an **Assistant Professor in the Department of Mathematics at the National Institute of Technology Warangal (NIT Warangal), India**. My research lies at the intersection of **Scientific Machine Learning**, **Dynamical Systems**, and **Control Theory**, with particular emphasis on the mathematical analysis and computational development of learning-based methods for differential equations and control.
 
 My work spans **neural differential equations**, **physics-informed learning**, **control theory**, **fractional-order systems**, and **data-driven numerical methods**.
 
