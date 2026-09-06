@@ -5,25 +5,25 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Sivalingam S M</title>
+<title>Sivalingam S M | NIT Warangal</title>
 <link>https://sivalingamsm.github.io/posts.html</link>
 <atom:link href="https://sivalingamsm.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Assistant Professor of Mathematics at the National Institute of Technology Warangal. Research in Scientific Machine Learning, Dynamical Systems, Control Theory, and Neural Differential Equations.
 </description>
 <image>
 <url>https://sivalingamsm.github.io/images/profile.jpg</url>
-<title>Sivalingam S M</title>
+<title>Sivalingam S M | NIT Warangal</title>
 <link>https://sivalingamsm.github.io/posts.html</link>
 </image>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Mon, 14 Oct 2024 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Tue, 15 Oct 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
   <link>https://sivalingamsm.github.io/</link>
   <description>Examples and tips for Quarto Academic Website</description>
   <category>news</category>
   <guid>https://sivalingamsm.github.io/</guid>
-  <pubDate>Mon, 14 Oct 2024 18:30:00 GMT</pubDate>
+  <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
   <media:content url="https://sivalingamsm.github.io/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
