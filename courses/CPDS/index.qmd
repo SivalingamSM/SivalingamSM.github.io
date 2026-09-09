@@ -38,6 +38,7 @@ description-meta: "CPDS with Python - Course Materials"
 |---|---|---|
 | Lab Class 1 | [View Lab Class 1 Notebook](class_codes/Lab-Class-1.ipynb) | [⬇️ Download](class_codes/Lab-Class-1.ipynb) |
 | Lab Class 2 | [View Lab Class 2 Notebook](class_codes/Lab_Class_2.ipynb) | [⬇️ Download](class_codes/Lab_Class_2.ipynb) |
+| Lab Class 3 | [View Lab Class 3 Notebook](class_codes/Lab_Class_3.ipynb) | [⬇️ Download](class_codes/Lab_Class_3.ipynb) |
 
 ## Assignments
 
