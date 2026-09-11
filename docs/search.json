@@ -418,5 +418,243 @@
     "title": "Publications",
     "section": "2023",
     "text": "2023\n\n  5\n\n  \n    A neural networks-based numerical method for the generalized Caputo-type fractional differential equations\n\n    Sivalingam S M, Pushpendra Kumar, and Venkatesan Govindaraj\n\n    Mathematics and Computers in Simulation, 213, 302-323 (2023)\n\n    \n      DOI\n      Cited by 52\n    \n  \n\n\n  4\n\n  \n    A case study of monkeypox disease in the United States using mathematical modeling with real data\n\n    Pushpendra Kumar, M. Vellappandi, Zareen A. Khan, Sivalingam S M, Anthony Kaziboni, and V. Govindaraj\n\n    Mathematics and Computers in Simulation, 213, 444-465 (2023)\n\n    \n      DOI\n      Cited by 41\n    \n  \n\n\n  3\n\n  \n    A novel numerical scheme for fractional differential equations using extreme learning machine\n\n    Sivalingam S M, Pushpendra Kumar, and V. Govindaraj\n\n    Physica A: Statistical Mechanics and its Applications, 622, 128887 (2023)\n\n    \n      DOI\n      Cited by 31\n    \n  \n\n\n  2\n\n  \n    The hybrid average subtraction and standard deviation based optimizer\n\n    Sivalingam S M, Pushpendra Kumar, and V. Govindaraj\n\n    Advances in Engineering Software, 176, 103387 (2023)\n\n    \n      DOI\n      Cited by 21\n    \n  \n\n\n  1\n\n  \n    Implementation of statistical techniques to analyze agriculture data\n\n    Sivalingam, Vinitha Vijayan, Ganesh Nair, Athira, Sindhu Karyankandi Puthanpurayil, Sowmya Adapa, Sahithi Pesala, and Vijayalakshmi Chellappa\n\n    AIP Conference Proceedings, 2797, 070004 (2023)\n\n    \n      DOI\n      Cited by 0"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "",
+    "text": "A module is a single Python file containing reusable variables, functions or classes.\nA package is a collection of related modules that provides tools for a particular type of work.\nInstead of writing every numerical algorithm ourselves, we can use packages containing functions that are already implemented and tested.\nExamples:\n\n\n\nPackage\nMain use\n\n\n\n\nNumPy\nNumerical arrays and computations\n\n\nMatplotlib\nPlotting and visualization\n\n\nPandas\nData analysis\n\n\nSciPy\nScientific computing\n\n\nScikit-learn\nMachine learning\n\n\n\n\n\nSuppose we want to calculate the square root of 25. Can Python already provide a function for this instead of us writing the algorithm ourselves?\n\nsqrt(25)\n\n\n---------------------------------------------------------------------------\nNameError                                 Traceback (most recent call last)\n/tmp/ipykernel_1328/3140457483.py in &lt;cell line: 0&gt;()\n----&gt; 1 sqrt(25)\n\nNameError: name 'sqrt' is not defined\n\n\n\n\n25**(1/2)\n\n5.0\n\n\n\npow(25,1/2)\n\n5.0\n\n\n\nimport math\n\n\nmath.log(25,10)\n\n1.3979400086720375\n\n\n\nimport numpy\n\n\nnumpy.sqrt(25)\n\nnp.float64(5.0)\n\n\nThe sqrt() function already exists inside the math module."
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#why-do-we-need-python-packages",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#why-do-we-need-python-packages",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "",
+    "text": "A module is a single Python file containing reusable variables, functions or classes.\nA package is a collection of related modules that provides tools for a particular type of work.\nInstead of writing every numerical algorithm ourselves, we can use packages containing functions that are already implemented and tested.\nExamples:\n\n\n\nPackage\nMain use\n\n\n\n\nNumPy\nNumerical arrays and computations\n\n\nMatplotlib\nPlotting and visualization\n\n\nPandas\nData analysis\n\n\nSciPy\nScientific computing\n\n\nScikit-learn\nMachine learning\n\n\n\n\n\nSuppose we want to calculate the square root of 25. Can Python already provide a function for this instead of us writing the algorithm ourselves?\n\nsqrt(25)\n\n\n---------------------------------------------------------------------------\nNameError                                 Traceback (most recent call last)\n/tmp/ipykernel_1328/3140457483.py in &lt;cell line: 0&gt;()\n----&gt; 1 sqrt(25)\n\nNameError: name 'sqrt' is not defined\n\n\n\n\n25**(1/2)\n\n5.0\n\n\n\npow(25,1/2)\n\n5.0\n\n\n\nimport math\n\n\nmath.log(25,10)\n\n1.3979400086720375\n\n\n\nimport numpy\n\n\nnumpy.sqrt(25)\n\nnp.float64(5.0)\n\n\nThe sqrt() function already exists inside the math module."
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#how-do-we-import-a-package",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#how-do-we-import-a-package",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "2. How do we import a package?",
+    "text": "2. How do we import a package?\nBefore using a package, Python must know that we want to use it.\nThe general syntax is:\nimport package_name\nFor scientific computing, NumPy is normally imported as\nimport numpy as np\nHere, np is simply a short alias for numpy.\n\nQuestion 2\nImport NumPy using the standard alias np and check the installed NumPy version.\n\nimport numpy as np\n\n\nnp.sqrt(25)\n\nnp.float64(5.0)\n\n\n\nnumpy.__version__\n\n'2.1.3'\n\n\n\nnp.__version__\n\n'2.1.3'\n\n\ndeprecated"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#what-is-a-numpy-array",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#what-is-a-numpy-array",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "3. What is a NumPy array?",
+    "text": "3. What is a NumPy array?\nThe main object in NumPy is the ndarray, or N-dimensional array.\nA Python list may contain general objects, but a NumPy array is optimized for storing and processing numerical data efficiently.\n\nQuestion 3\nCreate the vector\n$ x =\n\\[\\begin{bmatrix}\n2 & 4 & 6 & 8 & 10\n\\end{bmatrix}\\]\n$\nas a NumPy array.\n\nx = [2,3,4,5,6,7]\n\n\nnp.array(x)\n\narray([2, 3, 4, 5, 6, 7])\n\n\n\nnumpy.array(x)\n\narray([2, 3, 4, 5, 6, 7])\n\n\n\nx\n\n[2, 3, 4, 5, 6, 7]\n\n\n\nx = numpy.array(x)\n\n\nx\n\narray([2, 3, 4, 5, 6, 7])\n\n\n\n[1,2,3]*2\n\n[1, 2, 3, 1, 2, 3]\n\n\n\nfor i in [1,2,3]*20:\n  print(i**2)\n\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n1\n4\n9\n\n\n\nnp.array([1,2,3])**2\n\narray([1, 4, 9])\n\n\n\n\nQuestion 4\nCan NumPy also represent a matrix?\n$ A =\n\\[\\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n7 & 8 & 9\n\\end{bmatrix}\\]\n. $\n\nA = [[1,2,3],[2,3,4]]\n\n\nA = np.array([[[1,2,3],[1,2,3]],[[1,2,3],[1,2,3]]])\n\n\nA\n\narray([[[1, 2, 3],\n        [1, 2, 3]],\n\n       [[1, 2, 3],\n        [1, 2, 3]]])\n\n\n\nA = np.array(A)\n\n\nA\n\narray([[1, 2, 3],\n       [2, 3, 4]])\n\n\n\nA**2\n\narray([[ 1,  4,  9],\n       [ 4,  9, 16]])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#create-numpy-arrays-automatically",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#create-numpy-arrays-automatically",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "4. Create NumPy arrays automatically?",
+    "text": "4. Create NumPy arrays automatically?\n\nQuestion 5\nCreate:\n\na (2 x 3) matrix of zeros,\na (2 x 3) matrix of ones.\n\n\n[[0,0,0],[0,0,0]]\n\n[[0, 0, 0], [0, 0, 0]]\n\n\n\nnp.array([[0,0,0],[0,0,0]])\n\narray([[0, 0, 0],\n       [0, 0, 0]])\n\n\n\n[[0]*3,[0,0,0]]\n\n[[0, 0, 0], [0, 0, 0]]\n\n\n\nnp.array([[0]*3,[0,0,0]])\n\narray([[0, 0, 0],\n       [0, 0, 0]])\n\n\n\nnp.zeros((2,3))\n\narray([[0., 0., 0.],\n       [0., 0., 0.]])\n\n\n\nnp.ones((2,3))\n\narray([[1., 1., 1.],\n       [1., 1., 1.]])\n\n\nUseful NumPy functions include:\n\nnp.zeros(shape) — creates an array filled with zeros,\nnp.ones(shape) — creates an array filled with ones,\nnp.arange(start, stop, step) — creates regularly spaced values using a step size,\nnp.linspace(start, stop, number) — creates a specified number of equally spaced values.\n\n\n\nQuestion 6\nGenerate the numbers\n[ 0,2,4,6,8 ]\nusing arange().\n\nnp.arange(1,11)\n\narray([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10])\n\n\n\nnp.arange(1,11,1)\n\narray([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10])\n\n\n\nnp.arange(0,10,2)\n\narray([0, 2, 4, 6, 8])\n\n\n\nnp.linspace(1,11,10)\n\narray([ 1.        ,  2.11111111,  3.22222222,  4.33333333,  5.44444444,\n        6.55555556,  7.66666667,  8.77777778,  9.88888889, 11.        ])\n\n\n\nfor i in range(-10,0,2):\n  print(i)\n\n-10\n-8\n-6\n-4\n-2\n\n\nIn arange(start, stop, step).\n\n\nQuestion 7\nFor a simulation from (t=0) to (t=10) seconds, generate exactly 11 equally spaced time points.\n\nnp.linspace(0,10,11)\n\narray([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10.])\n\n\n\n\nQuestion 8\nFor the matrix\n$ A =\n\\[\\begin{bmatrix}\n10 & 20 & 30\\\\\n40 & 50 & 60\n\\end{bmatrix}\\]\n, $\nfind its shape, number of dimensions, total number of elements and data type.\n\nA = np.array([[10,20,30],[40,50,60]])\n\n\nA.shape\n\n(2, 3)\n\n\n\nA.ndim\n\n2\n\n\n\nlen(A)\n\n2\n\n\n\nA.elements\n\n\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n/tmp/ipykernel_1328/4048500941.py in &lt;cell line: 0&gt;()\n----&gt; 1 A.elements\n\nAttributeError: 'numpy.ndarray' object has no attribute 'elements'\n\n\n\n\nA.size\n\n6\n\n\n\nA = [[10,20,30],\n    [40,50,60],\n     [40,50,60],\n     [40,50,60],\n     [40,50,60],\n     [40,50,60]]\n\n\nlen(A[0])+len(A[1])\n\n6\n\n\n\nA = np.array(A)\n\n\nA.size\n\n18\n\n\n\ntype(A)\n\nnumpy.ndarray\n\n\n\nshape — dimensions of the array,\nndim — number of dimensions,\nsize — total number of elements,\ndtype — data type of the elements."
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#access-elements-of-a-numpy-array",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#access-elements-of-a-numpy-array",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "6. Access elements of a NumPy array",
+    "text": "6. Access elements of a NumPy array\n\nQuestion 9\nUsing the matrix below:\n\nprint the element in the first row and second column,\nprint the entire second row,\nprint the entire third column.\n\n\n[1,0,2]\n\n[1, 0, 2]\n\n\n\n[1,0,2][1]\n\n0\n\n\n\n[1,0,2][2]\n\n2\n\n\n\n[1,0,2][-2]\n\n0\n\n\n\nnp.array([1,0,2])\n\narray([1, 0, 2])\n\n\n\nnp.array([1,0,2]).shape\n\n(3,)\n\n\n\nnp.array([1,0,2])[0]\n\nnp.int64(1)\n\n\nint32, int64, float32, float64\n\nnp.array([1,0,2],dtype=numpy.int32)[0]\n\nnp.int32(1)\n\n\n\nnp.array([1,0,2],dtype=numpy.float32)[0]\n\nnp.float32(1.0)\n\n\n\n[[1,2],[2,3]][1]\n\n[2, 3]\n\n\n\n[[1,2],[2,3]][1][1]\n\n3\n\n\n\nnp.array([[1,2],[2,3]])[1,1]\n\nnp.int64(3)\n\n\n\nnp.array([[1,2],[2,3]])[1:]\n\narray([[2, 3]])\n\n\nNumPy uses zero-based indexing, like Python lists.\nFor a one-dimensional array:\nx[0]\nis the first element.\nFor a two-dimensional array:\nA[row, column]\nselects an element.\nThe symbol : means take all entries along that direction.\nTherefore:\nA[1, :]\nmeans: second row, all columns.\nand\nA[:, 2]\nmeans: all rows, third column."
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#arithmetic-with-numpy-arrays",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#arithmetic-with-numpy-arrays",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "7. Arithmetic with NumPy arrays",
+    "text": "7. Arithmetic with NumPy arrays\nOne of the biggest advantages of NumPy is that arithmetic can be performed on entire arrays directly.\nThis is called vectorization.\nInstead of processing each element manually with a loop, NumPy applies the operation to the complete array.\n\nQuestion 10\nLet\n\\(x = [1,2,3,4].\\)\nFind:\n\n\\(2x\\),\n\\(x+10\\),\n\\(x^2\\).\n\n\n[1,2,3,4]+[4,5,6,7]\n\n[1, 2, 3, 4, 4, 5, 6, 7]\n\n\n\n[1,2,3,4]**2\n\n\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\n/tmp/ipykernel_1328/1825985778.py in &lt;cell line: 0&gt;()\n----&gt; 1 [1,2,3,4]**2\n\nTypeError: unsupported operand type(s) for ** or pow(): 'list' and 'int'\n\n\n\n\nnp.array([1,2,3,4]) + np.array([4,5,6,7])\n\narray([ 5,  7,  9, 11])\n\n\n\n3*np.array([1,2,3,4])\n\narray([ 3,  6,  9, 12])\n\n\n\nnp.array([1,2,3,4]) + 10\n\narray([11, 12, 13, 14])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#element-wise-operations-versus-matrix-multiplication",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#element-wise-operations-versus-matrix-multiplication",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "8. Element-wise operations versus matrix multiplication",
+    "text": "8. Element-wise operations versus matrix multiplication\n\nQuestion 11\nCompare A * B and A @ B for the matrices below.\n\nA = np.array([[1,2,3],[3,4,5]])\n\n\nB = np.array([[1,2,3],[3,4,5]])\n\n\nA *B\n\narray([[ 1,  4,  9],\n       [ 9, 16, 25]])\n\n\n\nA @B\n\n\n---------------------------------------------------------------------------\nValueError                                Traceback (most recent call last)\n/tmp/ipykernel_1328/2343860730.py in &lt;cell line: 0&gt;()\n----&gt; 1 A @B\n\nValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)-&gt;(n?,m?) (size 2 is different from 3)\n\n\n\n\nnp.transpose(A)\n\narray([[1, 3],\n       [2, 4],\n       [3, 5]])\n\n\n\nA.T\n\narray([[1, 3],\n       [2, 4],\n       [3, 5]])\n\n\n\nA.T * B\n\n\n---------------------------------------------------------------------------\nValueError                                Traceback (most recent call last)\n/tmp/ipykernel_1328/3887616290.py in &lt;cell line: 0&gt;()\n----&gt; 1 A.T * B\n\nValueError: operands could not be broadcast together with shapes (3,2) (2,3) \n\n\n\n\nA.T @ B\n\narray([[10, 14, 18],\n       [14, 20, 26],\n       [18, 26, 34]])\n\n\n\nnp.matmul(A.T,B)\n\narray([[10, 14, 18],\n       [14, 20, 26],\n       [18, 26, 34]])\n\n\n\nnp.array(np.dot(np.array([1,2,3]),np.array([2,3,4])),dtype = numpy.float32)\n\narray(20., dtype=float32)\n\n\nFor NumPy arrays:\nA * B\nperforms element-wise multiplication.\nFor matrices:\nA @ B\nperforms matrix multiplication.\nThese are different operations."
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#can-numpy-apply-mathematical-functions-to-a-complete-array",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#can-numpy-apply-mathematical-functions-to-a-complete-array",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "9. Can NumPy apply mathematical functions to a complete array?",
+    "text": "9. Can NumPy apply mathematical functions to a complete array?\nNumPy provides vectorized mathematical functions.\nSome\n\nnp.sqrt(x) — square root,\nnp.exp(x) — exponential,\nnp.log(x) — natural logarithm,\nnp.sin(x) — sine,\nnp.cos(x) — cosine,\nnp.abs(x) — absolute value.\n\n\nQuestion 12\nFor\n\\(x=[1,4,9,16,25],\\)\ncalculate the square root of every element using one command.\n\nimport numpy as np\n\n\nx = [1,4,9,16,25]\nx = np.array(x)\n\n\nnp.sqrt(x)\n\narray([1., 2., 3., 4., 5.])\n\n\n\nnp.sin(x)\n\narray([ 0.84147098, -0.7568025 ,  0.41211849, -0.28790332, -0.13235175])\n\n\n\nnp.cos(x)\n\narray([ 0.54030231, -0.65364362, -0.91113026, -0.95765948,  0.99120281])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#basic-statistical-functions",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#basic-statistical-functions",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "10. Basic statistical functions",
+    "text": "10. Basic statistical functions\n\nnp.sum(x) — sum,\nnp.mean(x) — arithmetic mean,\nnp.median(x) — median,\nnp.std(x) — standard deviation,\nnp.min(x) — minimum,\nnp.max(x) — maximum.\n\n(These are only some of the functions not all)\n\nQuestion 13\nThe temperatures measured during five experiments are\n\\([28.5,30.0,29.5,31.0,27.5].\\)\nFind the mean, minimum and maximum temperatures.\n\nx\n\narray([ 1,  4,  9, 16, 25])\n\n\n\nnp.min(x)\n\nnp.int64(1)\n\n\n\nnp.max(x)\n\nnp.int64(25)\n\n\n\nnp.mean(x)\n\nnp.float64(11.0)\n\n\nA vehicle travels with the following measured velocities in m/s:\n\\(v=[0,5,10,15,20,25].\\)\n\n\nQuestion 14\nUsing NumPy:\n\ncreate the velocity array,\nconvert every velocity from m/s to km/h using\n$ v_{{km/h}}=3.6v_{{m/s}}, $\nfind the average velocity in km/h,\nfind the largest velocity in km/h.\n\nTry the question first before running the solution.\n\nv = [0,5,10,15,20,25]\n\n\nv = np.array(v)\n\n\nv\n\narray([ 0,  5, 10, 15, 20, 25])\n\n\n\nnp.v*3.6\n\n\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n/tmp/ipykernel_840/4118434146.py in &lt;cell line: 0&gt;()\n----&gt; 1 np.v*3.6\n\n/usr/local/lib/python3.13/dist-packages/numpy/__init__.py in __getattr__(attr)\n    412             return char.chararray\n    413 \n--&gt; 414         raise AttributeError(\"module {!r} has no attribute \"\n    415                              \"{!r}\".format(__name__, attr))\n    416 \n\nAttributeError: module 'numpy' has no attribute 'v'\n\n\n\n\nv_kmh = v*3.6\n\n\nnp.mean(v_kmh)\n\nnp.float64(45.0)\n\n\n\nnp.max(v_kmh)\n\nnp.float64(90.0)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#slicing-a-one-dimensional-array",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#slicing-a-one-dimensional-array",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Slicing a One-Dimensional Array",
+    "text": "Slicing a One-Dimensional Array\nSlicing means selecting a part of an array.\nThe general form is\nA[start:stop:step]\n\nQuestion 15\nFrom the array\n\\(A=[10,20,30,40,50,60,70],\\)\nextract the elements 20, 30, 40, 50.\n\nA = np.array([10,20,30,40,50,60,70])\n\n\nA[1:5]\n\narray([20, 30, 40, 50])\n\n\n\nA[-3:-7]\n\narray([], dtype=int64)\n\n\n\nA[-7:-2]\n\narray([10, 20, 30, 40, 50])\n\n\n\nA[:-2]\n\narray([10, 20, 30, 40, 50])\n\n\n\n\nQuestion 16\nUsing the same array:\n\nextract the first four elements,\nextract all elements from index 3 onward,\nextract every second element.\n\n\nA[0:5]\n\narray([10, 20, 30, 40, 50])\n\n\n\nA[:5]\n\narray([10, 20, 30, 40, 50])\n\n\n\nA[0:7:2]\n\narray([10, 30, 50, 70])\n\n\n\nA[::2]\n\narray([10, 30, 50, 70])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#slicing-a-two-dimensional-array",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#slicing-a-two-dimensional-array",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "slicing a Two-Dimensional Array",
+    "text": "slicing a Two-Dimensional Array\nFor a matrix,\nA[rows, columns]\ncan be used to select a block of entries.\n\nQuestion 17\nGiven\n$ A=\n\\[\\begin{bmatrix}\n1&2&3&4\\\\\n5&6&7&8\\\\\n9&10&11&12\n\\end{bmatrix}\\]\n, $\nextract the first two rows and the middle two columns.\n\nA =  np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])\n\n\nA\n\narray([[ 1,  2,  3,  4],\n       [ 5,  6,  7,  8],\n       [ 9, 10, 11, 12]])\n\n\n\nA[1:1]\n\narray([], shape=(0, 4), dtype=int64)\n\n\n\nA[1][1]\n\nnp.int64(6)\n\n\n\nA[1,1]\n\nnp.int64(6)\n\n\n\nA[1]\n\narray([5, 6, 7, 8])\n\n\n\nA[0:2]\n\narray([[1, 2, 3, 4],\n       [5, 6, 7, 8]])\n\n\n\nA[:-2]\n\narray([[1, 2, 3, 4]])\n\n\n\nA[:-3]\n\narray([], shape=(0, 4), dtype=int64)\n\n\n\nA[-3:-1]\n\narray([[1, 2, 3, 4],\n       [5, 6, 7, 8]])\n\n\n\nA[1:3]\n\narray([[ 5,  6,  7,  8],\n       [ 9, 10, 11, 12]])\n\n\n\nA[1:]\n\narray([[ 5,  6,  7,  8],\n       [ 9, 10, 11, 12]])\n\n\n\nA[0,0:2]\n\narray([1, 2])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#reshaping-an-array",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#reshaping-an-array",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Reshaping an Array",
+    "text": "Reshaping an Array\n\nQuestion 18\nCreate the numbers 1 to 12 and reshape them into a (3) matrix.\n\nnp.ones(12)\n\narray([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])\n\n\n\nnp.ones(12).reshape(3,4)\n\narray([[1., 1., 1., 1.],\n       [1., 1., 1., 1.],\n       [1., 1., 1., 1.]])\n\n\n\nnp.ones(12).reshape(3,4).T\n\narray([[1., 1., 1.],\n       [1., 1., 1.],\n       [1., 1., 1.],\n       [1., 1., 1.]])\n\n\n\nnp.ones(12).reshape(3,4).flatten()\n\narray([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])\n\n\nThe function\nA.reshape(new_shape)\nchanges the shape while preserving the elements.\n\n\nQuestion 19\nCan the same 12 elements be arranged as a (4 x 3) matrix?"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#flattening-an-array",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#flattening-an-array",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Flattening an Array",
+    "text": "Flattening an Array\n\nQuestion 20\nConvert the following matrix into a one-dimensional array.\nA multidimensional array can be converted into a one-dimensional array using\nA.flatten()"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#transpose-of-a-matrix",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#transpose-of-a-matrix",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Transpose of a Matrix",
+    "text": "Transpose of a Matrix\n\nQuestion 21\nFind the transpose of a (2 x 3) matrix and compare the shapes before and after transposition.\n\nA\n\narray([[ 1,  2,  3,  4],\n       [ 5,  6,  7,  8],\n       [ 9, 10, 11, 12]])\n\n\n\nA.T\n\narray([[ 1,  5,  9],\n       [ 2,  6, 10],\n       [ 3,  7, 11],\n       [ 4,  8, 12]])\n\n\n\nnp.transpose(A)\n\narray([[ 1,  5,  9],\n       [ 2,  6, 10],\n       [ 3,  7, 11],\n       [ 4,  8, 12]])\n\n\n\nnp.reshape(A.flatten(), (3,4))\n\narray([[ 1,  2,  3,  4],\n       [ 5,  6,  7,  8],\n       [ 9, 10, 11, 12]])\n\n\n\nA.flatten(0)A\n\n\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\n/tmp/ipykernel_840/4181211480.py in &lt;cell line: 0&gt;()\n----&gt; 1 A.flatten(0)\n\nTypeError: order must be str, not int\n\n\n\n\nA\n\narray([[ 1,  2,  3,  4],\n       [ 5,  6,  7,  8],\n       [ 9, 10, 11, 12]])\n\n\n\nA.flatten(order = 'F')\n\n\n---------------------------------------------------------------------------\nNameError                                 Traceback (most recent call last)\n/tmp/ipykernel_1350/3814642962.py in &lt;cell line: 0&gt;()\n----&gt; 1 A.flatten(order = 'F')\n\nNameError: name 'A' is not defined"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#element-wise-array-operations",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#element-wise-array-operations",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Element-wise Array Operations",
+    "text": "Element-wise Array Operations\n\nQuestion 22\nFor\n\\(A=[10,20,30],\\qquad B=[2,4,5],\\)\nfind:\n\n(A+B),\n(A-B),\n(AB) element by element,\n(A/B) element by element.\n\n\nB = A\n\n\nA,B\n\n(array([[ 1,  2,  3,  4],\n        [ 5,  6,  7,  8],\n        [ 9, 10, 11, 12]]),\n array([[ 1,  2,  3,  4],\n        [ 5,  6,  7,  8],\n        [ 9, 10, 11, 12]]))\n\n\n\nA+B\n\narray([[ 2,  4,  6,  8],\n       [10, 12, 14, 16],\n       [18, 20, 22, 24]])\n\n\n\nA@B\n\n\n---------------------------------------------------------------------------\nValueError                                Traceback (most recent call last)\n/tmp/ipykernel_840/2301120001.py in &lt;cell line: 0&gt;()\n----&gt; 1 A@B\n\nValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)-&gt;(n?,m?) (size 3 is different from 4)\n\n\n\n\nA*B\n\narray([[  1,   4,   9,  16],\n       [ 25,  36,  49,  64],\n       [ 81, 100, 121, 144]])\n\n\n\nA/B\n\narray([[1., 1., 1., 1.],\n       [1., 1., 1., 1.],\n       [1., 1., 1., 1.]])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#dot-product",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#dot-product",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Dot Product",
+    "text": "Dot Product\n\nQuestion 23\nCalculate\n\\([1,2,3]\\cdot[4,5,6].\\)\n\nnp.dot(np.array([1,2,3]),\n       np.array([4,5,6]))\n\nnp.int64(32)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#broadcasting",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#broadcasting",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Broadcasting",
+    "text": "Broadcasting\nFor example, adding\n\\([10,20,30]\\)\nto every row of\n\\(\\begin{bmatrix}\n1&2&3\\\\\n4&5&6\n\\end{bmatrix}\\)\ndoes not require a loop.\n\nQuestion 24\nAdd the vector [10, 20, 30] to every row of the matrix.\n\n[10,10] +10\n\n\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\n/tmp/ipykernel_840/456880799.py in &lt;cell line: 0&gt;()\n----&gt; 1 [10,10] +10\n\nTypeError: can only concatenate list (not \"int\") to list\n\n\n\n\nnp.array([10,10]) +10\n\narray([20, 20])\n\n\n\nA + np.array([10,20,30,40])\n\narray([[11, 22, 33, 44],\n       [15, 26, 37, 48],\n       [19, 30, 41, 52]])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#exponential-and-natural-logarithm",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#exponential-and-natural-logarithm",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Exponential and Natural Logarithm",
+    "text": "Exponential and Natural Logarithm\n\nQuestion 25\nEvaluate \\(e^x\\) for \\(x=0,1,2\\).\n\nnp.exp(np.array([0,1,2]))\n\narray([1.        , 2.71828183, 7.3890561 ])\n\n\n\nnp.log(np.array([6,1,2]),10)\n\n\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\n/tmp/ipykernel_840/383732492.py in &lt;cell line: 0&gt;()\n----&gt; 1 np.log(np.array([6,1,2]),10)\n\nTypeError: return arrays must be of ArrayType\n\n\n\n\nnp.log10(np.array([6,1,2]))\n\narray([0.77815125, 0.        , 0.30103   ])\n\n\n\nimport math\n\nmath.log(10,5)\n\n1.4306765580733933\n\n\n\nnp.emath.logn(10,5)\n\nnp.float64(0.6989700043360187)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#trigonometric-functions",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#trigonometric-functions",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Trigonometric Functions",
+    "text": "Trigonometric Functions\n\nQuestion 26\nGenerate five equally spaced angles from \\(0\\) to \\(\\pi\\) and calculate their sine and cosine.\n\nimport numpy as np\n\n\nnp.linspace(0,np.pi,5)\n\narray([0.        , 0.78539816, 1.57079633, 2.35619449, 3.14159265])\n\n\n\nnp.sin(np.linspace(0,np.pi,5))\n\narray([0.00000000e+00, 7.07106781e-01, 1.00000000e+00, 7.07106781e-01,\n       1.22464680e-16])\n\n\n\n\nQuestion 27\nFind the absolute values of\n$ [-4,-2,3,-8]. $\n\nnp.abs(np.array([-1,-2,3]))\n\narray([1, 2, 3])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#location-of-maximum-and-minimum",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#location-of-maximum-and-minimum",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Location of Maximum and Minimum",
+    "text": "Location of Maximum and Minimum\n\nQuestion 28\nFor\n$ A=[15,8,30,22,10], $\nfind:\n\nthe maximum value,\nits index,\nthe minimum value,\nits index.\n\n\nnp.max(np.array([15,8,30,22]))\n\nnp.int64(30)\n\n\n\nnp.argmin(np.array([15,8,30,22]))\n\nnp.int64(1)\n\n\n\nnp.argmax(np.array([15,8]))\n\nnp.int64(0)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#cumulative-sum",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#cumulative-sum",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Cumulative Sum",
+    "text": "Cumulative Sum\n\nQuestion 29\nUse np.cumsum() to calculate the cumulative sum.\n\nnp.cumsum(np.array([1,2,2,3,4]))\n\narray([ 1,  3,  5,  8, 12])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#computation-along-rows-and-columns",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#computation-along-rows-and-columns",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Computation Along Rows and Columns",
+    "text": "Computation Along Rows and Columns\n\nQuestion 30\nFor\n$ A=\n\\[\\begin{bmatrix}\n10&20&30\\\\\n40&50&60\n\\end{bmatrix}\\]\n, $\nfind:\n\nthe sum of each column,\nthe sum of each row,\nthe mean of each column.\n\n\nA = np.array([[10,20,30],[40,50,60]])\n\n\nnp.sum(A)\n\nnp.int64(210)\n\n\n\nnp.sum(A[1:])\n\nnp.int64(150)\n\n\n\nnp.sum(A[2:])\n\nnp.int64(0)\n\n\n\nnp.sum(A, axis=1)\n\narray([ 60, 150])\n\n\n\nnp.mean(A, axis=0)\n\narray([25., 35., 45.])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#boolean-conditions",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#boolean-conditions",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Boolean Conditions",
+    "text": "Boolean Conditions\n\nQuestion 31\nFor\n$ A=[12,5,18,7,25,3], $\ncheck which elements are greater than 10.\n\n14&gt;=3\n\nTrue\n\n\n\nnp.array([12,35,18,7,25])&gt;=10\n\narray([ True,  True,  True, False,  True])\n\n\n\nnp.array([12,35,18,7,25])[np.array([12,35,18,7,25])&gt;=10]\n\narray([12, 35, 18, 25])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#combining-arrays",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#combining-arrays",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Combining Arrays",
+    "text": "Combining Arrays\n\nQuestion 32\nCombine\n$ A=[1,2,3] $\nand\n$ B=[4,5,6]. $\n\n[1,2,3]+[2,3,4]\n\n[1, 2, 3, 2, 3, 4]\n\n\n\nnp.concatenate((np.array([1,2,3]),np.array([2,3,4])))\n\narray([1, 2, 3, 2, 3, 4])\n\n\nSuppose the displacement of an oscillator is\n\\(x(t)=2\\sin(t).\\)\nWe want to evaluate this function at several time points.\n\n\nQuestion 33\nGenerate 9 equally spaced points between (0) and (2), and calculate\n$ x(t)=2(t) $\nwithout using a loop.\n\nt = np.linspace(0,2*np.pi,9)\n\n\nx_t = 2*np.sin(t)\n\n\nx_t\n\narray([ 0.00000000e+00,  1.41421356e+00,  2.00000000e+00,  1.41421356e+00,\n        2.44929360e-16, -1.41421356e+00, -2.00000000e+00, -1.41421356e+00,\n       -4.89858720e-16])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#creating-arrays",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#creating-arrays",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Creating arrays",
+    "text": "Creating arrays\nnp.array(...)\nnp.zeros(...)\nnp.ones(...)\nnp.arange(...)\nnp.linspace(...)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#array-information",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#array-information",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Array information",
+    "text": "Array information\nA.shape\nA.ndim\nA.size\nA.dtype"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#selecting-and-reshaping",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#selecting-and-reshaping",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Selecting and reshaping",
+    "text": "Selecting and reshaping\nA[index]\nA[start:stop]\nA[row, column]\nA.reshape(...)\nA.flatten()\nA.T"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#arithmetic-and-linear-algebra",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#arithmetic-and-linear-algebra",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Arithmetic and linear algebra",
+    "text": "Arithmetic and linear algebra\nA + B\nA - B\nA * B\nA / B\nA @ B\nnp.dot(A, B)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#mathematical-functions",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#mathematical-functions",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Mathematical functions",
+    "text": "Mathematical functions\nnp.sqrt(A)\nnp.exp(A)\nnp.log(A)\nnp.sin(A)\nnp.cos(A)\nnp.tan(A)\nnp.abs(A)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#statistical-functions",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#statistical-functions",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Statistical functions",
+    "text": "Statistical functions\nnp.sum(A)\nnp.mean(A)\nnp.median(A)\nnp.std(A)\nnp.var(A)\nnp.max(A)\nnp.min(A)\nnp.argmax(A)\nnp.argmin(A)\nnp.cumsum(A)"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#filtering",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#filtering",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Filtering",
+    "text": "Filtering\nA[A &gt; value]"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#question-1---number-analysis",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#question-1---number-analysis",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Question 1 - Number Analysis",
+    "text": "Question 1 - Number Analysis\nWrite a Python program that accepts a positive integer and finds:\n\nthe number of digits,\nthe sum of its digits,\nthe largest digit,\nthe smallest digit.\n\nExample\nInput: 58327\n\nNumber of digits = 5\nSum of digits = 25\nLargest digit = 8\nSmallest digit = 2\n\ninp = input(\"give num\")\n\ngive num16354\n\n\n\ntype(inp)\n\nstr\n\n\n\nlist(inp)\n\n['1', '6', '3', '5', '4']\n\n\n\ninp\n\n'16354'\n\n\n\n[int(inp)]\n\n[16354]\n\n\n\nnp.array(list(inp))\n\narray(['1', '6', '3', '5', '4'], dtype='&lt;U1')\n\n\n\nnp.array(list(inp),dtype =int)\n\narray([1, 6, 3, 5, 4])"
+  },
+  {
+    "objectID": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#question-7-1",
+    "href": "courses/CPDS/class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.html#question-7-1",
+    "title": "CPDS in Python Lab - Introduction to Packages and NumPy",
+    "section": "Question 7",
+    "text": "Question 7\nWrite a function\nprime_numbers(numbers)\nthat accepts a list of integers and returns a new list containing only the prime numbers.\nExample\nInput:\n[4, 7, 10, 13, 18, 23, 1]\n\nOutput:\n[7, 13, 23]\n\nnums_list = [4,7,10,13,18,23,1]\n\n\nnums_array = np.array(nums_list)\n\n\nnums_array\n\narray([ 4,  7, 10, 13, 18, 23,  1])\n\n\n\nis_prime = lambda n: n&gt;1 and all(n%i!=0 for i in range(2,n))\n\n\nnp.array([10])%np.array([1,2,34])\n\narray([ 0,  0, 10])\n\n\n\n[10]%[1,2,33]\n\n\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\n/tmp/ipykernel_1350/4267519414.py in &lt;cell line: 0&gt;()\n----&gt; 1 [10]%[1,2,33]\n\nTypeError: unsupported operand type(s) for %: 'list' and 'list'\n\n\n\n\nis_prime = lambda n: n&gt;1 and all(n%(np.arange(2,n,1))!=0)\n\n\nis_prime(20)\n\nFalse\n\n\n\ndef prime_list(numbers):\n  dummy_list = []\n  for i in range(len(numbers)):\n    if is_prime(numbers[i]):\n      dummy_list.append(numbers[i])\n  return dummy_list\n\n\nnums_array[np.vectorize(is_prime)(nums_array)]\n\narray([ 7, 13, 23])"
   }
 ]
