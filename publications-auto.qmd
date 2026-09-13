@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">454</div>
+    <div class="metric-number">456</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -311,7 +311,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2024.01.017" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 27</span>
+      <span class="citation-button citation-disabled">Cited by 28</span>
     </div>
   </div>
 </div>
@@ -425,7 +425,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s11071-024-09411-3" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 9</span>
+      <span class="citation-button citation-disabled">Cited by 10</span>
     </div>
   </div>
 </div>
