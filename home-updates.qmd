@@ -11,6 +11,29 @@
     </div>
 
     <div class="research-update-title">
+      <a href="https://doi.org/10.1007/s42967-025-00548-5" target="_blank" rel="noopener noreferrer">Controllability of Time-Varying Stochastic Fractional Dynamical Systems with Distributed Delays in Control</a>
+    </div>
+
+    <div class="research-update-journal">
+      Communications on Applied Mathematics and Computation
+    </div>
+
+    <div class="research-update-citations">
+      0 citations
+    </div>
+  </div>
+</div>
+
+
+<div class="research-update">
+  <div class="research-update-year">2026</div>
+
+  <div class="research-update-content">
+    <div class="research-update-label">
+      PUBLICATION
+    </div>
+
+    <div class="research-update-title">
       <a href="https://doi.org/10.1142/S0218348X26400025" target="_blank" rel="noopener noreferrer">CONTROLLABILITY OF THE TIME-VARYING FRACTIONAL DYNAMICAL SYSTEMS HAVING MULTIPLE DELYAS IN CONTROL WITH CAPUTO FRACTIONAL DERIVATIVE</a>
     </div>
 
@@ -19,7 +42,7 @@
     </div>
 
     <div class="research-update-citations">
-      1 citations
+      0 citations
     </div>
   </div>
 </div>
@@ -39,29 +62,6 @@
 
     <div class="research-update-journal">
       Mathematics and Computers in Simulation
-    </div>
-
-    <div class="research-update-citations">
-      1 citations
-    </div>
-  </div>
-</div>
-
-
-<div class="research-update">
-  <div class="research-update-year">2026</div>
-
-  <div class="research-update-content">
-    <div class="research-update-label">
-      PUBLICATION
-    </div>
-
-    <div class="research-update-title">
-      <a href="https://doi.org/10.1007/s42967-025-00548-5" target="_blank" rel="noopener noreferrer">Controllability of Time-Varying Stochastic Fractional Dynamical Systems with Distributed Delays in Control</a>
-    </div>
-
-    <div class="research-update-journal">
-      Communications on Applied Mathematics and Computation
     </div>
 
     <div class="research-update-citations">
