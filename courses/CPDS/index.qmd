@@ -32,6 +32,7 @@ description-meta: "CPDS with Python - Course Materials"
 | Class 7 | [View Class 7 Notebook](class_codes/class_7.ipynb) | [⬇️ Download](class_codes/class_7.ipynb) |
 | Class 8 | [View Class 8 Notebook](class_codes/class_8.ipynb) | [⬇️ Download](class_codes/class_8.ipynb) |
 | Class 9,10,11 | [View Class 9,10,11 Notebook](class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.ipynb) | [⬇️ Download](class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.ipynb) |
+| Class 12,13 | [View Class 12,13 Matplotlib Notebook](class_codes/Class_12_13_Matplotlib.ipynb) | [Download](class_codes/Class_12_13_Matplotlib.ipynb) |
 
 ## Lab Classes
 
@@ -40,6 +41,7 @@ description-meta: "CPDS with Python - Course Materials"
 | Lab Class 1 | [View Lab Class 1 Notebook](class_codes/Lab-Class-1.ipynb) | [⬇️ Download](class_codes/Lab-Class-1.ipynb) |
 | Lab Class 2 | [View Lab Class 2 Notebook](class_codes/Lab_Class_2.ipynb) | [⬇️ Download](class_codes/Lab_Class_2.ipynb) |
 | Lab Class 3 | [View Lab Class 3 Notebook](class_codes/Lab_Class_3.ipynb) | [⬇️ Download](class_codes/Lab_Class_3.ipynb) |
+| Lab Class 4 | [View Lab Class 4 Notebook](class_codes/Lab_Class_4.ipynb) | [Download](class_codes/Lab_Class_4.ipynb) |
 
 ## Assignments
 
