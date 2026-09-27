@@ -51,5 +51,5 @@ description-meta: "CPDS with Python - Course Materials"
 
 | Material | Link |
 |---|---|
-| Assignment | [📄 View Assignment PDF](assignments/Assignment 1.pdf){target="_blank"} |
+| Assignment | [📄 View Assignment PDF](assignments/Assignment 1 Updated.pdf){target="_blank"} |
 | Submission | [📝 Submit Assignment](https://docs.google.com/forms/d/e/1FAIpQLSc_j7nZlB5qqT6jBQUFhxRUqn7pOHTs5quTWjdNvL-MWmCdSw/viewform?usp=publish-editor){target="_blank"} |
