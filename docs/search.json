@@ -1008,9 +1008,36 @@
     "text": "Course Code: MA17029, MA1514\nAcademic Year: 2026–2027\nDepartment: Mathematics\nInstitution: National Institute of Technology Warangal"
   },
   {
+<<<<<<< HEAD
     "objectID": "courses/dynamical-systems/index.html#course-materials",
     "href": "courses/dynamical-systems/index.html#course-materials",
     "title": "Dynamical Systems",
+=======
+    "objectID": "courses/CPDS/index.html#lab-classes",
+    "href": "courses/CPDS/index.html#lab-classes",
+    "title": "CPDS with Python",
+    "section": "Lab Classes",
+    "text": "Lab Classes\n\n\n\nClass\nMaterial\nDownload\n\n\n\n\nLab Class 1\nView Lab Class 1 Notebook\n⬇️ Download\n\n\nLab Class 2\nView Lab Class 2 Notebook\n⬇️ Download\n\n\nLab Class 3\nView Lab Class 3 Notebook\n⬇️ Download\n\n\nLab Class 4\nView Lab Class 4 Notebook\n⬇️ Download"
+  },
+  {
+    "objectID": "courses/CPDS/index.html#assignments",
+    "href": "courses/CPDS/index.html#assignments",
+    "title": "CPDS with Python",
+    "section": "Assignments",
+    "text": "Assignments\n\nAssignment I\n\n\n\nMaterial\nLink\n\n\n\n\nAssignment\n📄 View Assignment PDF\n\n\nSubmission\n📝 Submit Assignment"
+  },
+  {
+    "objectID": "courses/Linear-algebra-Calculus-ODE/index.html",
+    "href": "courses/Linear-algebra-Calculus-ODE/index.html",
+    "title": "Linear Algebra, Calculus and Differential Equations",
+    "section": "",
+    "text": "Course Code: MA1161\nAcademic Year: 2026–2027\nDepartment: Mathematics\nInstitution: National Institute of Technology Warangal"
+  },
+  {
+    "objectID": "courses/Linear-algebra-Calculus-ODE/index.html#course-materials",
+    "href": "courses/Linear-algebra-Calculus-ODE/index.html#course-materials",
+    "title": "Linear Algebra, Calculus and Differential Equations",
+>>>>>>> 8757e3a (Update CPDS course page and assignments)
     "section": "Course Materials",
     "text": "Course Materials\n\nLecture Notes\n\n\n\nMaterial\nLink\n\n\n\n\nLecture Notes\n📄 View Notes PDF"
   },

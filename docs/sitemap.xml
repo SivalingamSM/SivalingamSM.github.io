@@ -6,7 +6,63 @@
   </url>
   <url>
     <loc>https://sivalingamsm.github.io/about.html</loc>
+<<<<<<< HEAD
     <lastmod>2026-09-27T07:30:02.070Z</lastmod>
+=======
+    <lastmod>2026-07-12T04:26:02.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/contact.html</loc>
+    <lastmod>2026-07-11T13:36:30.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/class_codes/class 2.html</loc>
+    <lastmod>2026-08-28T16:08:26.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/class_codes/Class_12_13_Matplotlib.html</loc>
+    <lastmod>2026-09-22T11:28:08.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/class_codes/class_4.html</loc>
+    <lastmod>2026-08-31T09:53:12.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/class_codes/class_6.html</loc>
+    <lastmod>2026-09-04T07:27:48.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/class_codes/class_8.html</loc>
+    <lastmod>2026-09-07T06:08:41.555Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/class_codes/Lab-Class-1.html</loc>
+    <lastmod>2026-08-31T09:53:12.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/class_codes/Lab_Class_3.html</loc>
+    <lastmod>2026-09-09T15:59:04.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/CPDS/index.html</loc>
+    <lastmod>2026-09-27T08:14:35.885Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/courses/Linear-algebra-Calculus-ODE/index.html</loc>
+    <lastmod>2026-08-25T05:16:52.025Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/index.html</loc>
+    <lastmod>2026-09-04T08:00:24.931Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/people.html</loc>
+    <lastmod>2026-07-09T13:22:41.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sivalingamsm.github.io/projects.html</loc>
+    <lastmod>2026-07-11T13:36:30.410Z</lastmod>
+>>>>>>> 8757e3a (Update CPDS course page and assignments)
   </url>
   <url>
     <loc>https://sivalingamsm.github.io/publications.html</loc>
