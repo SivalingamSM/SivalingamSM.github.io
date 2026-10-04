@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">461</div>
+    <div class="metric-number">462</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -387,7 +387,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00009-024-02615-2" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 14</span>
+      <span class="citation-button citation-disabled">Cited by 15</span>
     </div>
   </div>
 </div>
