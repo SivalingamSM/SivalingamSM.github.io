@@ -57,11 +57,11 @@
     </div>
 
     <div class="research-update-title">
-      <a href="https://doi.org/10.1007/s42967-025-00548-5" target="_blank" rel="noopener noreferrer">Controllability of Time-Varying Stochastic Fractional Dynamical Systems with Distributed Delays in Control</a>
+      <a href="https://doi.org/10.1007/s40435-026-02333-5" target="_blank" rel="noopener noreferrer">Reachability analysis of fractional-order dynamical systems with various types of delays in the control</a>
     </div>
 
     <div class="research-update-journal">
-      Communications on Applied Mathematics and Computation
+      International Journal of Dynamics and Control
     </div>
 
     <div class="research-update-citations">
