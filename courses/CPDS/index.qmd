@@ -34,6 +34,7 @@ description-meta: "CPDS with Python - Course Materials"
 | Class 9,10,11 | [View Class 9,10,11 Numpy Notebook](class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.ipynb) | [⬇️ Download](class_codes/Class_9_10_11_Introduction_to_Packages_and_NumPy.ipynb) |
 | Class 12,13 | [View Class 12,13 Matplotlib Notebook](class_codes/Class_12_13_Matplotlib.ipynb) | [⬇️ Download](class_codes/Class_12_13_Matplotlib.ipynb) |
 | Class 14,15 | [View Class 14,15 Pandas Notebook](class_codes/Class_14,_15_Pandas.ipynb) | [⬇️ Download](class_codes/Class_14,_15_Pandas.ipynb) |
+| Class 15,16,17,18 | [View Class 14,15 Pandas Notebook](class_codes/Class_15,16,17,18_UCI_Air_Quality.ipynb) | [⬇️ Download](class_codes/Class_15,16,17,18_UCI_Air_Quality.ipynb) |
 
 
 ## Lab Classes
