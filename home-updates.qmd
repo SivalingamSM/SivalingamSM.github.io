@@ -19,7 +19,7 @@
     </div>
 
     <div class="research-update-citations">
-      1 citations
+      2 citations
     </div>
   </div>
 </div>

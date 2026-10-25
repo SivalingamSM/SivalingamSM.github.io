@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">461</div>
+    <div class="metric-number">467</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -41,7 +41,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1142/S0218348X26400025" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 1</span>
+      <span class="citation-button citation-disabled">Cited by 2</span>
     </div>
   </div>
 </div>
@@ -221,27 +221,8 @@
 ```
 
 ```{=html}
-<div class="publication-card" data-search="spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems sivalingam, s m venkatesan govindaraj ahmed s. hendy arxiv (cornell university) 2025">
-  <div class="publication-index">22</div>
-
-  <div class="publication-content">
-    <div class="publication-title">Spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems</div>
-
-    <div class="publication-authors"><strong class="my-name">Sivalingam, S M</strong>, Venkatesan Govindaraj, and Ahmed S. Hendy</div>
-
-    <div class="publication-journal"><em>arXiv (Cornell University)</em> (2025)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.48550/arXiv.2503.22386" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 0</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
 <div class="publication-card" data-search="reachability of time‐varying fractional dynamical systems with prescribed control p. karthiga s. m. sivalingam v. govindaraj asian journal of control 2025">
-  <div class="publication-index">21</div>
+  <div class="publication-index">22</div>
 
   <div class="publication-content">
     <div class="publication-title">Reachability of time‐varying fractional dynamical systems with prescribed control</div>
@@ -252,6 +233,25 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1002/asjc.3589" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 1</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems sivalingam, s m venkatesan govindaraj ahmed s. hendy arxiv (cornell university) 2025">
+  <div class="publication-index">21</div>
+
+  <div class="publication-content">
+    <div class="publication-title">Spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems</div>
+
+    <div class="publication-authors"><strong class="my-name">Sivalingam, S M</strong>, Venkatesan Govindaraj, and Ahmed S. Hendy</div>
+
+    <div class="publication-journal"><em>arXiv (Cornell University)</em> (2025)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.48550/arXiv.2503.22386" target="_blank" rel="noopener noreferrer">DOI</a>
       <span class="citation-button citation-disabled">Cited by 0</span>
     </div>
   </div>
@@ -330,7 +330,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2024.01.017" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 30</span>
+      <span class="citation-button citation-disabled">Cited by 32</span>
     </div>
   </div>
 </div>
@@ -482,7 +482,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1088/1402-4896/ad4318" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 5</span>
+      <span class="citation-button citation-disabled">Cited by 6</span>
     </div>
   </div>
 </div>
@@ -501,7 +501,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1080/16583655.2024.2399378" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 3</span>
+      <span class="citation-button citation-disabled">Cited by 4</span>
     </div>
   </div>
 </div>
