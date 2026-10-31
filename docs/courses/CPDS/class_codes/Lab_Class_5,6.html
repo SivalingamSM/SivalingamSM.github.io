@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sivalingam S M">
+<meta name="description" content="<p>Sivalingam S M is an Assistant Professor of Mathematics at the National Institute of Technology Warangal. His research focuses on Scientific Machine Learning, Dynamical Systems, Control Theory, Neural Differential Equations, Fractional Calculus, and Scientific Computing.</p>">
+
+<title>Assignment – Sivalingam S M | NIT Warangal</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/profile.jpg" rel="icon" type="image/jpeg">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-781ad483176c2c5dd9a4bf0c685e31aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<!-- 
+
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+
+-->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+<!---
+
+The following code are needed to show dimension citation and altmetrics.
+
+https://api.altmetric.com/embeds.html
+
+https://badge.dimensions.ai/
+
+--->
+
+
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+
+
+<!-- ========================================================= -->
+
+<!-- SEO: Sivalingam S M -->
+
+<!-- ========================================================= -->
+
+
+
+<script type="application/ld+json">
+
+{
+
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+
+  "name": "Sivalingam S M",
+
+  "url": "https://sivalingamsm.github.io/",
+
+  "image": "https://sivalingamsm.github.io/images/profile.jpg",
+
+  "jobTitle": "Assistant Professor",
+
+  "affiliation": {
+
+    "@type": "CollegeOrUniversity",
+
+    "name": "National Institute of Technology Warangal",
+
+    "alternateName": "NIT Warangal",
+
+    "url": "https://www.nitw.ac.in/"
+
+  },
+
+  "worksFor": {
+
+    "@type": "CollegeOrUniversity",
+
+    "name": "National Institute of Technology Warangal",
+
+    "alternateName": "NIT Warangal",
+
+    "url": "https://www.nitw.ac.in/"
+
+  },
+
+  "sameAs": [
+
+    "https://github.com/SivalingamSM",
+
+    "https://scholar.google.com/citations?user=ezCkT1QAAAAJ",
+
+    "https://orcid.org/0000-0003-0818-9007",
+
+    "https://www.researchgate.net/profile/Sivalingam-S-M",
+
+    "https://linkedin.com/in/sivalingam-s-m-52078a200",
+
+    "https://erp.nitw.ac.in/ext/profile/ma-sivalingamsm"
+
+  ],
+
+  "knowsAbout": [
+
+    "Scientific Machine Learning",
+
+    "Dynamical Systems",
+
+    "Control Theory",
+
+    "Neural Differential Equations",
+
+    "Fractional Differential Equations",
+
+    "Scientific Computing"
+
+  ]
+
+}
+
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Assignment – Sivalingam S M | NIT Warangal">
+<meta property="og:description" content="Assistant Professor of Mathematics at the National Institute of Technology Warangal. Research in Scientific Machine Learning, Dynamical Systems, Control Theory, and Neural Differential Equations.">
+<meta property="og:image" content="https://sivalingamsm.github.io/courses/CPDS/class_codes/Lab_Class_5,6_files/figure-html/cell-43-output-1.png">
+<meta property="og:site_name" content="Sivalingam S M | NIT Warangal">
+<meta property="og:image:height" content="413">
+<meta property="og:image:width" content="543">
+<meta name="twitter:title" content="Assignment – Sivalingam S M | NIT Warangal">
+<meta name="twitter:description" content="Assistant Professor of Mathematics at the National Institute of Technology Warangal. Research in Scientific Machine Learning, Dynamical Systems, Control Theory, and Neural Differential Equations.">
+<meta name="twitter:image" content="https://sivalingamsm.github.io/courses/CPDS/class_codes/Lab_Class_5,6_files/figure-html/cell-43-output-1.png">
+<meta name="twitter:image-height" content="413">
+<meta name="twitter:image-width" content="543">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Sivalingam S M | NIT Warangal</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../projects.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../oppurtunity.html"> 
+<span class="menu-text">Opportunities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../files/Sivalingam_CV.pdf" target="_blank"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=ezCkT1QAAAAJ&amp;hl=en" target="_blank"> 
+<span class="menu-text">Scholar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0003-0818-9007" target="_blank"> 
+<span class="menu-text">ORCID</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Sivalingam-S-M" target="_blank"> 
+<span class="menu-text">RG</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Assignment</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Consider</p>
+<p><span class="math display">\[
+f(x)=
+\begin{cases}
+-x, &amp; x&lt;0,\\
+x^2, &amp; x\geq0.
+\end{cases}
+\]</span></p>
+<ol type="1">
+<li>Generate 101 points between (-5) and (5).</li>
+<li>Calculate (f(x)) using a loop and <code>if-else</code>.</li>
+<li>Plot the function.</li>
+<li>Add labels, title and grid.</li>
+</ol>
+<section id="assignment" class="level1">
+<h1>Assignment</h1>
+<p>Given:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>actual <span class="op">=</span> [<span class="fl">4.0</span>, <span class="fl">6.2</span>, <span class="fl">7.8</span>, <span class="fl">10.4</span>, <span class="fl">12.1</span>]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>predicted <span class="op">=</span> [<span class="fl">3.8</span>, <span class="fl">6.0</span>, <span class="fl">8.2</span>, <span class="fl">10.0</span>, <span class="fl">12.5</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol type="1">
+<li>Plot actual observations using scatter.</li>
+<li>Plot predictions using a line.</li>
+<li>Calculate the absolute error at every point.</li>
+<li>Find the largest error.</li>
+<li>Mark the corresponding point on the graph.</li>
+<li>Plot the residuals separately.</li>
+</ol>
+</section>
+<section id="assignment-1" class="level1">
+<h1>Assignment</h1>
+<p>Compare</p>
+<p><span class="math display">\[
+e^x
+\]</span></p>
+<p>with its approximation</p>
+<p><span class="math display">\[
+1+x+\frac{x^2}{2}.
+\]</span></p>
+<p>For</p>
+<p><span class="math display">\[
+-1\leq x\leq1,
+\]</span></p>
+<ol type="1">
+<li>plot the exact function,</li>
+<li>plot the approximation,</li>
+<li>calculate the absolute error,</li>
+<li>plot the error</li>
+</ol>
+</section>
+<section id="assignment-2" class="level1">
+<h1>Assignment</h1>
+<p>Consider</p>
+<p><span class="math display">\[
+x_{n+1}=0.6x_n+4,
+\qquad
+x_0=0.
+\]</span></p>
+<ol type="1">
+<li>Generate 30 terms using a loop.</li>
+<li>Plot (x_n) against (n).</li>
+<li>Find the value toward which the sequence appears to converge.</li>
+<li>Solve</li>
+</ol>
+<p><span class="math display">\[
+x=0.6x+4
+\]</span></p>
+<p>and compare with the graph. 5. Repeat using (x_0=20).</p>
+</section>
+<section id="assignment-3" class="level1">
+<h1>Assignment</h1>
+<p>Given:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>time <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>actual <span class="op">=</span> [<span class="fl">1.0</span>, <span class="fl">2.4</span>, <span class="fl">4.1</span>, <span class="fl">6.3</span>, <span class="fl">9.2</span>, <span class="fl">12.6</span>, <span class="fl">16.5</span>, <span class="fl">21.1</span>]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> [<span class="fl">1.2</span>, <span class="fl">2.5</span>, <span class="fl">4.0</span>, <span class="fl">6.5</span>, <span class="fl">9.0</span>, <span class="fl">12.5</span>, <span class="fl">16.8</span>, <span class="fl">20.7</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Create one complete visualization that contains:</p>
+<ol type="1">
+<li>actual values as scatter points,</li>
+<li>predictions as a line,</li>
+<li>appropriate axis labels,</li>
+<li>a title,</li>
+<li>a legend,</li>
+<li>grid lines.</li>
+</ol>
+<p>Then calculate</p>
+<p><span class="math display">\[
+e_i=y_i-\hat y_i
+\]</span></p>
+<section id="question-8" class="level2">
+<h2 class="anchored" data-anchor-id="question-8">Question 8</h2>
+<p>Write a function that accepts a sentence and returns all the palindrome words appearing in it.</p>
+<p>The comparison should be case-insensitive.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+Madam teaches level and radar concepts
+
+Output:
+['Madam', 'level', 'radar']</code></pre>
+</section>
+<section id="question-9" class="level2">
+<h2 class="anchored" data-anchor-id="question-9">Question 9</h2>
+<p>Given two lists,</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">5</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>find the elements common to both lists <strong>together with the minimum number of times each element occurs in both lists</strong>.</p>
+<p>result:</p>
+<pre class="text"><code>2 occurs commonly 2 times
+3 occurs commonly 1 time
+5 occurs commonly 1 time</code></pre>
+</section>
+<section id="question-10" class="level2">
+<h2 class="anchored" data-anchor-id="question-10">Question 10</h2>
+<p>Given a list of integers, find the longest consecutive increasing part of the list.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+[8, 2, 3, 5, 7, 1, 4, 6, 9, 10, 2]
+
+Output:
+[1, 4, 6, 9, 10]</code></pre>
+<p>Here consecutive means the elements must occur next to each other in the original list.</p>
+</section>
+<section id="question-11" class="level2">
+<h2 class="anchored" data-anchor-id="question-11">Question 11</h2>
+<p>Length encoding - A simple method of compressing repeated characters is to store each character together with the number of consecutive times it occurs.</p>
+<p>Write a Python program to perform this operation.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+aaabbccccdaa
+
+Output:
+a3b2c4d1a2</code></pre>
+</section>
+<section id="question-12" class="level2">
+<h2 class="anchored" data-anchor-id="question-12">Question 12</h2>
+<p>A matrix can be represented using a list of lists:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> [</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>],</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>],</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">9</span>]</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Write a program to:</p>
+<ol type="1">
+<li>find the sum of each row,</li>
+<li>find the sum of each column,</li>
+<li>find the sum of the main diagonal,</li>
+<li>find the sum of the secondary diagonal.</li>
+</ol>
+</section>
+<section id="question-13" class="level2">
+<h2 class="anchored" data-anchor-id="question-13">Question 13</h2>
+<p>Write a recursive function that calculates the sum of the digits of an integer.</p>
+<p>Loops are not allowed for this question.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input: 58327
+Output: 25</code></pre>
+</section>
+<section id="question-14" class="level2">
+<h2 class="anchored" data-anchor-id="question-14">Question 14</h2>
+<p>Write a recursive function</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>is_palindrome(text)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>that returns <code>True</code> if the given string is a palindrome and <code>False</code> otherwise.</p>
+<p>For this question:</p>
+<ul>
+<li>do not use loops,</li>
+<li>do not use <code>[::-1]</code>.</li>
+</ul>
+</section>
+<section id="question-15" class="level2">
+<h2 class="anchored" data-anchor-id="question-15">Question 15</h2>
+<p>Student information is given as:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>students <span class="op">=</span> {</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S01"</span>: [<span class="st">"Anu"</span>, <span class="dv">78</span>, <span class="dv">82</span>, <span class="dv">91</span>],</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S02"</span>: [<span class="st">"Ravi"</span>, <span class="dv">92</span>, <span class="dv">88</span>, <span class="dv">79</span>],</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S03"</span>: [<span class="st">"Meena"</span>, <span class="dv">65</span>, <span class="dv">72</span>, <span class="dv">68</span>],</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S04"</span>: [<span class="st">"Arun"</span>, <span class="dv">92</span>, <span class="dv">95</span>, <span class="dv">94</span>],</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S05"</span>: [<span class="st">"Kiran"</span>, <span class="dv">55</span>, <span class="dv">61</span>, <span class="dv">58</span>]</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Write a program that produces a result for every student containing:</p>
+<ul>
+<li>Name</li>
+<li>Total</li>
+<li>Average</li>
+<li>Result</li>
+</ul>
+<p>A student passes only if the mark in <strong>every subject is at least 40</strong>.</p>
+<p>Then determine:</p>
+<ol type="1">
+<li>the student with the highest total,</li>
+<li>the class average,</li>
+<li>all students whose average is greater than the class average,</li>
+<li>the number of students who passed,</li>
+<li>the number of students who failed.</li>
+</ol>
+<div id="cell-26" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>students <span class="op">=</span> {</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S01"</span>: [<span class="st">"Anu"</span>, <span class="dv">78</span>, <span class="dv">82</span>, <span class="dv">91</span>],</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S02"</span>: [<span class="st">"Ravi"</span>, <span class="dv">92</span>, <span class="dv">88</span>, <span class="dv">79</span>],</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S03"</span>: [<span class="st">"Meena"</span>, <span class="dv">65</span>, <span class="dv">72</span>, <span class="dv">68</span>],</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S04"</span>: [<span class="st">"Arun"</span>, <span class="dv">92</span>, <span class="dv">95</span>, <span class="dv">94</span>],</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"S05"</span>: [<span class="st">"Kiran"</span>, <span class="dv">55</span>, <span class="dv">61</span>, <span class="dv">58</span>]</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> {}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="question-16" class="level2">
+<h2 class="anchored" data-anchor-id="question-16">Question 16</h2>
+<p>Given a sentence, find the longest word that contains no repeated character.</p>
+<p>If more than one word has the same maximum length, print all of them.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+python programming code
+
+Output:
+python</code></pre>
+</section>
+<section id="question-17" class="level2">
+<h2 class="anchored" data-anchor-id="question-17">Question 17</h2>
+<p>Write a function that rotates a list to the right by <code>k</code> positions.</p>
+<p>The program should work even when <code>k</code> is larger than the length of the list.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+[1, 2, 3, 4, 5]
+k = 2
+
+Output:
+[4, 5, 1, 2, 3]</code></pre>
+</section>
+<section id="question-18" class="level2">
+<h2 class="anchored" data-anchor-id="question-18">Question 18</h2>
+<p>Given a list and a target value, find all distinct pairs whose sum equals the target.</p>
+<p>Do not print the same pair twice.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+[2, 7, 4, 5, 1, 3, 6]
+Target = 8
+
+Output:
+(1, 7)
+(2, 6)
+(3, 5)</code></pre>
+</section>
+<section id="question-19" class="level2">
+<h2 class="anchored" data-anchor-id="question-19">Question 19</h2>
+<p>Two dictionaries store item quantities.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> {<span class="st">"pen"</span>: <span class="dv">10</span>, <span class="st">"book"</span>: <span class="dv">5</span>, <span class="st">"pencil"</span>: <span class="dv">8</span>}</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> {<span class="st">"book"</span>: <span class="dv">7</span>, <span class="st">"eraser"</span>: <span class="dv">4</span>, <span class="st">"pen"</span>: <span class="dv">3</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Create a new dictionary where quantities of common items are added.</p>
+<p>output:</p>
+<pre class="text"><code>{
+    "pen": 13,
+    "book": 12,
+    "pencil": 8,
+    "eraser": 4
+}</code></pre>
+</section>
+<section id="question-20" class="level2">
+<h2 class="anchored" data-anchor-id="question-20">Question 20</h2>
+<p>Given a list containing positive and negative integers, find the consecutive part of the list whose sum is maximum.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+[-2, 3, -1, 5, -6, 4, 2]
+
+Output:
+[3, -1, 5]
+
+Maximum sum = 7</code></pre>
+</section>
+<section id="question-21" class="level2">
+<h2 class="anchored" data-anchor-id="question-21">Question 21</h2>
+<p>Write a function that checks whether parentheses in an expression are balanced.</p>
+<p>For this question, consider only <code>(</code> and <code>)</code>.</p>
+<p><strong>Examples</strong></p>
+<pre class="text"><code>Input:
+(a+b)*(c-d)
+
+Output:
+Balanced</code></pre>
+<pre class="text"><code>Input:
+((a+b)*(c-d)
+
+Output:
+Not balanced</code></pre>
+</section>
+<section id="question-22" class="level2">
+<h2 class="anchored" data-anchor-id="question-22">Question 22</h2>
+<p>Write a recursive function that converts a positive decimal integer into binary.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+13
+
+Output:
+1101</code></pre>
+</section>
+<section id="question-23---student-ranking-system" class="level2">
+<h2 class="anchored" data-anchor-id="question-23---student-ranking-system">Question 23 - Student Ranking System</h2>
+<p>Using student marks, rank students based on total marks.</p>
+<p>If two students have the same total, they should receive the same rank.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Anu     250     Rank 2
+Ravi    275     Rank 1
+Meena   250     Rank 2
+Kiran   220     Rank 4</code></pre>
+</section>
+<section id="question-24" class="level2">
+<h2 class="anchored" data-anchor-id="question-24">Question 24</h2>
+<p>Given a list of words, group words that are anagrams of one another.</p>
+<p><strong>Example</strong></p>
+<pre class="text"><code>Input:
+["listen", "silent", "cat", "act", "tea", "eat"]
+
+Output:
+["listen", "silent"]
+["cat", "act"]
+["tea", "eat"]</code></pre>
+</section>
+<section id="question-25---spiral-traversal-of-a-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="question-25---spiral-traversal-of-a-matrix">Question 25 - Spiral Traversal of a Matrix</h2>
+<p>Given a matrix,</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> [</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>],</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>],</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">9</span>]</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>print its elements in spiral order.</p>
+<p>Expected output:</p>
+<pre class="text"><code>1 2 3 6 9 8 7 4 5</code></pre>
+</section>
+<section id="question-26---simple-text-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="question-26---simple-text-data-analysis">Question 26 - Simple Text Data Analysis</h2>
+<p>Given a paragraph, write a program that determines:</p>
+<ol type="1">
+<li>number of words,</li>
+<li>number of unique words,</li>
+<li>most frequent word,</li>
+<li>longest word,</li>
+<li>average word length,</li>
+<li>all words occurring more than once.</li>
+</ol>
+<p>Ignore differences between uppercase and lowercase.</p>
+</section>
+<section id="question-19-1" class="level2">
+<h2 class="anchored" data-anchor-id="question-19-1">Question 19</h2>
+<p>Given a matrix represented using a list of lists, find all elements that are:</p>
+<ul>
+<li>the smallest in their row, and</li>
+<li>the largest in their column.</li>
+</ul>
+<p>Such an element is called a <strong>matrix saddle point</strong>.</p>
+<p>Example matrix:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> [</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">3</span>, <span class="dv">8</span>, <span class="dv">7</span>],</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">5</span>, <span class="dv">9</span>, <span class="dv">6</span>],</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">1</span>]</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="plotting-a-family-of-curves-using-a-loop" class="level2">
+<h2 class="anchored" data-anchor-id="plotting-a-family-of-curves-using-a-loop">19. Plotting a Family of Curves Using a Loop</h2>
+<p>Instead of writing many separate <code>plt.plot()</code> statements, a loop can be used to generate a family of related curves.</p>
+<section id="question-23" class="level3">
+<h3 class="anchored" data-anchor-id="question-23">Question 23</h3>
+<p>Plot</p>
+<p><span class="math display">\[
+y=ax^2
+\]</span></p>
+<p>for</p>
+<p><span class="math display">\[
+a=1,2,3,4
+\]</span></p>
+<p>on the same graph.</p>
+<p>Use a <code>for</code> loop rather than writing four separate <code>plt.plot()</code> statements.</p>
+<p>Add a legend and grid.</p>
+</section>
+</section>
+<section id="plotting-a-piecewise-function" class="level2">
+<h2 class="anchored" data-anchor-id="plotting-a-piecewise-function">20. Plotting a Piecewise Function</h2>
+<p>Python conditions can be combined with visualization.</p>
+<p>Consider</p>
+<p><span class="math display">\[
+f(x)=
+\begin{cases}
+x^2, &amp; x&lt;0,\\
+2x+1, &amp; x\geq 0.
+\end{cases}
+\]</span></p>
+<section id="question-24-1" class="level3">
+<h3 class="anchored" data-anchor-id="question-24-1">Question 24</h3>
+<p>Generate values of <span class="math inline">\(x\)</span> between <span class="math inline">\(-5\)</span> and <span class="math inline">\(5\)</span>.</p>
+<p>Using a loop and an <code>if-else</code> statement, calculate the corresponding values of <span class="math inline">\(f(x)\)</span> and plot the function.</p>
+<p>After plotting, answer:</p>
+<ol type="1">
+<li>What is <span class="math inline">\(f(0)\)</span>?</li>
+<li>Does the graph appear continuous at <span class="math inline">\(x=0\)</span>?</li>
+<li>How can visualization help us detect discontinuities?</li>
+</ol>
+</section>
+</section>
+<section id="detecting-values-above-a-threshold" class="level2">
+<h2 class="anchored" data-anchor-id="detecting-values-above-a-threshold">21. Detecting Values Above a Threshold</h2>
+<p>Suppose a temperature sensor gives the following observations.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>time <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>]</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>temperature <span class="op">=</span> [<span class="dv">32</span>, <span class="dv">34</span>, <span class="dv">35</span>, <span class="dv">41</span>, <span class="dv">46</span>, <span class="dv">44</span>, <span class="dv">37</span>, <span class="dv">33</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A temperature above <span class="math inline">\(40^\circ C\)</span> is considered high.</p>
+<section id="question-25" class="level3">
+<h3 class="anchored" data-anchor-id="question-25">Question 25</h3>
+<p>Create a graph that:</p>
+<ol type="1">
+<li>plots temperature against time,</li>
+<li>draws a horizontal threshold at <span class="math inline">\(40^\circ C\)</span>,</li>
+<li>identifies all observations greater than <span class="math inline">\(40^\circ C\)</span>,</li>
+<li>displays those high-temperature observations separately using scatter points,</li>
+<li>adds suitable labels, title, legend and grid.</li>
+</ol>
+<p>The command</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>plt.axhline(y<span class="op">=</span><span class="dv">40</span>, linestyle<span class="op">=</span><span class="st">"--"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>used to draw a horizontal reference line.</p>
+</section>
+</section>
+<section id="find-and-mark-the-maximum-value" class="level2">
+<h2 class="anchored" data-anchor-id="find-and-mark-the-maximum-value">22. Find and Mark the Maximum Value</h2>
+<p>Consider the mathematical function</p>
+<p><span class="math display">\[
+y=-x^2+6x+2.
+\]</span></p>
+<section id="question-26" class="level3">
+<h3 class="anchored" data-anchor-id="question-26">Question 26</h3>
+<p>Generate integer values</p>
+<p><span class="math display">\[
+x=0,1,2,\ldots,6
+\]</span></p>
+<p>and calculate the corresponding (y)-values.</p>
+<p>Plot the function and then:</p>
+<ol type="1">
+<li>find the largest value of (y),</li>
+<li>determine the corresponding (x),</li>
+<li>mark this point separately on the graph,</li>
+<li>print the coordinates of the maximum point.</li>
+</ol>
+</section>
+</section>
+<section id="exact-function-and-approximation" class="level2">
+<h2 class="anchored" data-anchor-id="exact-function-and-approximation">23. Exact Function and Approximation</h2>
+<p>An approximation for <span class="math inline">\(\sin(x)\)</span> is</p>
+<p><span class="math display">\[
+\sin(x)\approx x-\frac{x^3}{6}.
+\]</span></p>
+<section id="question-27" class="level3">
+<h3 class="anchored" data-anchor-id="question-27">Question 27</h3>
+<p>For</p>
+<p><span class="math display">\[
+-2\leq x\leq2,
+\]</span></p>
+<p>plot both</p>
+<p><span class="math display">\[
+y_1=\sin(x)
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+y_2=x-\frac{x^3}{6}.
+\]</span></p>
+<p>Display both curves on the same graph.</p>
+</section>
+</section>
+<section id="visualizing-approximation-error" class="level2">
+<h2 class="anchored" data-anchor-id="visualizing-approximation-error">24. Visualizing Approximation Error</h2>
+<p>Continue Question 27.</p>
+<p>Define the absolute error as</p>
+<p><span class="math display">\[
+E(x)=
+\left|
+\sin(x)-
+\left(x-\frac{x^3}{6}\right)
+\right|.
+\]</span></p>
+<section id="question-28" class="level3">
+<h3 class="anchored" data-anchor-id="question-28">Question 28</h3>
+<p>Calculate and plot the absolute error.</p>
+</section>
+</section>
+<section id="actual-data-and-model-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="actual-data-and-model-prediction">25. Actual Data and Model Prediction</h2>
+<p>Suppose an experiment produces the following observations.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>actual <span class="op">=</span> [<span class="fl">3.1</span>, <span class="fl">5.0</span>, <span class="fl">7.4</span>, <span class="fl">8.9</span>, <span class="fl">11.2</span>, <span class="fl">13.0</span>]</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>predicted <span class="op">=</span> [<span class="fl">3.0</span>, <span class="fl">5.3</span>, <span class="fl">6.8</span>, <span class="fl">9.1</span>, <span class="fl">10.9</span>, <span class="fl">12.0</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="question-29" class="level3">
+<h3 class="anchored" data-anchor-id="question-29">Question 29</h3>
+<p>Create a graph in which:</p>
+<ul>
+<li>actual observations are shown using scatter points,</li>
+<li>predicted values are shown using a line.</li>
+</ul>
+<p>Add axis labels, title, legend and grid.</p>
+</section>
+</section>
+<section id="find-the-largest-prediction-error" class="level2">
+<h2 class="anchored" data-anchor-id="find-the-largest-prediction-error">26. Find the Largest Prediction Error</h2>
+<p>Continue Question 29.</p>
+<p>For each observation define</p>
+<p><span class="math display">\[
+e_i=|y_i-\hat y_i|.
+\]</span></p>
+<section id="question-30" class="level3">
+<h3 class="anchored" data-anchor-id="question-30">Question 30</h3>
+<p>Calculate the absolute error for every observation.</p>
+<p>Then determine:</p>
+<ol type="1">
+<li>the largest absolute error,</li>
+<li>the corresponding value of (x),</li>
+<li>the actual value,</li>
+<li>the predicted value.</li>
+</ol>
+<p>Finally, mark the observation having the largest error separately on the original graph.</p>
+</section>
+</section>
+<section id="residual-plot" class="level2">
+<h2 class="anchored" data-anchor-id="residual-plot">27. Residual Plot</h2>
+<p>A residual is defined as</p>
+<p><span class="math display">\[
+r_i=y_i-\hat y_i.
+\]</span></p>
+<p>Unlike absolute error, a residual can be positive or negative.</p>
+<section id="question-31" class="level3">
+<h3 class="anchored" data-anchor-id="question-31">Question 31</h3>
+<p>Using the previous data, calculate the residuals and plot them against <span class="math inline">\(x\)</span>.</p>
+<p>Draw a horizontal reference line at</p>
+<p><span class="math display">\[
+r=0.
+\]</span></p>
+<p>Answer:</p>
+<ol type="1">
+<li>What does a residual close to zero indicate?</li>
+<li>What does a positive residual mean?</li>
+<li>What does a negative residual mean?</li>
+</ol>
+</section>
+</section>
+<section id="daily-values-and-cumulative-values" class="level2">
+<h2 class="anchored" data-anchor-id="daily-values-and-cumulative-values">29. Daily Values and Cumulative Values</h2>
+<p>The following data represent the number of items sold each day.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>days <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>]</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> [<span class="dv">12</span>, <span class="dv">18</span>, <span class="dv">14</span>, <span class="dv">25</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">28</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="question-33" class="level3">
+<h3 class="anchored" data-anchor-id="question-33">Question 33</h3>
+<p>Using a loop, calculate the cumulative sales.</p>
+<p>For example,</p>
+<p><span class="math display">\[
+12,\quad
+12+18,\quad
+12+18+14,\quad\ldots
+\]</span></p>
+<p>Then create two subplots:</p>
+<ul>
+<li>left: daily sales,</li>
+<li>right: cumulative sales.</li>
+</ul>
+</section>
+</section>
+<section id="build-data-from-a-recurrence-relation" class="level2">
+<h2 class="anchored" data-anchor-id="build-data-from-a-recurrence-relation">30. Build Data from a Recurrence Relation</h2>
+<p>Consider the recurrence relation</p>
+<p><span class="math display">\[
+x_{n+1}=0.8x_n+2.
+\]</span></p>
+<p>Let</p>
+<p><span class="math display">\[
+x_0=2.
+\]</span></p>
+<section id="question-34" class="level3">
+<h3 class="anchored" data-anchor-id="question-34">Question 34</h3>
+<p>Generate the first 30 values of the sequence using a loop and plot (x_n) against (n).</p>
+<p>After plotting, answer:</p>
+<ol type="1">
+<li>Does the sequence appear to increase or decrease?</li>
+<li>Does it appear to approach a particular value?</li>
+<li>Solve</li>
+</ol>
+<p><span class="math display">\[
+x=0.8x+2
+\]</span></p>
+<p>and compare the mathematical equilibrium with the graph.</p>
+<ol start="4" type="1">
+<li>Change the initial condition to</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">20</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>and repeat the experiment.</p>
+<p>Does the long-term behaviour change?</p>
+</section>
+<section id="question-35" class="level3">
+<h3 class="anchored" data-anchor-id="question-35">Question 35</h3>
+<p>Write a function</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>plot_power(n)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>that plots</p>
+<p><span class="math display">\[
+y=x^n
+\]</span></p>
+<p>for</p>
+<p><span class="math display">\[
+-2\leq x\leq2.
+\]</span></p>
+<p>For example:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>plot_power(<span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>should plot</p>
+<p><span class="math display">\[
+y=x^2,
+\]</span></p>
+<p>Test your function for:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>plot_power(<span class="dv">2</span>)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>plot_power(<span class="dv">3</span>)</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>plot_power(<span class="dv">4</span>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>plot_power(<span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Observe the difference between even and odd powers.</p>
+</section>
+</section>
+<section id="writing-a-plotting-function" class="level2">
+<h2 class="anchored" data-anchor-id="writing-a-plotting-function">31. Writing a Plotting Function</h2>
+<p>Functions allow us to reuse plotting code.</p>
+</section>
+<section id="a-graph-can-be-correct-but-misleading" class="level2">
+<h2 class="anchored" data-anchor-id="a-graph-can-be-correct-but-misleading">32. A Graph Can Be Correct but Misleading</h2>
+<p>Consider the marks:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>subjects <span class="op">=</span> [<span class="st">"Math"</span>, <span class="st">"Physics"</span>, <span class="st">"Chemistry"</span>, <span class="st">"Python"</span>]</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>marks <span class="op">=</span> [<span class="dv">88</span>, <span class="dv">91</span>, <span class="dv">89</span>, <span class="dv">93</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="cell-82" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;executionInfo&quot;,&quot;value&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1789708017703,&quot;user_tz&quot;:-330,&quot;elapsed&quot;:433,&quot;user&quot;:{&quot;displayName&quot;:&quot;Siva lingam&quot;,&quot;userId&quot;:&quot;17431207863022110027&quot;}}}" data-outputid="27047df3-daf1-411c-8e48-46587d5dc4c6">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>subjects <span class="op">=</span> [<span class="st">"Math"</span>, <span class="st">"Physics"</span>, <span class="st">"Chemistry"</span>, <span class="st">"Python"</span>]</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>marks <span class="op">=</span> [<span class="dv">88</span>, <span class="dv">91</span>, <span class="dv">89</span>, <span class="dv">93</span>]</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>plt.bar(subjects, marks)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a>subjects <span class="op">=</span> [<span class="st">"Math"</span>, <span class="st">"Physics"</span>, <span class="st">"Chemistry"</span>, <span class="st">"Python"</span>]</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>marks <span class="op">=</span> [<span class="dv">88</span>, <span class="dv">91</span>, <span class="dv">89</span>, <span class="dv">93</span>]</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>plt.bar(subjects, marks)</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>plt.ylim(<span class="dv">85</span>, <span class="dv">95</span>)</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Lab_Class_5,6_files/figure-html/cell-43-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Lab_Class_5,6_files/figure-html/cell-43-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="experiment-model-and-error" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-model-and-error">34. Experiment, Model and Error</h2>
+<p>An experiment produces:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>time <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>measurement <span class="op">=</span> [<span class="fl">0.1</span>, <span class="fl">1.3</span>, <span class="fl">3.7</span>, <span class="fl">9.4</span>, <span class="fl">15.5</span>, <span class="fl">25.8</span>, <span class="fl">35.1</span>]</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">4</span>, <span class="dv">9</span>, <span class="dv">16</span>, <span class="dv">25</span>, <span class="dv">36</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="question-38" class="level3">
+<h3 class="anchored" data-anchor-id="question-38">Question 38</h3>
+<p>Create one figure containing two subplots.</p>
+</section>
+<section id="first-subplot" class="level3">
+<h3 class="anchored" data-anchor-id="first-subplot">First subplot</h3>
+<p>Display:</p>
+<ul>
+<li>experimental measurements as scatter points,</li>
+<li>model predictions as a line.</li>
+</ul>
+</section>
+<section id="second-subplot" class="level3">
+<h3 class="anchored" data-anchor-id="second-subplot">Second subplot</h3>
+<p>Calculate</p>
+<p><span class="math display">\[
+\text{error}
+=
+\text{measurement}
+-
+\text{model}
+\]</span></p>
+<p>and plot the error against time.</p>
+<p>Answer:</p>
+<ol type="1">
+<li>At which time is the absolute error largest?</li>
+<li>At which time is the prediction closest to the measurement?</li>
+<li>When the error is positive, is the model overpredicting or underpredicting?</li>
+<li>When the error is negative, is the model overpredicting or underpredicting?</li>
+<li>Does the model appear to represent the experimental data reasonably well?</li>
+</ol>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/sivalingamsm\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><strong>Sivalingam S M</strong><br>
+Assistant Professor<br>
+Department of Mathematics<br>
+National Institute of Technology Warangal</p>
+</div>   
+    <div class="nav-footer-center">
+©
+<script>document.write(new Date().getFullYear())</script>
+<p>Sivalingam S M</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SivalingamSM" target="_blank">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
