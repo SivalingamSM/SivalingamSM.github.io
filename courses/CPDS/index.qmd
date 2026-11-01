@@ -56,7 +56,16 @@ description-meta: "CPDS with Python - Course Materials"
 | Assignment | [📄 View Assignment PDF](assignments/Assignment 1 Updated.pdf){target="_blank"} |
 | Submission | [📝 Submit Assignment](https://docs.google.com/forms/d/e/1FAIpQLSc_j7nZlB5qqT6jBQUFhxRUqn7pOHTs5quTWjdNvL-MWmCdSw/viewform?usp=publish-editor){target="_blank"} |
 
-| Assignment and presentation | [📄 View questions PDF](assignments/Presentation_questions.pdf){target="_blank"} |
+### Assignment II (presentation and assignment)
 
+| Material | Link |
+|---|---|
+| Assignment and Presentation | [📄 View questions PDF](assignments/Presentation_questions.pdf){target="_blank"} |
 
+### Assignment III problems
+
+| Material | Link |
+|---|---|
+| Practice problem | [📄 View questions PDF](assignments/Assignment 3.pdf){target="_blank"} |
+| Submission | [📝 Submit Assignment](https://docs.google.com/forms/d/e/1FAIpQLSdVXUSjqpbPL6yZSgxbwWyzeJo2NCyqzhGhWDATGWQ20jIG9Q/viewform?usp=publish-editor){target="_blank"} |
 
