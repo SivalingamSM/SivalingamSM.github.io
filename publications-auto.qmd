@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">467</div>
+    <div class="metric-number">472</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -292,7 +292,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.eswa.2023.121750" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 42</span>
+      <span class="citation-button citation-disabled">Cited by 43</span>
     </div>
   </div>
 </div>
@@ -368,7 +368,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1088/1402-4896/ad6695" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 18</span>
+      <span class="citation-button citation-disabled">Cited by 19</span>
     </div>
   </div>
 </div>
@@ -463,7 +463,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.asej.2024.102678" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 8</span>
+      <span class="citation-button citation-disabled">Cited by 10</span>
     </div>
   </div>
 </div>
@@ -617,7 +617,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.advengsoft.2022.103387" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 21</span>
+      <span class="citation-button citation-disabled">Cited by 22</span>
     </div>
   </div>
 </div>
