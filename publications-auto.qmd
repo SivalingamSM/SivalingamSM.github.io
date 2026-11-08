@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">472</div>
+    <div class="metric-number">514</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -41,7 +41,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1142/S0218348X26400025" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 2</span>
+      <span class="citation-button citation-disabled">Cited by 3</span>
     </div>
   </div>
 </div>
@@ -119,26 +119,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.eswa.2024.126041" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 15</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
-<div class="publication-card" data-search="an improved physics informed neural network with theory of functional connections for fractional differential equations sm sivalingam v. govindaraj shruti dubey engineering analysis with boundary elements 2025">
-  <div class="publication-index">27</div>
-
-  <div class="publication-content">
-    <div class="publication-title">An improved physics informed neural network with theory of functional connections for fractional differential equations</div>
-
-    <div class="publication-authors"><strong class="my-name">SM Sivalingam</strong>, V. Govindaraj, and Shruti Dubey</div>
-
-    <div class="publication-journal"><em>Engineering Analysis with Boundary Elements</em>, <strong>178</strong>, 106281 (2025)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.1016/j.enganabound.2025.106281" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 6</span>
+      <span class="citation-button citation-disabled">Cited by 16</span>
     </div>
   </div>
 </div>
@@ -146,7 +127,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="l1-predictor–corrector method for $$\psi $$-caputo type fractional differential equations s. m. sivalingam v. govindaraj j. vanterler da c. sousa a. s. hendy computational and applied mathematics 2025">
-  <div class="publication-index">26</div>
+  <div class="publication-index">27</div>
 
   <div class="publication-content">
     <div class="publication-title">L1-predictor–corrector method for $$\psi $$-Caputo type fractional differential equations</div>
@@ -157,7 +138,45 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s40314-025-03192-0" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 5</span>
+      <span class="citation-button citation-disabled">Cited by 7</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="an improved physics informed neural network with theory of functional connections for fractional differential equations sm sivalingam v. govindaraj shruti dubey engineering analysis with boundary elements 2025">
+  <div class="publication-index">26</div>
+
+  <div class="publication-content">
+    <div class="publication-title">An improved physics informed neural network with theory of functional connections for fractional differential equations</div>
+
+    <div class="publication-authors"><strong class="my-name">SM Sivalingam</strong>, V. Govindaraj, and Shruti Dubey</div>
+
+    <div class="publication-journal"><em>Engineering Analysis with Boundary Elements</em>, <strong>178</strong>, 106281 (2025)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.1016/j.enganabound.2025.106281" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 7</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems sivalingam, s m venkatesan govindaraj ahmed s. hendy arxiv (cornell university) 2025">
+  <div class="publication-index">25</div>
+
+  <div class="publication-content">
+    <div class="publication-title">Spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems</div>
+
+    <div class="publication-authors"><strong class="my-name">Sivalingam, S M</strong>, Venkatesan Govindaraj, and Ahmed S. Hendy</div>
+
+    <div class="publication-journal"><em>arXiv (Cornell University)</em> (2025)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.48550/arXiv.2503.22386" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 4</span>
     </div>
   </div>
 </div>
@@ -165,7 +184,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="new results about controllability and stability of ψ-caputo-type stochastic fractional integro-differential systems with control delay a panneer selvam s m sivalingam v govindaraj physica scripta 2025">
-  <div class="publication-index">25</div>
+  <div class="publication-index">24</div>
 
   <div class="publication-content">
     <div class="publication-title">New results about controllability and stability of ψ-Caputo-type stochastic fractional integro-differential systems with control delay</div>
@@ -184,7 +203,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="solution representation and a generalised physics-informed neural network for $$\psi $$-caputo-type fractional time-varying systems s m sivalingam v. govindaraj nonlinear dynamics 2025">
-  <div class="publication-index">24</div>
+  <div class="publication-index">23</div>
 
   <div class="publication-content">
     <div class="publication-title">Solution representation and a generalised physics-informed neural network for $$\psi $$-Caputo-type fractional time-varying systems</div>
@@ -203,7 +222,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="controllability of time‐varying fractional dynamical systems with prescribed control p. karthiga s. m. sivalingam v. govindaraj mathematical methods in the applied sciences 2025">
-  <div class="publication-index">23</div>
+  <div class="publication-index">22</div>
 
   <div class="publication-content">
     <div class="publication-title">Controllability of time‐varying fractional dynamical systems with prescribed control</div>
@@ -222,7 +241,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="reachability of time‐varying fractional dynamical systems with prescribed control p. karthiga s. m. sivalingam v. govindaraj asian journal of control 2025">
-  <div class="publication-index">22</div>
+  <div class="publication-index">21</div>
 
   <div class="publication-content">
     <div class="publication-title">Reachability of time‐varying fractional dynamical systems with prescribed control</div>
@@ -234,25 +253,6 @@
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1002/asjc.3589" target="_blank" rel="noopener noreferrer">DOI</a>
       <span class="citation-button citation-disabled">Cited by 1</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
-<div class="publication-card" data-search="spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems sivalingam, s m venkatesan govindaraj ahmed s. hendy arxiv (cornell university) 2025">
-  <div class="publication-index">21</div>
-
-  <div class="publication-content">
-    <div class="publication-title">Spectral coefficient learning physics informed neural network for time-dependent fractional parametric differential problems</div>
-
-    <div class="publication-authors"><strong class="my-name">Sivalingam, S M</strong>, Venkatesan Govindaraj, and Ahmed S. Hendy</div>
-
-    <div class="publication-journal"><em>arXiv (Cornell University)</em> (2025)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.48550/arXiv.2503.22386" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 0</span>
     </div>
   </div>
 </div>
@@ -273,7 +273,26 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00366-023-01830-x" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 62</span>
+      <span class="citation-button citation-disabled">Cited by 65</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="a chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations s.m. sivalingam pushpendra kumar v. govindaraj computers &amp;amp; mathematics with applications 2024">
+  <div class="publication-index">19</div>
+
+  <div class="publication-content">
+    <div class="publication-title">A Chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations</div>
+
+    <div class="publication-authors"><strong class="my-name">S.M. Sivalingam</strong>, Pushpendra Kumar, and V. Govindaraj</div>
+
+    <div class="publication-journal"><em>Computers &amp;amp; Mathematics with Applications</em>, <strong>164</strong>, 150-165 (2024)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.1016/j.camwa.2024.04.005" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 44</span>
     </div>
   </div>
 </div>
@@ -281,7 +300,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="a novel numerical approach for time-varying impulsive fractional differential equations using theory of functional connections and neural network sivalingam sm v. govindaraj expert systems with applications 2024">
-  <div class="publication-index">19</div>
+  <div class="publication-index">18</div>
 
   <div class="publication-content">
     <div class="publication-title">A novel numerical approach for time-varying impulsive fractional differential equations using theory of functional connections and neural network</div>
@@ -293,25 +312,6 @@
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.eswa.2023.121750" target="_blank" rel="noopener noreferrer">DOI</a>
       <span class="citation-button citation-disabled">Cited by 43</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
-<div class="publication-card" data-search="a chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations s.m. sivalingam pushpendra kumar v. govindaraj computers &amp;amp; mathematics with applications 2024">
-  <div class="publication-index">18</div>
-
-  <div class="publication-content">
-    <div class="publication-title">A Chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations</div>
-
-    <div class="publication-authors"><strong class="my-name">S.M. Sivalingam</strong>, Pushpendra Kumar, and V. Govindaraj</div>
-
-    <div class="publication-journal"><em>Computers &amp;amp; Mathematics with Applications</em>, <strong>164</strong>, 150-165 (2024)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.1016/j.camwa.2024.04.005" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 38</span>
     </div>
   </div>
 </div>
@@ -330,7 +330,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2024.01.017" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 32</span>
+      <span class="citation-button citation-disabled">Cited by 35</span>
     </div>
   </div>
 </div>
@@ -387,7 +387,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s11075-023-01580-3" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 16</span>
+      <span class="citation-button citation-disabled">Cited by 17</span>
     </div>
   </div>
 </div>
@@ -406,26 +406,26 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00009-024-02615-2" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 15</span>
+      <span class="citation-button citation-disabled">Cited by 16</span>
     </div>
   </div>
 </div>
 ```
 
 ```{=html}
-<div class="publication-card" data-search="some novel analyses of the caputo-type singular three-point fractional boundary value problems r. poovarasan pushpendra kumar s. m. sivalingam v. govindaraj the journal of analysis 2024">
+<div class="publication-card" data-search="neural fractional order differential equations with adjoint based training sivalingam s m govindaraj v expert systems with applications 2024">
   <div class="publication-index">12</div>
 
   <div class="publication-content">
-    <div class="publication-title">Some novel analyses of the Caputo-type singular three-point fractional boundary value problems</div>
+    <div class="publication-title">Neural Fractional Order Differential Equations with Adjoint Based Training</div>
 
-    <div class="publication-authors">R. Poovarasan, Pushpendra Kumar, <strong class="my-name">S. M. Sivalingam</strong>, and V. Govindaraj</div>
+    <div class="publication-authors"><strong class="my-name">Sivalingam S M</strong> and Govindaraj V</div>
 
-    <div class="publication-journal"><em>The Journal of Analysis</em>, <strong>32</strong>(2), 637-658 (2024)</div>
+    <div class="publication-journal"><em>Expert Systems with Applications</em> (2024)</div>
 
     <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.1007/s41478-023-00638-8" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 10</span>
+      <a class="publication-button" href="https://doi.org/10.2139/ssrn.4935725" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 16</span>
     </div>
   </div>
 </div>
@@ -444,6 +444,25 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s11071-024-09411-3" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 11</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="some novel analyses of the caputo-type singular three-point fractional boundary value problems r. poovarasan pushpendra kumar s. m. sivalingam v. govindaraj the journal of analysis 2024">
+  <div class="publication-index">10</div>
+
+  <div class="publication-content">
+    <div class="publication-title">Some novel analyses of the Caputo-type singular three-point fractional boundary value problems</div>
+
+    <div class="publication-authors">R. Poovarasan, Pushpendra Kumar, <strong class="my-name">S. M. Sivalingam</strong>, and V. Govindaraj</div>
+
+    <div class="publication-journal"><em>The Journal of Analysis</em>, <strong>32</strong>(2), 637-658 (2024)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.1007/s41478-023-00638-8" target="_blank" rel="noopener noreferrer">DOI</a>
       <span class="citation-button citation-disabled">Cited by 10</span>
     </div>
   </div>
@@ -452,7 +471,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="an operational matrix approach with vieta-fibonacci polynomial for solving generalized caputo fractal-fractional differential equations sivalingam s m pushpendra kumar v. govindaraj raed ali qahiti waleed hamali zico meetei mutum ain shams engineering journal 2024">
-  <div class="publication-index">10</div>
+  <div class="publication-index">9</div>
 
   <div class="publication-content">
     <div class="publication-title">An operational matrix approach with Vieta-Fibonacci polynomial for solving generalized Caputo fractal-fractional differential equations</div>
@@ -471,7 +490,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="controllability of time-varying fractional dynamical systems with distributed delays in control k s vishnukumar s m sivalingam v govindaraj physica scripta 2024">
-  <div class="publication-index">9</div>
+  <div class="publication-index">8</div>
 
   <div class="publication-content">
     <div class="publication-title">Controllability of time-varying fractional dynamical systems with distributed delays in control</div>
@@ -482,7 +501,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1088/1402-4896/ad4318" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 6</span>
+      <span class="citation-button citation-disabled">Cited by 7</span>
     </div>
   </div>
 </div>
@@ -490,7 +509,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="controllability of time-varying fractional dynamical systems s. m. sivalingam m. vellappandi v. govindaraj ibrahim alraddadi faisal alsharif hijaz ahmad journal of taibah university for science 2024">
-  <div class="publication-index">8</div>
+  <div class="publication-index">7</div>
 
   <div class="publication-content">
     <div class="publication-title">Controllability of time-varying fractional dynamical systems</div>
@@ -509,7 +528,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="neural fractional order differential equations with adjoint based training sivalingam s m ssrn 2024">
-  <div class="publication-index">7</div>
+  <div class="publication-index">6</div>
 
   <div class="publication-content">
     <div class="publication-title">Neural Fractional Order Differential Equations with Adjoint Based Training</div>
@@ -520,25 +539,6 @@
 
     <div class="publication-actions">
       
-      <span class="citation-button citation-disabled">Cited by 0</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
-<div class="publication-card" data-search="neural fractional order differential equations with adjoint based training sivalingam s m govindaraj v ssrn electronic journal 2024">
-  <div class="publication-index">6</div>
-
-  <div class="publication-content">
-    <div class="publication-title">Neural Fractional Order Differential Equations with Adjoint Based Training</div>
-
-    <div class="publication-authors"><strong class="my-name">Sivalingam S M</strong> and Govindaraj V</div>
-
-    <div class="publication-journal"><em>SSRN Electronic Journal</em> (2024)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.2139/ssrn.4935725" target="_blank" rel="noopener noreferrer">DOI</a>
       <span class="citation-button citation-disabled">Cited by 0</span>
     </div>
   </div>
@@ -560,7 +560,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2023.06.012" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 51</span>
+      <span class="citation-button citation-disabled">Cited by 53</span>
     </div>
   </div>
 </div>
@@ -579,7 +579,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2023.06.016" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 41</span>
+      <span class="citation-button citation-disabled">Cited by 40</span>
     </div>
   </div>
 </div>
