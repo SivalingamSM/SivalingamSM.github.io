@@ -17,10 +17,16 @@ description-meta: "Linear Algebra, Calculus and Differential Equations - Course 
 
 ### Lecture Notes
 
-Available soon
+Provided as class notes during class
 
 ## Assignments
 
 ### Assignment I 
 
-Available soon
+| Material | Link |
+|---|---|
+| Assignment | [📄 View Assignment PDF](Assignments/assignment-1.pdf){target="_blank"} |
+| Submission | [📝 Submit Assignment](https://docs.google.com/forms/d/e/1FAIpQLSfVUOr8PVlx6FV0QWobn0Hb8W6glZioZyID9zi4SVt8rXxJaQ/viewform?usp=publish-editor){target="_blank"} |
+
+
+
