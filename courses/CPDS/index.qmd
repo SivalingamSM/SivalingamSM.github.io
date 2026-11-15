@@ -35,7 +35,8 @@ description-meta: "CPDS with Python - Course Materials"
 | Class 12,13 | [View Class 12,13 Matplotlib Notebook](class_codes/Class_12_13_Matplotlib.ipynb) | [⬇️ Download](class_codes/Class_12_13_Matplotlib.ipynb) |
 | Class 14,15 | [View Class 14,15 Pandas Notebook](class_codes/Class_14,_15_Pandas.ipynb) | [⬇️ Download](class_codes/Class_14,_15_Pandas.ipynb) |
 | Class 15,16,17,18 | [View Class 14,15 Pandas Notebook](class_codes/Class_15,16,17,18_UCI_Air_Quality.ipynb) | [⬇️ Download](class_codes/Class_15,16,17,18_UCI_Air_Quality.ipynb) |
-
+| Review Class | [View Review Class Notebook](class_codes/Review class.ipynb) | [⬇️ Download](class_codes/Review class.ipynb) |
+| Review Class 2 | [View Review Class 2 Pandas Notebook](class_codes/Review class 2.ipynb) | [⬇️ Download](class_codes/Review class 2.ipynb) |
 
 ## Lab Classes
 
@@ -69,3 +70,8 @@ description-meta: "CPDS with Python - Course Materials"
 | Practice problem | [📄 View questions PDF](assignments/Assignment 3.pdf){target="_blank"} |
 | Submission | [📝 Submit Assignment](https://docs.google.com/forms/d/e/1FAIpQLSdVXUSjqpbPL6yZSgxbwWyzeJo2NCyqzhGhWDATGWQ20jIG9Q/viewform?usp=publish-editor){target="_blank"} |
 
+### Assignment IV (Practice problems)
+
+| Material | Link |
+|---|---|
+| Assignment and Presentation | [📄 View questions PDF](assignments/Assignment 4.pdf){target="_blank"} |
