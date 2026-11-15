@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">514</div>
+    <div class="metric-number">520</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -60,7 +60,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2025.08.006" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 1</span>
+      <span class="citation-button citation-disabled">Cited by 2</span>
     </div>
   </div>
 </div>
@@ -138,7 +138,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s40314-025-03192-0" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 7</span>
+      <span class="citation-button citation-disabled">Cited by 8</span>
     </div>
   </div>
 </div>
@@ -183,8 +183,27 @@
 ```
 
 ```{=html}
-<div class="publication-card" data-search="new results about controllability and stability of ψ-caputo-type stochastic fractional integro-differential systems with control delay a panneer selvam s m sivalingam v govindaraj physica scripta 2025">
+<div class="publication-card" data-search="solution representation and a generalised physics-informed neural network for $$\psi $$-caputo-type fractional time-varying systems s m sivalingam v. govindaraj nonlinear dynamics 2025">
   <div class="publication-index">24</div>
+
+  <div class="publication-content">
+    <div class="publication-title">Solution representation and a generalised physics-informed neural network for $$\psi $$-Caputo-type fractional time-varying systems</div>
+
+    <div class="publication-authors"><strong class="my-name">S M Sivalingam</strong> and V. Govindaraj</div>
+
+    <div class="publication-journal"><em>Nonlinear Dynamics</em>, <strong>113</strong>(15), 19125-19157 (2025)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.1007/s11071-025-11181-5" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 3</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="new results about controllability and stability of ψ-caputo-type stochastic fractional integro-differential systems with control delay a panneer selvam s m sivalingam v govindaraj physica scripta 2025">
+  <div class="publication-index">23</div>
 
   <div class="publication-content">
     <div class="publication-title">New results about controllability and stability of ψ-Caputo-type stochastic fractional integro-differential systems with control delay</div>
@@ -196,25 +215,6 @@
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1088/1402-4896/adaa33" target="_blank" rel="noopener noreferrer">DOI</a>
       <span class="citation-button citation-disabled">Cited by 3</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
-<div class="publication-card" data-search="solution representation and a generalised physics-informed neural network for $$\psi $$-caputo-type fractional time-varying systems s m sivalingam v. govindaraj nonlinear dynamics 2025">
-  <div class="publication-index">23</div>
-
-  <div class="publication-content">
-    <div class="publication-title">Solution representation and a generalised physics-informed neural network for $$\psi $$-Caputo-type fractional time-varying systems</div>
-
-    <div class="publication-authors"><strong class="my-name">S M Sivalingam</strong> and V. Govindaraj</div>
-
-    <div class="publication-journal"><em>Nonlinear Dynamics</em>, <strong>113</strong>(15), 19125-19157 (2025)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.1007/s11071-025-11181-5" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 2</span>
     </div>
   </div>
 </div>
@@ -273,7 +273,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00366-023-01830-x" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 65</span>
+      <span class="citation-button citation-disabled">Cited by 66</span>
     </div>
   </div>
 </div>
@@ -292,7 +292,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.camwa.2024.04.005" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 44</span>
+      <span class="citation-button citation-disabled">Cited by 45</span>
     </div>
   </div>
 </div>
@@ -598,7 +598,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.physa.2023.128887" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 31</span>
+      <span class="citation-button citation-disabled">Cited by 32</span>
     </div>
   </div>
 </div>
