@@ -6,7 +6,7 @@
   </div>
 
   <div class="metric-card">
-    <div class="metric-number">520</div>
+    <div class="metric-number">590</div>
     <div class="metric-label">Citations</div>
   </div>
 
@@ -119,7 +119,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.eswa.2024.126041" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 16</span>
+      <span class="citation-button citation-disabled">Cited by 18</span>
     </div>
   </div>
 </div>
@@ -138,7 +138,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s40314-025-03192-0" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 8</span>
+      <span class="citation-button citation-disabled">Cited by 10</span>
     </div>
   </div>
 </div>
@@ -176,7 +176,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.48550/arXiv.2503.22386" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 4</span>
+      <span class="citation-button citation-disabled">Cited by 6</span>
     </div>
   </div>
 </div>
@@ -195,7 +195,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s11071-025-11181-5" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 3</span>
+      <span class="citation-button citation-disabled">Cited by 6</span>
     </div>
   </div>
 </div>
@@ -273,26 +273,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00366-023-01830-x" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 66</span>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
-<div class="publication-card" data-search="a chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations s.m. sivalingam pushpendra kumar v. govindaraj computers &amp;amp; mathematics with applications 2024">
-  <div class="publication-index">19</div>
-
-  <div class="publication-content">
-    <div class="publication-title">A Chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations</div>
-
-    <div class="publication-authors"><strong class="my-name">S.M. Sivalingam</strong>, Pushpendra Kumar, and V. Govindaraj</div>
-
-    <div class="publication-journal"><em>Computers &amp;amp; Mathematics with Applications</em>, <strong>164</strong>, 150-165 (2024)</div>
-
-    <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.1016/j.camwa.2024.04.005" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 45</span>
+      <span class="citation-button citation-disabled">Cited by 75</span>
     </div>
   </div>
 </div>
@@ -300,7 +281,7 @@
 
 ```{=html}
 <div class="publication-card" data-search="a novel numerical approach for time-varying impulsive fractional differential equations using theory of functional connections and neural network sivalingam sm v. govindaraj expert systems with applications 2024">
-  <div class="publication-index">18</div>
+  <div class="publication-index">19</div>
 
   <div class="publication-content">
     <div class="publication-title">A novel numerical approach for time-varying impulsive fractional differential equations using theory of functional connections and neural network</div>
@@ -311,7 +292,26 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.eswa.2023.121750" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 43</span>
+      <span class="citation-button citation-disabled">Cited by 54</span>
+    </div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="publication-card" data-search="a chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations s.m. sivalingam pushpendra kumar v. govindaraj computers &amp;amp; mathematics with applications 2024">
+  <div class="publication-index">18</div>
+
+  <div class="publication-content">
+    <div class="publication-title">A Chebyshev neural network-based numerical scheme to solve distributed-order fractional differential equations</div>
+
+    <div class="publication-authors"><strong class="my-name">S.M. Sivalingam</strong>, Pushpendra Kumar, and V. Govindaraj</div>
+
+    <div class="publication-journal"><em>Computers &amp;amp; Mathematics with Applications</em>, <strong>164</strong>, 150-165 (2024)</div>
+
+    <div class="publication-actions">
+      <a class="publication-button" href="https://doi.org/10.1016/j.camwa.2024.04.005" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 47</span>
     </div>
   </div>
 </div>
@@ -330,7 +330,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2024.01.017" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 35</span>
+      <span class="citation-button citation-disabled">Cited by 38</span>
     </div>
   </div>
 </div>
@@ -349,7 +349,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s40435-023-01344-w" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 25</span>
+      <span class="citation-button citation-disabled">Cited by 28</span>
     </div>
   </div>
 </div>
@@ -368,26 +368,26 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1088/1402-4896/ad6695" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 19</span>
+      <span class="citation-button citation-disabled">Cited by 20</span>
     </div>
   </div>
 </div>
 ```
 
 ```{=html}
-<div class="publication-card" data-search="a novel method to approximate fractional differential equations based on the theory of functional connections sivalingam s m pushpendra kumar v. govindaraj numerical algorithms 2024">
+<div class="publication-card" data-search="neural fractional order differential equations with adjoint based training sivalingam s m govindaraj v expert systems with applications 2024">
   <div class="publication-index">14</div>
 
   <div class="publication-content">
-    <div class="publication-title">A novel method to approximate fractional differential equations based on the theory of functional connections</div>
+    <div class="publication-title">Neural Fractional Order Differential Equations with Adjoint Based Training</div>
 
-    <div class="publication-authors"><strong class="my-name">Sivalingam S M</strong>, Pushpendra Kumar, and V. Govindaraj</div>
+    <div class="publication-authors"><strong class="my-name">Sivalingam S M</strong> and Govindaraj V</div>
 
-    <div class="publication-journal"><em>Numerical Algorithms</em>, <strong>95</strong>(1), 527-549 (2024)</div>
+    <div class="publication-journal"><em>Expert Systems with Applications</em> (2024)</div>
 
     <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.1007/s11075-023-01580-3" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 17</span>
+      <a class="publication-button" href="https://doi.org/10.2139/ssrn.4935725" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 18</span>
     </div>
   </div>
 </div>
@@ -406,26 +406,26 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s00009-024-02615-2" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 16</span>
+      <span class="citation-button citation-disabled">Cited by 17</span>
     </div>
   </div>
 </div>
 ```
 
 ```{=html}
-<div class="publication-card" data-search="neural fractional order differential equations with adjoint based training sivalingam s m govindaraj v expert systems with applications 2024">
+<div class="publication-card" data-search="a novel method to approximate fractional differential equations based on the theory of functional connections sivalingam s m pushpendra kumar v. govindaraj numerical algorithms 2024">
   <div class="publication-index">12</div>
 
   <div class="publication-content">
-    <div class="publication-title">Neural Fractional Order Differential Equations with Adjoint Based Training</div>
+    <div class="publication-title">A novel method to approximate fractional differential equations based on the theory of functional connections</div>
 
-    <div class="publication-authors"><strong class="my-name">Sivalingam S M</strong> and Govindaraj V</div>
+    <div class="publication-authors"><strong class="my-name">Sivalingam S M</strong>, Pushpendra Kumar, and V. Govindaraj</div>
 
-    <div class="publication-journal"><em>Expert Systems with Applications</em> (2024)</div>
+    <div class="publication-journal"><em>Numerical Algorithms</em>, <strong>95</strong>(1), 527-549 (2024)</div>
 
     <div class="publication-actions">
-      <a class="publication-button" href="https://doi.org/10.2139/ssrn.4935725" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 16</span>
+      <a class="publication-button" href="https://doi.org/10.1007/s11075-023-01580-3" target="_blank" rel="noopener noreferrer">DOI</a>
+      <span class="citation-button citation-disabled">Cited by 17</span>
     </div>
   </div>
 </div>
@@ -444,7 +444,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s11071-024-09411-3" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 11</span>
+      <span class="citation-button citation-disabled">Cited by 13</span>
     </div>
   </div>
 </div>
@@ -463,7 +463,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1007/s41478-023-00638-8" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 10</span>
+      <span class="citation-button citation-disabled">Cited by 11</span>
     </div>
   </div>
 </div>
@@ -482,7 +482,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.asej.2024.102678" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 10</span>
+      <span class="citation-button citation-disabled">Cited by 11</span>
     </div>
   </div>
 </div>
@@ -501,7 +501,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1088/1402-4896/ad4318" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 7</span>
+      <span class="citation-button citation-disabled">Cited by 9</span>
     </div>
   </div>
 </div>
@@ -520,7 +520,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1080/16583655.2024.2399378" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 4</span>
+      <span class="citation-button citation-disabled">Cited by 6</span>
     </div>
   </div>
 </div>
@@ -560,7 +560,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2023.06.012" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 53</span>
+      <span class="citation-button citation-disabled">Cited by 56</span>
     </div>
   </div>
 </div>
@@ -579,7 +579,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.matcom.2023.06.016" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 40</span>
+      <span class="citation-button citation-disabled">Cited by 50</span>
     </div>
   </div>
 </div>
@@ -598,7 +598,7 @@
 
     <div class="publication-actions">
       <a class="publication-button" href="https://doi.org/10.1016/j.physa.2023.128887" target="_blank" rel="noopener noreferrer">DOI</a>
-      <span class="citation-button citation-disabled">Cited by 32</span>
+      <span class="citation-button citation-disabled">Cited by 40</span>
     </div>
   </div>
 </div>
